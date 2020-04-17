@@ -1,4 +1,4 @@
 {
     "gsheet_name":"Copie de State-of-the-art on epidemic models for covid19",
-    "elasticsearchServer":"http://54.72.238.242:81"
+    "elasticsearchServer":"#SERVER_ADDRESS",
 }

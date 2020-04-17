@@ -136,7 +136,7 @@ def get_href(title):
 
 def add_table(fd, titles, authors):
     fd.write(u''.join(('| Title | Author(s) |', '\n')))
-    fd.write(u'| --- | --- |\n')
+    fd.write(u'| ----------- | --- |\n')
     for i in range(len(titles)):
         fd.write(u''.join(('| <a href=', get_href(titles[i]) + '>' + titles[i] + '</a> | ' +  authors[i] + ' |', '\n')))
 

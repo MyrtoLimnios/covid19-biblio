@@ -132,7 +132,7 @@ def add_comments(fd, text):
 
 
 def get_href(title):
-    return '#' + title.lower().replace('(', '').replace(')', '').replace(',', '').replace("'", '').replace(' ', '-')
+    return '#' + title.lower().replace('(', '').replace(')', '').replace(':', '').replace(',', '').replace("'", '').replace(' ', '-')
 
 def add_table(fd, titles, authors):
     fd.write(u''.join(('| Title | Author(s) |', '\n')))

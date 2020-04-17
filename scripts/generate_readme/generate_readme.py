@@ -130,6 +130,17 @@ def add_comments(fd, text):
         'utf-8').decode('utf-8') + '''</details></br>'''
     fd.write(u''.join((form, '\n', '\n')))
 
+
+def get_href(title):
+    return '#' + title.lower().replace('(', '').replace(')', '').replace(',', '').replace(' ', '-')
+
+def add_table(fd, titles, authors):
+    fd.write(u''.join(('| Title | Author(s) |', '\n')))
+    fd.write(u'| --- | --- |\n')
+    for i in range(len(titles)):
+        fd.write(u''.join(('| <a href=', get_href(titles[i]) + '>' + titles[i] + '</a> | ' +  authors[i] + ' |', '\n')))
+
+
 if __name__ == '__main__':
 
     # Load data
@@ -139,8 +150,9 @@ if __name__ == '__main__':
     myfile = open("../../README.md", "w")
 
     # Test
-    myfile.write(u'<a href=#susceptible-infected-recovered-sir-dynamics-of-covid-19-and-economic-impact>Click here</a>')
+    #myfile.write(u'<a href=#susceptible-infected-recovered-sir-dynamics-of-covid-19-and-economic-impact>Click here</a></br>\n')
 
+    add_table(myfile, df['Paper(s)'], df['Authors'])
 
     print(df.head(20))
     for index, row in df.iterrows():

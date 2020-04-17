@@ -1,0 +1,4 @@
+credentials.json
+__pycache__/
+config.json
+notebooks/

@@ -134,11 +134,18 @@ def add_comments(fd, text):
 def get_href(title):
     return '#' + title.lower().replace('(', '').replace(')', '').replace(':', '').replace(',', '').replace("'", '').replace(' ', '-')
 
-def add_table(fd, titles, authors):
-    fd.write(u''.join(('| <div style="width:400px">Title<div> | Author(s) |', '\n')))
+# def add_table(fd, titles, authors):
+#     fd.write(u''.join(('| <div style="width:400px">Title<div> | Author(s) |', '\n')))
+#     fd.write(u'| --- | --- |\n')
+#     for i in range(len(titles)):
+#         fd.write(u''.join(('| <a href=', get_href(titles[i]) + '>' + titles[i] + '</a> | ' +  authors[i] + ' |', '\n')))
+
+
+def add_table(fd, titles):
+    fd.write(u''.join(('| Title | Description |', '\n')))
     fd.write(u'| --- | --- |\n')
     for i in range(len(titles)):
-        fd.write(u''.join(('| <a href=', get_href(titles[i]) + '>' + titles[i] + '</a> | ' +  authors[i] + ' |', '\n')))
+        fd.write(u''.join(('| ' + titles[i] + ' | [here](' + get_href(titles[i]) + ') |', '\n')))
 
 
 if __name__ == '__main__':
@@ -152,7 +159,8 @@ if __name__ == '__main__':
     # Test
     #myfile.write(u'<a href=#susceptible-infected-recovered-sir-dynamics-of-covid-19-and-economic-impact>Click here</a></br>\n')
 
-    add_table(myfile, df['Paper(s)'], df['Authors'])
+    # add_table(myfile, df['Paper(s)'], df['Authors'])
+    add_table(myfile, df['Paper(s)'])
 
     print(df.head(20))
     for index, row in df.iterrows():

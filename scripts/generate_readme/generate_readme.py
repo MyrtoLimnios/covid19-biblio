@@ -162,6 +162,12 @@ if __name__ == '__main__':
     # Open target file
     myfile = open("../../README.md", "w")
 
+    add_h1_title(myfile, 'What is it ?')
+    myfile.write(u'We host here a bibliography of papers related to COVID19 outbreak.\n')
+
+    add_h1_title(myfile, 'Who are we ?')
+    myfile.write(u'We are a group a researchers working with [Centre Borelli](https://ens-paris-saclay.fr/recherche/laboratoires-et-instituts/centre-borelli) at ENS Paris Saclay.\n')
+
     add_h1_title(myfile, 'Raw data')
     myfile.write(u'The raw data displayed here is available [here](' + GG_SPREADSHEET + ')\n')
 

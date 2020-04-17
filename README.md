@@ -1,3 +1,7 @@
+# What is it ? 
+We host here a bibliography of papers related to COVID19 outbreak.
+# Who are we ? 
+We are a group a researchers working with [Centre Borelli](https://ens-paris-saclay.fr/recherche/laboratoires-et-instituts/centre-borelli) at ENS Paris Saclay.
 # Raw data 
 The raw data displayed here is available [here](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU)
 # How to contribute 

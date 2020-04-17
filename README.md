@@ -1,5 +1,5 @@
-| Title | Author(s) |
-| ----------- | --- |
+| <div style="width:400px">Title<div> | Author(s) |
+| --- | --- |
 | <a href=#a-simple-planning-problem-for-covid-19-lockdown>A Simple Planning Problem for COVID-19 Lockdown</a> | Fernando Alvarez, David Argente, Francesco Lippi |
 | <a href=#susceptible-infected-recovered-sir-dynamics-of-covid-19-and-economic-impact>Susceptible-Infected-Recovered (SIR) Dynamics of COVID-19 and Economic Impact</a> | Alexis Akira Toda |
 | <a href=#first-attempts-to-model-the-dynamics-of-the-coronavirus-outbreaks-2020>First attempts to model the dynamics of the coronavirus outbreaks 2020</a> | Thomas Gotz |

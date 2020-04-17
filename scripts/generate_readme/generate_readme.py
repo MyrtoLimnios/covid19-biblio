@@ -4,8 +4,9 @@ import pandas as pd
 # sys.path.append('../utils/')
 
 
-GG_SPREADSHEET_NAME = "https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU/export?format=csv&id=KEY&gid=0"
-
+GG_SPREADSHEET = "https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU"
+GG_SPREADSHEET_NAME = GG_SPREADSHEET + "/export?format=csv&id=KEY&gid=0"
+KIBANA = "http://54.72.238.242/app/kibana#/dashboard/f3a4f480-80a3-11ea-b4c0-d1a4270d43fe"
 
 def load_gsheet(path):
     return pd.read_csv(path).fillna('null')
@@ -14,6 +15,11 @@ def load_gsheet(path):
 def add_h2_title(fd, text):
     print(text.encode('utf-8'))
     fd.write(u' '.join(('##', text, '\n')))
+
+
+def add_h1_title(fd, text):
+    print(text.encode('utf-8'))
+    fd.write(u' '.join(('#', text, '\n')))
 
 
 def add_general_information(fd):
@@ -156,18 +162,21 @@ if __name__ == '__main__':
     # Open target file
     myfile = open("../../README.md", "w")
 
-    # Test
-    #myfile.write(u'<a href=#susceptible-infected-recovered-sir-dynamics-of-covid-19-and-economic-impact>Click here</a></br>\n')
+    add_h1_title(myfile, 'Raw data')
+    myfile.write(u'The raw data displayed here is available [here](' + GG_SPREADSHEET + ')\n')
+
+    add_h1_title(myfile, 'How to contribute')
+    myfile.write(u'In order to add an entry to this bibliography please comment on the [spreadsheet](' + GG_SPREADSHEET + ') and we will process it ! \n')
+
+    add_h1_title(myfile, 'Also available with Kibana')
+    myfile.write(u'If you wish to browse all the information embedded into the bibliography with a more powerful search engine and some nice dashboard, please use our [Kibana](' + KIBANA + ')\n\n')
+
+    add_h1_title(myfile, 'The bibliography')
 
     # add_table(myfile, df['Paper(s)'], df['Authors'])
     add_table(myfile, df['Paper(s)'])
 
-    print(df.head(20))
     for index, row in df.iterrows():
-        #print(row['Paper(s)'].encode('utf-8'))
-        #print(row['Authors'].encode('utf-8').decode('utf-8', 'ignore'))
-        # print(type(row['Authors']))
-        # print(row['Authors'].encode('utf-8', 'ignore'))#.decode('utf-8', 'ignore'))
         if row['Paper(s)'].encode('utf-8') != b'null':
             add_h2_title(myfile, row['Paper(s)'])
             # General info

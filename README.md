@@ -1,3 +1,11 @@
+# Raw data 
+The raw data displayed here is available [here](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU)
+# How to contribute 
+In order to add an entry to this bibliography please comment on the [spreadsheet](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU) and we will process it ! 
+# Also available with Kibana 
+If you wish to browse all the information embedded into the bibliography with a more powerful search engine and some nice dashboard, please use our [Kibana](http://54.72.238.242/app/kibana#/dashboard/f3a4f480-80a3-11ea-b4c0-d1a4270d43fe)
+
+# The bibliography 
 | Title | Description |
 | --- | --- |
 | A Simple Planning Problem for COVID-19 Lockdown | [here](#a-simple-planning-problem-for-covid-19-lockdown) |

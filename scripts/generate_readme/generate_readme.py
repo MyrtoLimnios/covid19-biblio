@@ -139,7 +139,7 @@ if __name__ == '__main__':
     myfile = open("../../README.md", "w")
 
     # Test
-    fd.write(u'<a href=#susceptible-infected-recovered-sir-dynamics-of-covid-19-and-economic-impact>Click here</a>')
+    myfile.write(u'<a href=#susceptible-infected-recovered-sir-dynamics-of-covid-19-and-economic-impact>Click here</a>')
 
 
     print(df.head(20))

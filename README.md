@@ -1,4 +1,4 @@
-## A Simple Planning Problem for COVID-19 Lockdown 
+<a href=#susceptible-infected-recovered-sir-dynamics-of-covid-19-and-economic-impact>Click here</a>## A Simple Planning Problem for COVID-19 Lockdown 
 ### General information
 **Authors** : Fernando Alvarez, David Argente, Francesco Lippi</br>
 **Publication date** : 04/06</br>

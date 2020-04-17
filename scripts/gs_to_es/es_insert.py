@@ -1,5 +1,6 @@
 import pandas as pd
-from utils import read_json, connect_gs, es_write_dataframe
+
+from scripts.utils.utils import read_json, es_write_dataframe
 
 config = read_json("config.json")
 gsheet_name = config["gsheet_name"]

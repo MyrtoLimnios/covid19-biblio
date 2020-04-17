@@ -5,6 +5,7 @@ import xml
 from elasticsearch import Elasticsearch
 from google.oauth2.service_account import Credentials
 import gspread
+import pandas as pd
 
 
 def read_json(filepath):

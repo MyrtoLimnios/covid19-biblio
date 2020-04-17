@@ -14,8 +14,7 @@
 | <a href=#modele-sir-mecanistico-statistique-pour-lestimation-du-nombre-dinfectes-et-du-taux-de-mortalite-par-covid-19>Modele SIR mecanistico-statistique pour l'estimation du nombre d'infectes et du taux de mortalite par COVID-19</a> | Lionel Roques, Etienne Klein, Julien Papaix et Samuel Soubeyrand |
 | <a href=#optimal-covid-19-epidemic-control-until-vaccine-deployment>Optimal COVID-19 epidemic control until vaccine deployment</a> | R. Djidjou-Demassea, Y. Michalakisa, M. Choisya,  M. T. Sofoneaa, S. Alizona |
 | <a href=#the-optimal-covid-19-quarantine-and-testing-policies>The Optimal COVID-19 Quarantine and Testing Policies</a> | Facundo Piguillem, Liyan Shi  |
-| <a href=#predicting-the-spread-of-the-covid-19-across-cities-in-china-with-population-migration-and-policy-intervention>Predicting the Spread of the COVID-19 Across Cities in China with Population Migration and Policy Intervention</a> | Jiang Zhang, Lei Dong, Yanbo Zhang, Xinyue Chen, Guiqing, Yao, Zhangang Han
- |
+| <a href=#predicting-the-spread-of-the-covid-19-across-cities-in-china-with-population-migration-and-policy-intervention>Predicting the Spread of the COVID-19 Across Cities in China with Population Migration and Policy Intervention</a> | Jiang Zhang, Lei Dong, Yanbo Zhang, Xinyue Chen, Guiqing, Yao, Zhangang Han |
 | <a href=#understanding-unreported-cases-in-the-2019-ncov-epidemic-outbreak-in-wuhan-china-and-the-importance-of-major-public-health-interventions>Understanding Unreported Cases in the 2019-nCov Epidemic Outbreak in Wuhan, China, and the Importance of Major Public Health Interventions</a> | Z. Liu, P. Magal , O. Seydi, G. Webb |
 | <a href=#predicting-the-cumulative-number-of-cases-for-thecovid-19-epidemic-in-china-from-early-data>Predicting the cumulative number of cases for theCOVID-19 epidemic in China from early data</a> | Z. Liu, P. Magal , O. Seydi, G. Webb |
 | <a href=#predicting-the-number-of-reported-and-unreported-cases-for-the-covid-19-epidemic-in-south-korea-italy-france-and-germany>Predicting the number of reported and unreported cases for the COVID-19 epidemic in South Korea, Italy, France and Germany</a> | P. Magal, G. Webb |
@@ -480,8 +479,7 @@
 
 ## Predicting the Spread of the COVID-19 Across Cities in China with Population Migration and Policy Intervention 
 ### General information
-**Authors** : Jiang Zhang, Lei Dong, Yanbo Zhang, Xinyue Chen, Guiqing, Yao, Zhangang Han
-</br>
+**Authors** : Jiang Zhang, Lei Dong, Yanbo Zhang, Xinyue Chen, Guiqing, Yao, Zhangang Han</br>
 **Publication date** : 04/01</br>
 **Paper** : Available [here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3559554)</br>
 **Code available** : https://github.com/jakezj/SICRD_model_COVID19_in_China</br>

@@ -74,8 +74,7 @@ If you wish to browse all the information embedded into the bibliography with a 
 ### Technical information
 #### Model information
 **Model category** : compartimental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>SIR, optimal control</details>
+<details><summary> <b>Model sub-category</b> </summary>SIR, optimal control</details>
 
 <details><summary> <b>Data used for the model</b> </summary>countries with >100 cases, WHO and JHU data</details>
 
@@ -106,8 +105,7 @@ If you wish to browse all the information embedded into the bibliography with a 
 ### Technical information
 #### Model information
 **Model category** : compartimental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>SIR </details>
+<details><summary> <b>Model sub-category</b> </summary>SIR </details>
 
 <details><summary> <b>Data used for the model</b> </summary>countries with >1000 cases, JHU, from March 13 to March 27</details>
 
@@ -120,7 +118,7 @@ If you wish to browse all the information embedded into the bibliography with a 
 
 <details><summary> <b>Type of algorithm or method</b> </summary>analytic solution</details>
 
-<details><summary> <b>Epidemio parameters</b> </summary>SIR classic parameters</details>
+<details><summary> <b>Epidemio parameters</b> </summary>SIR,classic parameters</details>
 
 <details><summary> <b>How input parameters are estimated</b> </summary>data-driven (nonlinear least squares)  if S,I,R series are available else litterature + data-driven (numerical minimization of sum of squared logarithmic errors) if only I is available</details>
 
@@ -136,8 +134,7 @@ If you wish to browse all the information embedded into the bibliography with a 
 ### Technical information
 #### Model information
 **Model category** : compartimental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>SIR</details>
+<details><summary> <b>Model sub-category</b> </summary>SIR</details>
 
 <details><summary> <b>Data used for the model</b> </summary>WHO data on China starting from January 21 / heterogeneous quarantine</details>
 
@@ -164,8 +161,7 @@ If you wish to browse all the information embedded into the bibliography with a 
 ### Technical information
 #### Model information
 **Model category** : compartimental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>SIR</details>
+<details><summary> <b>Model sub-category</b> </summary>SIR</details>
 
 <details><summary> <b>Data used for the model</b> </summary>data from https://www.worldometers.info/coronavirus/</details>
 
@@ -188,8 +184,7 @@ If you wish to browse all the information embedded into the bibliography with a 
 ### Technical information
 #### Model information
 **Model category** : compartimental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>stochastic SIR</details>
+<details><summary> <b>Model sub-category</b> </summary>stochastic SIR</details>
 
 <details><summary> <b>Data used for the model</b> </summary>European and indian data</details>
 
@@ -200,7 +195,7 @@ If you wish to browse all the information embedded into the bibliography with a 
 #### Estimation information
 <details><summary> <b>Type of algorithm or method</b> </summary>Euler-Maruyama method</details>
 
-<details><summary> <b>Epidemio parameters</b> </summary> SIR classic parameters</details>
+<details><summary> <b>Epidemio parameters</b> </summary>SIR classic parameters</details>
 
 <details><summary> <b>Other parameters</b> </summary>diffusion coefficient</details>
 
@@ -218,8 +213,7 @@ If you wish to browse all the information embedded into the bibliography with a 
 ### Technical information
 #### Model information
 **Model category** : compartimental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>SIR</details>
+<details><summary> <b>Model sub-category</b> </summary>SIR</details>
 
 <details><summary> <b>Data used for the model</b> </summary>JHU and Covid19India  </details>
 
@@ -236,7 +230,7 @@ If you wish to browse all the information embedded into the bibliography with a 
 
 <details><summary> <b>Type of algorithm or method</b> </summary>grid search method over the parameters of the time generation process</details>
 
-<details><summary> <b>Epidemio parameters</b> </summary>R0, transmission rate, recovery rate, population size</details>
+<details><summary> <b>Epidemio parameters</b> </summary>R0,transmission rate,recovery rate,population size</details>
 
 <details><summary> <b>How input parameters are estimated</b> </summary>literature and data-driven</details>
 
@@ -252,8 +246,7 @@ If you wish to browse all the information embedded into the bibliography with a 
 ### Technical information
 #### Model information
 **Model category** : compartimental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>SIR where infected cases are divided into three classes: mild cases, serious and asymptomatic cases</details>
+<details><summary> <b>Model sub-category</b> </summary>SIR where infected cases are divided into three classes: mild cases, serious and asymptomatic cases</details>
 
 <details><summary> <b>Data used for the model</b> </summary>early dynamics (first month) to avoid public health protocols bias / data from USA</details>
 
@@ -286,8 +279,7 @@ If you wish to browse all the information embedded into the bibliography with a 
 ### Technical information
 #### Model information
 **Model category** : compartimental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>time-dependent SIR with asymptomatic and independent cascade (IC) model</details>
+<details><summary> <b>Model sub-category</b> </summary>time-dependent SIR with asymptomatic and independent cascade (IC) model</details>
 
 <details><summary> <b>Data used for the model</b> </summary>NHC (China)  from Jan. 15, 2020 to Mar. 2, 2020 and JHU (Wolrd) and a network from Facebook for social distancing modelization</details>
 
@@ -322,8 +314,7 @@ If you wish to browse all the information embedded into the bibliography with a 
 ### Technical information
 #### Model information
 **Model category** : compartimental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>SIRD</details>
+<details><summary> <b>Model sub-category</b> </summary>SIRD</details>
 
 <details><summary> <b>Data used for the model</b> </summary>data from all regions in Italy, starting from February 24th and ending March 30th</details>
 
@@ -358,8 +349,7 @@ If you wish to browse all the information embedded into the bibliography with a 
 ### Technical information
 #### Model information
 **Model category** : compartimental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>dynamic panel SIR</details>
+<details><summary> <b>Model sub-category</b> </summary>dynamic panel SIR</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Italy, Spain, Germany, France, the UK, Singapore, South Korea, China, and the United States between January 22th and April 3rd</details>
 
@@ -390,8 +380,7 @@ If you wish to browse all the information embedded into the bibliography with a 
 ### Technical information
 #### Model information
 **Model category** : compartimental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>stochastic model and SIR-based</details>
+<details><summary> <b>Model sub-category</b> </summary>stochastic model and SIR-based</details>
 
 <details><summary> <b>Outputs</b> </summary>prediction of compartments dynamics</details>
 
@@ -414,8 +403,7 @@ If you wish to browse all the information embedded into the bibliography with a 
 ### Technical information
 #### Model information
 **Model category** : compartimental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>randomized SIR</details>
+<details><summary> <b>Model sub-category</b> </summary>randomized SIR</details>
 
 <details><summary> <b>Data used for the model</b> </summary>France and South Korea</details>
 
@@ -438,8 +426,7 @@ If you wish to browse all the information embedded into the bibliography with a 
 ### Technical information
 #### Model information
 **Model category** : compartimental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>SEAIR (two categories: mild or severe infection for each state), optimal control</details>
+<details><summary> <b>Model sub-category</b> </summary>SEAIR (two categories: mild or severe infection for each state), optimal control</details>
 
 <details><summary> <b>Data used for the model</b> </summary>simulated data</details>
 
@@ -472,8 +459,7 @@ If you wish to browse all the information embedded into the bibliography with a 
 ### Technical information
 #### Model information
 **Model category** : compartimental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>SEIR, optimal control</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIR, optimal control</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Early data in Italy (calibration only)</details>
 
@@ -502,8 +488,7 @@ If you wish to browse all the information embedded into the bibliography with a 
 ### Technical information
 #### Model information
 **Model category** : compartimental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>SICRD (I: infectious unconfirmed, C:confirmed)</details>
+<details><summary> <b>Model sub-category</b> </summary>SICRD (I: infectious unconfirmed, C:confirmed)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>China - 01/01 to 07/02 - 
 R package nCov2019 and Population Migration dataset from Baidu Migration Project</details>
@@ -537,8 +522,7 @@ Prevention) </details>
 ### Technical information
 #### Model information
 **Model category** : compartimental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>SIRU (I: asymptomatic infectious, R: reported symptomatic, U: unreported symptomatic)</details>
+<details><summary> <b>Model sub-category</b> </summary>SIRU (I: asymptomatic infectious, R: reported symptomatic, U: unreported symptomatic)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Wuhan - 01/23 to 01/31 - from Chinese Center for Disease Control and Prevention and the Wuhan Municipal Health Commission for Hubei Province</details>
 
@@ -571,8 +555,7 @@ Prevention) </details>
 ### Technical information
 #### Model information
 **Model category** : compartimental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>SIRU (I: asymptomatic infectious, R: reported symptomatic, U: unreported symptomatic)</details>
+<details><summary> <b>Model sub-category</b> </summary>SIRU (I: asymptomatic infectious, R: reported symptomatic, U: unreported symptomatic)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Wuhan and extension to central region of China - 01/20 to 02/15</details>
 
@@ -605,8 +588,7 @@ Prevention) </details>
 ### Technical information
 #### Model information
 **Model category** : compartimental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>SIRU (I: asymptomatic infectious, R: reported symptomatic, U: unreported symptomatic)</details>
+<details><summary> <b>Model sub-category</b> </summary>SIRU (I: asymptomatic infectious, R: reported symptomatic, U: unreported symptomatic)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Korean Center for Disease Control 01/20 - 03/09, Italian Ministry of Health 01/31 - 03/03, French Public Agency of Health 02/25 - 03/09 and Robert Koch Institute of Germany 02/24 - 03/09</details>
 
@@ -637,8 +619,7 @@ Prevention) </details>
 ### Technical information
 #### Model information
 **Model category** : compartimental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>SIR + SIRQ + HMM (R for death/recovered and Q for hospitalized or quarantined)</details>
+<details><summary> <b>Model sub-category</b> </summary>SIR + SIRQ + HMM (R for death/recovered and Q for hospitalized or quarantined)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>simulated data</details>
 
@@ -671,8 +652,7 @@ Prevention) </details>
 ### Technical information
 #### Model information
 **Model category** : compartimental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>SEIRD</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIRD</details>
 
 <details><summary> <b>Data used for the model</b> </summary>02/24-03/27 Italy (Lombardia+ ER)</details>
 
@@ -699,8 +679,7 @@ Prevention) </details>
 ### Technical information
 #### Model information
 **Model category** : compartimental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>SEIR-Erlang</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIR-Erlang</details>
 
 <details><summary> <b>Data used for the model</b> </summary>simulated data</details>
 
@@ -723,8 +702,7 @@ Prevention) </details>
 ### Technical information
 #### Model information
 **Model category** : compartimental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>IRSN + SIR + SEIRD </details>
+<details><summary> <b>Model sub-category</b> </summary>IRSN + SIR + SEIRD </details>
 
 <details><summary> <b>Data used for the model</b> </summary>simulated data</details>
 
@@ -753,8 +731,7 @@ Prevention) </details>
 ### Technical information
 #### Model information
 **Model category** : compartimental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>SEIRD with a time-varying social distancing function</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIRD with a time-varying social distancing function</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Italian Ministry for Health free repository until March 29. 2020</details>
 
@@ -785,8 +762,7 @@ Prevention) </details>
 ### Technical information
 #### Model information
 **Model category** : compartimental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>SEIRQAJ (quarantined, asymptomatic, symptomatic, isolated, recovered)</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIRQAJ (quarantined, asymptomatic, symptomatic, isolated, recovered)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>five provinces in China 01/22-02/22 for model calibration</details>
 
@@ -815,8 +791,7 @@ Prevention) </details>
 ### Technical information
 #### Model information
 **Model category** : compartimental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>SEIRDAQ</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIRDAQ</details>
 
 <details><summary> <b>Data used for the model</b> </summary>China, inside/outside of Hubei - 01/23-02/17 </details>
 
@@ -841,8 +816,7 @@ Prevention) </details>
 ### Technical information
 #### Model information
 **Model category** : compartimental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>IRGJ (infected, cured, isolated infected, confirmed)</details>
+<details><summary> <b>Model sub-category</b> </summary>IRGJ (infected, cured, isolated infected, confirmed)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>01/23-02/04 China regions</details>
 
@@ -871,8 +845,7 @@ Prevention) </details>
 ### Technical information
 #### Model information
 **Model category** : compartimental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>SEIRQ (I = I_a + I_s)</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIRQ (I = I_a + I_s)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Asia, Europe, North and South Amercia until 03/27</details>
 
@@ -899,8 +872,7 @@ Prevention) </details>
 ### Technical information
 #### Model information
 **Model category** : compartimental & growth curves</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>SEIRSD(susceptible, exposed, infected,recovered, susceptible,dearh) + Neural Network (each neuron has a SEIRSD model so that for each layer, the parameters are optimized)</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIRSD(susceptible, exposed, infected,recovered, susceptible,dearh) + Neural Network (each neuron has a SEIRSD model so that for each layer, the parameters are optimized)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>China - 01/10-02/04 + density and transportation data during the Spring Festival</details>
 
@@ -929,8 +901,7 @@ Prevention) </details>
 ### Technical information
 #### Model information
 **Model category** : compartimental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>SEIR deterministic</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIR deterministic</details>
 
 <details><summary> <b>Outputs</b> </summary>prediction of compartments dynamics</details>
 
@@ -953,8 +924,7 @@ Prevention) </details>
 ### Technical information
 #### Model information
 **Model category** : compartmental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>SEIR (w/ symptomatic and asymptomatic infected)</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIR (w/ symptomatic and asymptomatic infected)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Major Chinese cities - 12/01/19-03/31</details>
 
@@ -981,8 +951,7 @@ Prevention) </details>
 ### Technical information
 #### Model information
 **Model category** : compartmental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>SIR + SEIR + Neural Network</details>
+<details><summary> <b>Model sub-category</b> </summary>SIR + SEIR + Neural Network</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Wuhan, Italy, South Korea, USA</details>
 
@@ -1003,8 +972,7 @@ Prevention) </details>
 ### Technical information
 #### Model information
 **Model category** : compartmental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>SEIRUS (R: infected population quarantined and expecting recovery at time t, U: recovered satisfying undetectable criteria)</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIRUS (R: infected population quarantined and expecting recovery at time t, U: recovered satisfying undetectable criteria)</details>
 
 #### Estimation information
 <details><summary> <b>Epidemio parameters</b> </summary>basic parameters; 1) implicit constant death rates for all compartments; 2) time-dependent infectious rate</details>
@@ -1023,8 +991,7 @@ Prevention) </details>
 ### Technical information
 #### Model information
 **Model category** : agent-based</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>stochastic agent-based</details>
+<details><summary> <b>Model sub-category</b> </summary>stochastic agent-based</details>
 
 <details><summary> <b>Data used for the model</b> </summary>no data</details>
 
@@ -1055,8 +1022,7 @@ Prevention) </details>
 ### Technical information
 #### Model information
 **Model category** : agent-based</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>stochastic, spatially structured agent-based</details>
+<details><summary> <b>Model sub-category</b> </summary>stochastic, spatially structured agent-based</details>
 
 <details><summary> <b>Data used for the model</b> </summary>data on spatial and social repartition in GB</details>
 
@@ -1085,8 +1051,7 @@ Prevention) </details>
 ### Technical information
 #### Model information
 **Model category** : hierarchical bayesian model</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>time varying bayesian autoregressive model for counts</details>
+<details><summary> <b>Model sub-category</b> </summary>time varying bayesian autoregressive model for counts</details>
 
 <details><summary> <b>Data used for the model</b> </summary>01/23-03/26 - 3 most affected regions in China, South Korea and Singapore (for aggressive testing strategy), USA, European countries</details>
 
@@ -1115,8 +1080,7 @@ Prevention) </details>
 ### Technical information
 #### Model information
 **Model category** : stochastic</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>branching processes</details>
+<details><summary> <b>Model sub-category</b> </summary>branching processes</details>
 
 <details><summary> <b>Data used for the model</b> </summary>WHO reports - Bulgaria, Italy, France, Germany and Spain</details>
 
@@ -1143,8 +1107,7 @@ Prevention) </details>
 ### Technical information
 #### Model information
 **Model category** : policy </br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>Reinforcement Learning</details>
+<details><summary> <b>Model sub-category</b> </summary>Reinforcement Learning</details>
 
 <details><summary> <b>Data used for the model</b> </summary>simulated</details>
 
@@ -1173,8 +1136,7 @@ Prevention) </details>
 ### Technical information
 #### Model information
 **Model category** : probabilistic method on both compartmental and agent-based models</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>SIER with 3 infectious states and agent-based (FRED)</details>
+<details><summary> <b>Model sub-category</b> </summary>SIER with 3 infectious states and agent-based (FRED)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>simulated</details>
 
@@ -1200,8 +1162,7 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 ### Technical information
 #### Model information
 **Model category** : null</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>spatio-temporal Bernoulli process</details>
+<details><summary> <b>Model sub-category</b> </summary>spatio-temporal Bernoulli process</details>
 
 <details><summary> <b>Data used for the model</b> </summary>China,  from 01/19/2020 to 02/16/2020</details>
 
@@ -1230,8 +1191,7 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 ### Technical information
 #### Model information
 **Model category** : composite MC model</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>MCMC</details>
+<details><summary> <b>Model sub-category</b> </summary>MCMC</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Chinese Center for Disease Control and Prevention from 25 Jan
 2020 to 25 Feb 2020</details>
@@ -1259,8 +1219,7 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 ### Technical information
 #### Model information
 **Model category** : Models comparison</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>compartimental, stats methods and growth curves</details>
+<details><summary> <b>Model sub-category</b> </summary>compartimental, stats methods and growth curves</details>
 
 <details><summary> <b>Data used for the model</b> </summary>public COVID-19 data of seven provinces/cities in China reported during the spring of 2020</details>
 
@@ -1283,8 +1242,7 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 ### Technical information
 #### Model information
 **Model category** : growth model</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>GLR, Gompertz</details>
+<details><summary> <b>Model sub-category</b> </summary>GLR, Gompertz</details>
 
 <details><summary> <b>Data used for the model</b> </summary>European Centre for Disease Prevention and Control</details>
 
@@ -1311,8 +1269,7 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 ### Technical information
 #### Model information
 **Model category** : hierarchical bayesian model</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>semi-mechanistic Bayesian hierarchical model</details>
+<details><summary> <b>Model sub-category</b> </summary>semi-mechanistic Bayesian hierarchical model</details>
 
 <details><summary> <b>Data used for the model</b> </summary>observed deaths in 11 European countries from the European Centre of Disease Control</details>
 
@@ -1339,8 +1296,7 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 ### Technical information
 #### Model information
 **Model category** : growth model</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>logistic regression and Weibull model</details>
+<details><summary> <b>Model sub-category</b> </summary>logistic regression and Weibull model</details>
 
 <details><summary> <b>Data used for the model</b> </summary>data from January 16 to February 19</details>
 
@@ -1367,8 +1323,7 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 ### Technical information
 #### Model information
 **Model category** : stochastic age-structured compartimental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>SEIRD, H (hospitalized), ICU (admission to ICU), with several different categories of infectious (prodromic, asymptomatic, paucisymptomatic, infectious with mild or severe symptoms)</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIRD, H (hospitalized), ICU (admission to ICU), with several different categories of infectious (prodromic, asymptomatic, paucisymptomatic, infectious with mild or severe symptoms)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>hospital admission data in Ile-de-France before lockdown (from French hospital data APHP) up to April 3</details>
 
@@ -1397,8 +1352,7 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 ### Technical information
 #### Model information
 **Model category** : stochastic age-structured compartimental</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>SEIR, with clinical and subclinical I</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIR, with clinical and subclinical I</details>
 
 <details><summary> <b>Data used for the model</b> </summary>synthetic contact mixing matrices for China scaled to Wuhan population size</details>
 
@@ -1431,8 +1385,7 @@ and location 3) investigates the effects of strategies in function of age catego
 ### Technical information
 #### Model information
 **Model category** : null</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>null</details>
+<details><summary> <b>Model sub-category</b> </summary>null</details>
 
 #### Estimation information
 #### Additional information
@@ -1445,8 +1398,7 @@ and location 3) investigates the effects of strategies in function of age catego
 ### Technical information
 #### Model information
 **Model category** : null</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>null</details>
+<details><summary> <b>Model sub-category</b> </summary>null</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Wuhan data  from China National Health Commission before the closure (10thJanuary –23rdJanuary) and post-closure (23rdJanuary –8thFebruary)</details>
 
@@ -1473,8 +1425,7 @@ and location 3) investigates the effects of strategies in function of age catego
 ### Technical information
 #### Model information
 **Model category** : null</br>
-<details>
-	<summary> <b>Model sub-category</b> </summary>null</details>
+<details><summary> <b>Model sub-category</b> </summary>null</details>
 
 #### Estimation information
 #### Additional information

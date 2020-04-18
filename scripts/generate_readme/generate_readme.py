@@ -70,8 +70,7 @@ def add_category_of_model(fd, text):
 
 
 def add_sub_category_of_model(fd, text):
-    form = '''<details>
-	<summary> <b>Model sub-category</b> </summary>''' + text.encode('utf-8').decode('utf-8') + '''</details>'''
+    form = '''<details><summary> <b>Model sub-category</b> </summary>''' + text.encode('utf-8').decode('utf-8') + '''</details>'''
     fd.write(u''.join((form, '\n', '\n')))
 
 
@@ -201,8 +200,8 @@ if __name__ == '__main__':
             add_model_information(myfile)
             add_category_of_model(myfile, row['Category of model'])
             add_sub_category_of_model(myfile, row['Subcategory of model'])
-            if row['Data used for the model (e.g. historical or simulated)'] != 'null':
-                add_data_used_for_the_model(myfile, row['Data used for the model (e.g. historical or simulated)'])
+            if row['Data used for the model (eg historical or simulated)'] != 'null':
+                add_data_used_for_the_model(myfile, row['Data used for the model (eg historical or simulated)'])
             if row['Global approach'] != 'null':
                 add_global_approach(myfile, row['Global approach'])
             if row['Outputs'] != 'null':

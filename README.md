@@ -4,63 +4,67 @@ We host here a bibliography of papers related to COVID19 outbreak.
 We are a group a researchers working with [Centre Borelli](https://ens-paris-saclay.fr/recherche/laboratoires-et-instituts/centre-borelli) at ENS Paris Saclay.
 # Raw data 
 The raw data displayed here is available [here](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU)
+
+The meaning for each column can be found [here](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU/edit#gid=348695068)
+
+A glossary can be found [here](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU/edit#gid=1452418079)
 # How to contribute 
 In order to add an entry to this bibliography please comment on the [spreadsheet](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU) and we will process it ! 
 # Also available with Kibana 
 If you wish to browse all the information embedded into the bibliography with a more powerful search engine and some nice dashboard, please use our [Kibana](http://54.72.238.242/app/kibana#/dashboard/f3a4f480-80a3-11ea-b4c0-d1a4270d43fe)
 
 # The bibliography 
-| Title | Description |
-| --- | --- |
-| A Simple Planning Problem for COVID-19 Lockdown | [here](#a-simple-planning-problem-for-covid-19-lockdown) |
-| Susceptible-Infected-Recovered (SIR) Dynamics of COVID-19 and Economic Impact | [here](#susceptible-infected-recovered-sir-dynamics-of-covid-19-and-economic-impact) |
-| First attempts to model the dynamics of the coronavirus outbreaks 2020 | [here](#first-attempts-to-model-the-dynamics-of-the-coronavirus-outbreaks-2020) |
-| On a quarantine model of coronavirus infection and data analysis | [here](#on-a-quarantine-model-of-coronavirus-infection-and-data-analysis) |
-| A simple Stochastic SIR model for COVID-19 Infection Dynamics for Karnataka - Learning from Europ | [here](#a-simple-stochastic-sir-model-for-covid-19-infection-dynamics-for-karnataka---learning-from-europ) |
-| Prediction of COVID-19 Disease Progression in India Under the Effect of National Lockdown | [here](#prediction-of-covid-19-disease-progression-in-india-under-the-effect-of-national-lockdown) |
-| Machine Learning the Phenomenology of COVID-19 From Early Infection Dynamics | [here](#machine-learning-the-phenomenology-of-covid-19-from-early-infection-dynamics) |
-| A Time-dependent SIR model for COVID-19 with Undetectable Infected Persons | [here](#a-time-dependent-sir-model-for-covid-19-with-undetectable-infected-persons) |
-| A Modified SIR Model for the COVID-19 Contagion in Italy | [here](#a-modified-sir-model-for-the-covid-19-contagion-in-italy) |
-| Scenario analysis of non-pharmaceutical interventions on global COVID-19 transmissions | [here](#scenario-analysis-of-non-pharmaceutical-interventions-on-global-covid-19-transmissions) |
-| Generic probabilistic modelling and non-homogeneity issues for the UK epidemic of COVID-19 | [here](#generic-probabilistic-modelling-and-non-homogeneity-issues-for-the-uk-epidemic-of-covid-19) |
-| Modele SIR mecanistico-statistique pour l'estimation du nombre d'infectes et du taux de mortalite par COVID-19 | [here](#modele-sir-mecanistico-statistique-pour-lestimation-du-nombre-dinfectes-et-du-taux-de-mortalite-par-covid-19) |
-| Optimal COVID-19 epidemic control until vaccine deployment | [here](#optimal-covid-19-epidemic-control-until-vaccine-deployment) |
-| The Optimal COVID-19 Quarantine and Testing Policies | [here](#the-optimal-covid-19-quarantine-and-testing-policies) |
-| Predicting the Spread of the COVID-19 Across Cities in China with Population Migration and Policy Intervention | [here](#predicting-the-spread-of-the-covid-19-across-cities-in-china-with-population-migration-and-policy-intervention) |
-| Understanding Unreported Cases in the 2019-nCov Epidemic Outbreak in Wuhan, China, and the Importance of Major Public Health Interventions | [here](#understanding-unreported-cases-in-the-2019-ncov-epidemic-outbreak-in-wuhan-china-and-the-importance-of-major-public-health-interventions) |
-| Predicting the cumulative number of cases for theCOVID-19 epidemic in China from early data | [here](#predicting-the-cumulative-number-of-cases-for-thecovid-19-epidemic-in-china-from-early-data) |
-| Predicting the number of reported and unreported cases for the COVID-19 epidemic in South Korea, Italy, France and Germany | [here](#predicting-the-number-of-reported-and-unreported-cases-for-the-covid-19-epidemic-in-south-korea-italy-france-and-germany) |
-| Total Variation Regularization for Compartmental Epidemic Models with Time-varying Dynamics | [here](#total-variation-regularization-for-compartmental-epidemic-models-with-time-varying-dynamics) |
-| Monitoring Italian COVID-19 spread by an adaptive SEIRD model | [here](#monitoring-italian-covid-19-spread-by-an-adaptive-seird-model) |
-| Adaptive cyclic exit strategies from lockdown to suppress COVID-19 and allow economic activity | [here](#adaptive-cyclic-exit-strategies-from-lockdown-to-suppress-covid-19-and-allow-economic-activity) |
-| COVID-19: Analytics Of Contagion On Inhomogeneous Random Social Networks | [here](#covid-19-analytics-of-contagion-on-inhomogeneous-random-social-networks) |
-| Coronavirus Covid-19 spreading in Italy: optimizing an epidemiological model with dynamic social distancing through Differential Evolution | [here](#coronavirus-covid-19-spreading-in-italy-optimizing-an-epidemiological-model-with-dynamic-social-distancing-through-differential-evolution) |
-| Short-term predictions and prevention strategies forCOVID-2019: A model based study | [here](#short-term-predictions-and-prevention-strategies-forcovid-2019-a-model-based-study) |
-| Modeling the Control of COVID-19: Impact ofPolicy Interventions and Meteorological Factor | [here](#modeling-the-control-of-covid-19-impact-ofpolicy-interventions-and-meteorological-factor) |
-| A Time Delay Dynamic System with External Sourcefor the Local Outbreak of 2019-nCoV | [here](#a-time-delay-dynamic-system-with-external-sourcefor-the-local-outbreak-of-2019-ncov) |
-| Strong correlations between power-law growth of COVID-19 in fourcontinents and the inefficiency of soft quarantine strategies | [here](#strong-correlations-between-power-law-growth-of-covid-19-in-fourcontinents-and-the-inefficiency-of-soft-quarantine-strategies) |
-| Predictions of 2019-nCoV Transmission Ending via Comprehensive Methods | [here](#predictions-of-2019-ncov-transmission-ending-via-comprehensive-methods) |
-| COVID-19: Forecasting short term hospital needs in France | [here](#covid-19-forecasting-short-term-hospital-needs-in-france) |
-| Optimal Timing and Effectiveness of COVID-19 Outbreak Responses in China: A Modelling Study | [here](#optimal-timing-and-effectiveness-of-covid-19-outbreak-responses-in-china-a-modelling-study) |
-| Quantifying the effect of quarantine control in Covid-19 infectious spread using machine learning | [here](#quantifying-the-effect-of-quarantine-control-in-covid-19-infectious-spread-using-machine-learning) |
-| Mathematical Predictions for COVID-19 as Global Pandemic | [here](#mathematical-predictions-for-covid-19-as-global-pandemic) |
-| Coronavirus Optimization Algorithm: A bioinspired metaheuristic based on the COVID-19 propagation model | [here](#coronavirus-optimization-algorithm-a-bioinspired-metaheuristic-based-on-the-covid-19-propagation-model) |
-| Impact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand | [here](#impact-of-non-pharmaceutical-interventions-npis-to-reduce-covid-19-mortality-and-healthcare-demand) |
-| Bayesian semiparametric time varying model for count data to study the spread of the COVID-19 cases | [here](#bayesian-semiparametric-time-varying-model-for-count-data-to-study-the-spread-of-the-covid-19-cases) |
-| Stochastic modeling and estimation of COVID-19 population dynamics | [here](#stochastic-modeling-and-estimation-of-covid-19-population-dynamics) |
-| Optimising Lockdown Policies for Epidemic Control using Reinforcement Learning | [here](#optimising-lockdown-policies-for-epidemic-control-using-reinforcement-learning) |
-| Planning as Inference in Epidemiological Models | [here](#planning-as-inference-in-epidemiological-models) |
-| Convex Recovery of Marked Spatio-Temporal Point Processes | [here](#convex-recovery-of-marked-spatio-temporal-point-processes) |
-| Composite Monte Carlo Decision Making under High Uncertainty of Novel Coronavirus Epidemic Using Hybridized Deep Learning and Fuzzy Rule Induction | [here](#composite-monte-carlo-decision-making-under-high-uncertainty-of-novel-coronavirus-epidemic-using-hybridized-deep-learning-and-fuzzy-rule-induction) |
-| Rational evaluation of various epidemic models based on the COVID-19 data ofChina | [here](#rational-evaluation-of-various-epidemic-models-based-on-the-covid-19-data-ofchina) |
-| Using generalized logistics regression to forecast population infected by Covid-19 | [here](#using-generalized-logistics-regression-to-forecast-population-infected-by-covid-19) |
-| Report 13: Estimating the number of infections and the impact of non-pharmaceutical interventions on COVID-19 in 11 European countries | [here](#report-13-estimating-the-number-of-infections-and-the-impact-of-non-pharmaceutical-interventions-on-covid-19-in-11-european-countries) |
-| Estimation of the final size of the COVID-19 epidemic | [here](#estimation-of-the-final-size-of-the-covid-19-epidemic) |
-| Expected impact of lockdown in Ile-de-France and possible exit strategies | [here](#expected-impact-of-lockdown-in-ile-de-france-and-possible-exit-strategies) |
-| The effect of control strategies to reduce social mixing on outcomes of the COVID-19 epidemic in Wuhan, China: a modelling study | [here](#the-effect-of-control-strategies-to-reduce-social-mixing-on-outcomes-of-the-covid-19-epidemic-in-wuhan-china-a-modelling-study) |
-| Policy brief : Analyse cout-benefice des strategies de deconfinement | [here](#policy-brief--analyse-cout-benefice-des-strategies-de-deconfinement) |
-| Estimation of the epidemic properties of the 2019 novel coronavirus: A mathematical modeling study | [here](#estimation-of-the-epidemic-properties-of-the-2019-novel-coronavirus-a-mathematical-modeling-study) |
-| The Impact of School Closure for COVID-19 on the US Healthcare Workforce and the Net Mortality Effects | [here](#the-impact-of-school-closure-for-covid-19-on-the-us-healthcare-workforce-and-the-net-mortality-effects) |
+| Title | Authors | Description |
+| --- | --- | --- |
+| A Simple Planning Problem for COVID-19 Lockdown | Fernando Alvarez et al. | [here](#a-simple-planning-problem-for-covid-19-lockdown) |
+| Susceptible-Infected-Recovered (SIR) Dynamics of COVID-19 and Economic Impact | Alexis Akira Toda et al. | [here](#susceptible-infected-recovered-sir-dynamics-of-covid-19-and-economic-impact) |
+| First attempts to model the dynamics of the coronavirus outbreaks 2020 | Thomas Gotz et al. | [here](#first-attempts-to-model-the-dynamics-of-the-coronavirus-outbreaks-2020) |
+| On a quarantine model of coronavirus infection and data analysis | Vitaly Volpert et al. | [here](#on-a-quarantine-model-of-coronavirus-infection-and-data-analysis) |
+| A simple Stochastic SIR model for COVID-19 Infection Dynamics for Karnataka - Learning from Europ | Ashutosh Simha et al. | [here](#a-simple-stochastic-sir-model-for-covid-19-infection-dynamics-for-karnataka---learning-from-europ) |
+| Prediction of COVID-19 Disease Progression in India Under the Effect of National Lockdown | Sourish Das et al. | [here](#prediction-of-covid-19-disease-progression-in-india-under-the-effect-of-national-lockdown) |
+| Machine Learning the Phenomenology of COVID-19 From Early Infection Dynamics | Malik Magdon-Ismail et al. | [here](#machine-learning-the-phenomenology-of-covid-19-from-early-infection-dynamics) |
+| A Time-dependent SIR model for COVID-19 with Undetectable Infected Persons | Yi-Cheng Chen et al. | [here](#a-time-dependent-sir-model-for-covid-19-with-undetectable-infected-persons) |
+| A Modified SIR Model for the COVID-19 Contagion in Italy | Giuseppe C. Calafiore et al. | [here](#a-modified-sir-model-for-the-covid-19-contagion-in-italy) |
+| Scenario analysis of non-pharmaceutical interventions on global COVID-19 transmissions | Xiaohui Chen et al. | [here](#scenario-analysis-of-non-pharmaceutical-interventions-on-global-covid-19-transmissions) |
+| Generic probabilistic modelling and non-homogeneity issues for the UK epidemic of COVID-19 | Anatoly Zhigljavsky et al. | [here](#generic-probabilistic-modelling-and-non-homogeneity-issues-for-the-uk-epidemic-of-covid-19) |
+| Modele SIR mecanistico-statistique pour l'estimation du nombre d'infectes et du taux de mortalite par COVID-19 | Lionel Roques et al. | [here](#modele-sir-mecanistico-statistique-pour-lestimation-du-nombre-dinfectes-et-du-taux-de-mortalite-par-covid-19) |
+| Optimal COVID-19 epidemic control until vaccine deployment | R. Djidjou-Demassea et al. | [here](#optimal-covid-19-epidemic-control-until-vaccine-deployment) |
+| The Optimal COVID-19 Quarantine and Testing Policies | Facundo Piguillem et al. | [here](#the-optimal-covid-19-quarantine-and-testing-policies) |
+| Predicting the Spread of the COVID-19 Across Cities in China with Population Migration and Policy Intervention | Jiang Zhang et al. | [here](#predicting-the-spread-of-the-covid-19-across-cities-in-china-with-population-migration-and-policy-intervention) |
+| Understanding Unreported Cases in the 2019-nCov Epidemic Outbreak in Wuhan, China, and the Importance of Major Public Health Interventions | Z. Liu et al. | [here](#understanding-unreported-cases-in-the-2019-ncov-epidemic-outbreak-in-wuhan-china-and-the-importance-of-major-public-health-interventions) |
+| Predicting the cumulative number of cases for theCOVID-19 epidemic in China from early data | Z. Liu et al. | [here](#predicting-the-cumulative-number-of-cases-for-thecovid-19-epidemic-in-china-from-early-data) |
+| Predicting the number of reported and unreported cases for the COVID-19 epidemic in South Korea, Italy, France and Germany | P. Magal et al. | [here](#predicting-the-number-of-reported-and-unreported-cases-for-the-covid-19-epidemic-in-south-korea-italy-france-and-germany) |
+| Total Variation Regularization for Compartmental Epidemic Models with Time-varying Dynamics | Wenjie Zheng et al. | [here](#total-variation-regularization-for-compartmental-epidemic-models-with-time-varying-dynamics) |
+| Monitoring Italian COVID-19 spread by an adaptive SEIRD model | Elena Loli Piccolomini et al. | [here](#monitoring-italian-covid-19-spread-by-an-adaptive-seird-model) |
+| Adaptive cyclic exit strategies from lockdown to suppress COVID-19 and allow economic activity | Omer Karin​ et al. | [here](#adaptive-cyclic-exit-strategies-from-lockdown-to-suppress-covid-19-and-allow-economic-activity) |
+| COVID-19: Analytics Of Contagion On Inhomogeneous Random Social Networks | T. R. HURD et al. | [here](#covid-19-analytics-of-contagion-on-inhomogeneous-random-social-networks) |
+| Coronavirus Covid-19 spreading in Italy: optimizing an epidemiological model with dynamic social distancing through Differential Evolution | I. De Falco et al. | [here](#coronavirus-covid-19-spreading-in-italy-optimizing-an-epidemiological-model-with-dynamic-social-distancing-through-differential-evolution) |
+| Short-term predictions and prevention strategies forCOVID-2019: A model based study | Sk Shahid Nadim et al. | [here](#short-term-predictions-and-prevention-strategies-forcovid-2019-a-model-based-study) |
+| Modeling the Control of COVID-19: Impact ofPolicy Interventions and Meteorological Factor | Jia Jiwei1 et al. | [here](#modeling-the-control-of-covid-19-impact-ofpolicy-interventions-and-meteorological-factor) |
+| A Time Delay Dynamic System with External Sourcefor the Local Outbreak of 2019-nCoV | Yu Chen et al. | [here](#a-time-delay-dynamic-system-with-external-sourcefor-the-local-outbreak-of-2019-ncov) |
+| Strong correlations between power-law growth of COVID-19 in fourcontinents and the inefficiency of soft quarantine strategies | Cesar Manchein et al. | [here](#strong-correlations-between-power-law-growth-of-covid-19-in-fourcontinents-and-the-inefficiency-of-soft-quarantine-strategies) |
+| Predictions of 2019-nCoV Transmission Ending via Comprehensive Methods | Tianyu Zeng et al. | [here](#predictions-of-2019-ncov-transmission-ending-via-comprehensive-methods) |
+| COVID-19: Forecasting short term hospital needs in France | Clement Massonnaud et al. | [here](#covid-19-forecasting-short-term-hospital-needs-in-france) |
+| Optimal Timing and Effectiveness of COVID-19 Outbreak Responses in China: A Modelling Study | Anthony Zhenhuan Zhang et al. et al. | [here](#optimal-timing-and-effectiveness-of-covid-19-outbreak-responses-in-china-a-modelling-study) |
+| Quantifying the effect of quarantine control in Covid-19 infectious spread using machine learning | Raj Dandekar et al. | [here](#quantifying-the-effect-of-quarantine-control-in-covid-19-infectious-spread-using-machine-learning) |
+| Mathematical Predictions for COVID-19 as Global Pandemic | Victor Alexander Okhuese et al. | [here](#mathematical-predictions-for-covid-19-as-global-pandemic) |
+| Coronavirus Optimization Algorithm: A bioinspired metaheuristic based on the COVID-19 propagation model | F. Martinez-Alvarez  et al. | [here](#coronavirus-optimization-algorithm-a-bioinspired-metaheuristic-based-on-the-covid-19-propagation-model) |
+| Impact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand | Neil M Ferguson et al. | [here](#impact-of-non-pharmaceutical-interventions-npis-to-reduce-covid-19-mortality-and-healthcare-demand) |
+| Bayesian semiparametric time varying model for count data to study the spread of the COVID-19 cases | Arkaprava Roy and Sayar Karmakar et al. | [here](#bayesian-semiparametric-time-varying-model-for-count-data-to-study-the-spread-of-the-covid-19-cases) |
+| Stochastic modeling and estimation of COVID-19 population dynamics | Nikolay M. Yanev et al. | [here](#stochastic-modeling-and-estimation-of-covid-19-population-dynamics) |
+| Optimising Lockdown Policies for Epidemic Control using Reinforcement Learning | Harshad Khadilkar et al. | [here](#optimising-lockdown-policies-for-epidemic-control-using-reinforcement-learning) |
+| Planning as Inference in Epidemiological Models | Frank Wood et al. | [here](#planning-as-inference-in-epidemiological-models) |
+| Convex Recovery of Marked Spatio-Temporal Point Processes | Anatoli Juditsky et al. | [here](#convex-recovery-of-marked-spatio-temporal-point-processes) |
+| Composite Monte Carlo Decision Making under High Uncertainty of Novel Coronavirus Epidemic Using Hybridized Deep Learning and Fuzzy Rule Induction | Simon James Fong et al. | [here](#composite-monte-carlo-decision-making-under-high-uncertainty-of-novel-coronavirus-epidemic-using-hybridized-deep-learning-and-fuzzy-rule-induction) |
+| Rational evaluation of various epidemic models based on the COVID-19 data ofChina | Wuyue Yang et al. | [here](#rational-evaluation-of-various-epidemic-models-based-on-the-covid-19-data-ofchina) |
+| Using generalized logistics regression to forecast population infected by Covid-19 | Villalobos Arias et al. | [here](#using-generalized-logistics-regression-to-forecast-population-infected-by-covid-19) |
+| Report 13: Estimating the number of infections and the impact of non-pharmaceutical interventions on COVID-19 in 11 European countries | Seth Flaxman et al. | [here](#report-13-estimating-the-number-of-infections-and-the-impact-of-non-pharmaceutical-interventions-on-covid-19-in-11-european-countries) |
+| Estimation of the final size of the COVID-19 epidemic | Milan Batista et al. | [here](#estimation-of-the-final-size-of-the-covid-19-epidemic) |
+| Expected impact of lockdown in Ile-de-France and possible exit strategies | Laura Di Domenico et al. | [here](#expected-impact-of-lockdown-in-ile-de-france-and-possible-exit-strategies) |
+| The effect of control strategies to reduce social mixing on outcomes of the COVID-19 epidemic in Wuhan, China: a modelling study | Kiesha Prem et al. | [here](#the-effect-of-control-strategies-to-reduce-social-mixing-on-outcomes-of-the-covid-19-epidemic-in-wuhan-china-a-modelling-study) |
+| Policy brief : Analyse cout-benefice des strategies de deconfinement | Christian Gollier et al. | [here](#policy-brief--analyse-cout-benefice-des-strategies-de-deconfinement) |
+| Estimation of the epidemic properties of the 2019 novel coronavirus: A mathematical modeling study | Jinghua Li  et al. | [here](#estimation-of-the-epidemic-properties-of-the-2019-novel-coronavirus-a-mathematical-modeling-study) |
+| The Impact of School Closure for COVID-19 on the US Healthcare Workforce and the Net Mortality Effects | Jude Bayham et al. | [here](#the-impact-of-school-closure-for-covid-19-on-the-us-healthcare-workforce-and-the-net-mortality-effects) |
 ## A Simple Planning Problem for COVID-19 Lockdown 
 ### General information
 **Authors** : Fernando Alvarez, David Argente, Francesco Lippi</br>
@@ -1249,7 +1253,7 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 ## Rational evaluation of various epidemic models based on the COVID-19 data ofChina 
 ### General information
 **Authors** : Wuyue Yang</br>
-**Publication date** : null</br>
+**Publication date** : 03/12</br>
 **Paper** : Available [here](https://arxiv.org/pdf/2003.05666.pdf)</br>
 **Code available** : null</br>
 ### Technical information
@@ -1387,7 +1391,7 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 ## The effect of control strategies to reduce social mixing on outcomes of the COVID-19 epidemic in Wuhan, China: a modelling study 
 ### General information
 **Authors** : Kiesha Prem, Yang Liu, Timothy W Russell, Adam J Kucharski, Rosalind M Eggo, Nicholas Davies</br>
-**Publication date** : 25/03</br>
+**Publication date** : 03/25</br>
 **Paper** : Available [here](https://www.sciencedirect.com/science/article/pii/S2468266720300736#sec1)</br>
 **Code available** : code in R https://github.com/kieshaprem/covid19-agestructureSEIR-wuhan-social-distancing</br>
 ### Technical information
@@ -1435,7 +1439,7 @@ and location 3) investigates the effects of strategies in function of age catego
 ## Estimation of the epidemic properties of the 2019 novel coronavirus: A mathematical modeling study 
 ### General information
 **Authors** : Jinghua Li , Yijing Wang, Stuart Gilmour, Mengying Wang, Daisuke Yoneoka, Ying Wang M Med, Xinyi You, Jing Gu , Chun Hao, Liping Peng, Zhicheng Du, Dong Roman , Yuantao Hao</br>
-**Publication date** : null</br>
+**Publication date** : 02/25</br>
 **Paper** : Available [here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3542150)</br>
 **Code available** : R0 package in R</br>
 ### Technical information
@@ -1463,7 +1467,7 @@ and location 3) investigates the effects of strategies in function of age catego
 ## The Impact of School Closure for COVID-19 on the US Healthcare Workforce and the Net Mortality Effects 
 ### General information
 **Authors** : Jude Bayham, Eli P. Fenichel</br>
-**Publication date** : null</br>
+**Publication date** : 09/03</br>
 **Paper** : Available [here](https://www.medrxiv.org/content/medrxiv/early/2020/03/17/2020.03.09.20033415.full.pdf)</br>
 **Code available** : null</br>
 ### Technical information

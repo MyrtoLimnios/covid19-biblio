@@ -6,6 +6,8 @@ import pandas as pd
 
 GG_SPREADSHEET = "https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU"
 GG_SPREADSHEET_NAME = GG_SPREADSHEET + "/export?format=csv&id=KEY&gid=0"
+GG_SPREADSHEET_COLUMNS = '/edit#gid=348695068'
+GG_SPREADSHEET_GLOSSARY = '/edit#gid=1452418079'
 KIBANA = "http://54.72.238.242/app/kibana#/dashboard/f3a4f480-80a3-11ea-b4c0-d1a4270d43fe"
 
 def load_gsheet(path):
@@ -140,18 +142,19 @@ def add_comments(fd, text):
 def get_href(title):
     return '#' + title.lower().replace('(', '').replace(')', '').replace(':', '').replace(',', '').replace("'", '').replace(' ', '-')
 
-# def add_table(fd, titles, authors):
-#     fd.write(u''.join(('| <div style="width:400px">Title<div> | Author(s) |', '\n')))
-#     fd.write(u'| --- | --- |\n')
-#     for i in range(len(titles)):
-#         fd.write(u''.join(('| <a href=', get_href(titles[i]) + '>' + titles[i] + '</a> | ' +  authors[i] + ' |', '\n')))
 
+def get_author(authors):
+    authors_list = authors.split(',')[0]
+    if len(authors_list) > 1:
+        return authors.split(',')[0] + ' et al.'
+    else:
+        return authors.split(',')[0]
 
-def add_table(fd, titles):
-    fd.write(u''.join(('| Title | Description |', '\n')))
-    fd.write(u'| --- | --- |\n')
+def add_table(fd, titles, authors):
+    fd.write(u''.join(('| Title | Authors | Description |', '\n')))
+    fd.write(u'| --- | --- | --- |\n')
     for i in range(len(titles)):
-        fd.write(u''.join(('| ' + titles[i] + ' | [here](' + get_href(titles[i]) + ') |', '\n')))
+        fd.write(u''.join(('| ' + titles[i] + ' | ' + get_author(authors[i]) + ' | [here](' + get_href(titles[i]) + ') |', '\n')))
 
 
 if __name__ == '__main__':
@@ -170,6 +173,8 @@ if __name__ == '__main__':
 
     add_h1_title(myfile, 'Raw data')
     myfile.write(u'The raw data displayed here is available [here](' + GG_SPREADSHEET + ')\n')
+    myfile.write(u'\nThe meaning for each column can be found [here](' + GG_SPREADSHEET + GG_SPREADSHEET_COLUMNS + ')\n')
+    myfile.write(u'\nA glossary can be found [here](' + GG_SPREADSHEET + GG_SPREADSHEET_GLOSSARY + ')\n')
 
     add_h1_title(myfile, 'How to contribute')
     myfile.write(u'In order to add an entry to this bibliography please comment on the [spreadsheet](' + GG_SPREADSHEET + ') and we will process it ! \n')
@@ -179,8 +184,7 @@ if __name__ == '__main__':
 
     add_h1_title(myfile, 'The bibliography')
 
-    # add_table(myfile, df['Paper(s)'], df['Authors'])
-    add_table(myfile, df['Paper(s)'])
+    add_table(myfile, df['Paper(s)'], df['Authors'])
 
     for index, row in df.iterrows():
         if row['Paper(s)'].encode('utf-8') != b'null':

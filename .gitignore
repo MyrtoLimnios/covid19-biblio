@@ -1,0 +1,6 @@
+credentials.json
+__pycache__/
+config.json
+notebooks/
+.DS_Store
+.idea/

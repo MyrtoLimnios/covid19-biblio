@@ -14,7 +14,7 @@ List of characteristics provided for each paper and glossary of technical terms 
 [http://centreborelli.cnrs.fr](http://centreborelli.cnrs.fr) 
 
 # Contact us
-Email: [centreborelli-repository@gmail.com](centreborelli-repository@gmail.com)
+Email: [centreborelli.repository@gmail.com](centreborelli.repository@gmail.com)
 
 # Terms of Use:
 

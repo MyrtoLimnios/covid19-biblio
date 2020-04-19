@@ -3,7 +3,7 @@ The repository prioritizes papers presenting mathematical models with practical 
 
 The repository compiles the key elements of each paper such as: type of model, main assumptions, input parameters, output of the model, open source implementation, etc. The complete table can be found under three different formats:
 
-* Interactive dashboard-like table under [Kibana](http://orvet.pppcmla.ens-cachan.fr:443/app/kibana#/dashboard/66e9a680-8229-11ea-b3e0-13021bdba55f)
+* Interactive dashboard-like table under [Kibana](http://orvet.pppcmla.ens-cachan.fr:443/app/kibana#/dashboard/66e9a680-8229-11ea-b3e0-13021bdba55f?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-15m,to:now))&_a=(description:'',filters:!(),fullScreenMode:!t,options:(hidePanelTitles:!f,useMargins:!t),panels:!((embeddableConfig:(),gridData:(h:10,i:a5d7ddf8-31c0-4470-96fe-df444c260765,w:30,x:0,y:0),id:'654bf180-8228-11ea-b3e0-13021bdba55f',panelIndex:a5d7ddf8-31c0-4470-96fe-df444c260765,type:visualization,version:'7.6.2'),(embeddableConfig:(),gridData:(h:10,i:'380d586d-a27a-44e7-b431-8b2d24b74662',w:18,x:30,y:0),id:fab7e580-8228-11ea-b3e0-13021bdba55f,panelIndex:'380d586d-a27a-44e7-b431-8b2d24b74662',type:visualization,version:'7.6.2'),(embeddableConfig:(),gridData:(h:13,i:'626f70e7-bf86-4bd7-aa90-7b9b7c317fcf',w:48,x:0,y:10),id:c4e8ada0-8227-11ea-b3e0-13021bdba55f,panelIndex:'626f70e7-bf86-4bd7-aa90-7b9b7c317fcf',type:search,version:'7.6.2')),query:(language:kuery,query:''),timeRestore:!f,title:'Review%20Dashboard',viewMode:view))
 * Editable [spreadsheet](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU) --> please submit new entries and comments and we will process them! 
 * List wih clickable entries below.
 

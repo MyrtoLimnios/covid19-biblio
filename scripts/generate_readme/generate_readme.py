@@ -96,20 +96,20 @@ def add_intervention_strategies(fd, text):
     fd.write(u''.join((form, '\n', '\n')))
 
 
-def add_objective_function(fd, text):
-    form = '''<details><summary> <b>Objective function</b> </summary>''' + text.encode(
+def add_problem_formulation(fd, text):
+    form = '''<details><summary> <b>Problem Formulation</b> </summary>''' + text.encode(
         'utf-8').decode('utf-8') + '''</details>'''
     fd.write(u''.join((form, '\n', '\n')))
 
 
-def add_algo_type(fd, text):
-    form = '''<details><summary> <b>Type of algorithm or method</b> </summary>''' + text.encode(
+def add_solving_method(fd, text):
+    form = '''<details><summary> <b>Solving Method</b> </summary>''' + text.encode(
         'utf-8').decode('utf-8') + '''</details>'''
     fd.write(u''.join((form, '\n', '\n')))
 
 
-def add_epidemio_parameters(fd, text):
-    form = '''<details><summary> <b>Epidemio parameters</b> </summary>''' + text.encode(
+def add_epidemiological_parameters(fd, text):
+    form = '''<details><summary> <b>Epidemiological parameters</b> </summary>''' + text.encode(
         'utf-8').decode('utf-8') + '''</details>'''
     fd.write(u''.join((form, '\n', '\n')))
 
@@ -200,8 +200,8 @@ if __name__ == '__main__':
             add_model_information(myfile)
             add_category_of_model(myfile, row['Category of model'])
             add_sub_category_of_model(myfile, row['Subcategory of model'])
-            if row['Data used for the model (eg historical or simulated)'] != 'null':
-                add_data_used_for_the_model(myfile, row['Data used for the model (eg historical or simulated)'])
+            if row['Data used for the model (e.g. historical or simulated)'] != 'null':
+                add_data_used_for_the_model(myfile, row['Data used for the model (e.g. historical or simulated)'])
             if row['Global approach'] != 'null':
                 add_global_approach(myfile, row['Global approach'])
             if row['Outputs'] != 'null':
@@ -212,12 +212,12 @@ if __name__ == '__main__':
                 add_additional_assumptions(myfile, row['Additional Assumptions'])
             # Estimation
             add_estimation_information(myfile)
-            if (row["Objective function (write 'not explained' if the case)"] != 'null' and row["Objective function (write 'not explained' if the case)"] != 'not explained' ):
-                add_objective_function(myfile, row["Objective function (write 'not explained' if the case)"])
-            if (row["Type of algorithm or method used (write 'not explained' if the case)"] != 'null' and row["Type of algorithm or method used (write 'not explained' if the case)"] != 'not explained'):
-                add_algo_type(myfile, row["Type of algorithm or method used (write 'not explained' if the case)"])
-            if row['Epidemio parameters (induced by the model and/or inherent of the virus: infection,reco,death rates)'] != 'null':
-                add_epidemio_parameters(myfile, row['Epidemio parameters (induced by the model and/or inherent of the virus: infection,reco,death rates)'])
+            if (row["Problem Formulation (e.g. numerical scheme, objective function, etc.)"] != 'null' and row["Problem Formulation (e.g. numerical scheme, objective function, etc.)"] != 'not explained' ):
+                add_problem_formulation(myfile, row["Problem Formulation (e.g. numerical scheme, objective function, etc.)"])
+            if (row["Solving Method"] != 'null' and row["Solving Method"] != 'not explained'):
+                add_solving_method(myfile, row["Solving Method"])
+            if row['Epidemiological parameters (e.g. inherent of the virus: infection, recovery, death rates)'] != 'null':
+                add_epidemiological_parameters(myfile, row['Epidemiological parameters (e.g. inherent of the virus: infection, recovery, death rates)'])
             if row['Other parameters'] != 'null':
                 add_other_parameters(myfile, row['Other parameters'])
             if row['How input parameters are estimated (data-driven or from litterature)'] != 'null':
@@ -230,6 +230,3 @@ if __name__ == '__main__':
     myfile.close()
 
 
-
-# https://stackoverflow.com/questions/9942594/unicodeencodeerror-ascii-codec-cant-encode-character-u-xa0-in-position-20#9942822
-# https://medium.com/better-programming/strings-unicode-and-bytes-in-python-3-everything-you-always-wanted-to-know-27dc02ff2686

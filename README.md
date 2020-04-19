@@ -1,19 +1,29 @@
-# What is it ? 
-We host here a bibliography of papers related to COVID19 outbreak.
-# Who are we ? 
-We are a group a researchers working with [Centre Borelli](https://ens-paris-saclay.fr/recherche/laboratoires-et-instituts/centre-borelli) at ENS Paris Saclay.
-# Raw data 
-The raw data displayed here is available [here](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU)
+# Repository of a selection of papers related to COVID-19 outbreak operated by Centre Borelli (ENS Paris-Saclay, CNRS, Université de Paris, SSA)
+The repository prioritizes papers presenting mathematical models with practical impact, use of empirical data, capacity to take into account containment policies, open and reproducible implementation of the model. 
 
-The meaning for each column can be found [here](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU/edit#gid=348695068)
+The repository compiles the key elements of each paper such as: type of model, main assumptions, input parameters, output of the model, open source implementation, etc. The complete table can be found under three different formats:
 
-A glossary can be found [here](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU/edit#gid=1452418079)
-# How to contribute 
-In order to add an entry to this bibliography please comment on the [spreadsheet](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU) and we will process it ! 
-# Also available with Kibana 
-If you wish to browse all the information embedded into the bibliography with a more powerful search engine and some nice dashboard, please use our [Kibana](http://orvet.pppcmla.ens-cachan.fr:443/app/kibana#/dashboard/66e9a680-8229-11ea-b3e0-13021bdba55f)
+* Interactive dashboard-like table under [Kibana](http://orvet.pppcmla.ens-cachan.fr:443/app/kibana#/dashboard/66e9a680-8229-11ea-b3e0-13021bdba55f)
+* Editable [spreadsheet](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU) --> please submit new entries and comments and we will process them! 
+* List wih clickable entries below.
 
-# The bibliography 
+# Additional information
+List of characteristics provided for each paper available [here](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU/edit#gid=348695068)
+
+Glossary of technical terms available [here](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU/edit#gid=1452418079)
+
+
+# Provided by Centre Borelli (ENS Paris-Saclay, CNRS, Université de Paris, SSA)
+[http://centreborelli.cnrs.fr](http://centreborelli.cnrs.fr) 
+
+# Contact us
+Email: ???
+
+# Terms of Use:
+
+This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay, all rights reserved, is provided to the public strictly for educational and academic research purposes. The Website relies upon publicly available data from multiple sources, that do not always agree. The ENS Paris-Saclay hereby disclaims any and all representations and warranties with respect to the Website, including accuracy, fitness for use, and merchantability. Reliance on the Website for medical guidance or use of the Website in commerce is strictly prohibited.
+
+# Table of contents 
 | Title | Authors | Description |
 | --- | --- | --- |
 | A Simple Planning Problem for COVID-19 Lockdown | Fernando Alvarez et al. | [here](#a-simple-planning-problem-for-covid-19-lockdown) |

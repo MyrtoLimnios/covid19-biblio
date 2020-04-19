@@ -8,7 +8,7 @@ GG_SPREADSHEET = "https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7
 GG_SPREADSHEET_NAME = GG_SPREADSHEET + "/export?format=csv&id=KEY&gid=0"
 GG_SPREADSHEET_COLUMNS = '/edit#gid=348695068'
 GG_SPREADSHEET_GLOSSARY = '/edit#gid=1452418079'
-KIBANA = "http://54.72.238.242/app/kibana#/dashboard/f3a4f480-80a3-11ea-b4c0-d1a4270d43fe"
+KIBANA = "http://orvet.pppcmla.ens-cachan.fr:443/app/kibana#/dashboard/66e9a680-8229-11ea-b3e0-13021bdba55f"
 
 def load_gsheet(path):
     return pd.read_csv(path).fillna('null')

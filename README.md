@@ -11,7 +11,7 @@ A glossary can be found [here](https://docs.google.com/spreadsheets/d/1WWIOWnuJu
 # How to contribute 
 In order to add an entry to this bibliography please comment on the [spreadsheet](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU) and we will process it ! 
 # Also available with Kibana 
-If you wish to browse all the information embedded into the bibliography with a more powerful search engine and some nice dashboard, please use our [Kibana](http://54.72.238.242/app/kibana#/dashboard/f3a4f480-80a3-11ea-b4c0-d1a4270d43fe)
+If you wish to browse all the information embedded into the bibliography with a more powerful search engine and some nice dashboard, please use our [Kibana](http://orvet.pppcmla.ens-cachan.fr:443/app/kibana#/dashboard/66e9a680-8229-11ea-b3e0-13021bdba55f)
 
 # The bibliography 
 | Title | Authors | Description |

@@ -8,7 +8,7 @@ The repository compiles the key elements of each paper such as: type of model, m
 * List wih clickable entries below.
 
 # Additional information
-List of characteristics provided for each paper glossary of technical terms available [here](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU/edit#gid=348695068)
+List of characteristics provided for each paper and glossary of technical terms available [here](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU/edit#gid=348695068)
 
 # Provided by Centre Borelli (ENS Paris-Saclay, CNRS, Université de Paris, SSA)
 [http://centreborelli.cnrs.fr](http://centreborelli.cnrs.fr) 

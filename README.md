@@ -17,7 +17,7 @@ Glossary of technical terms available [here](https://docs.google.com/spreadsheet
 [http://centreborelli.cnrs.fr](http://centreborelli.cnrs.fr) 
 
 # Contact us
-Email: ???
+Email: [centreborelli-repository@gmail.com](centreborelli-repository@gmail.com)
 
 # Terms of Use:
 

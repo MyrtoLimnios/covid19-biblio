@@ -6,9 +6,9 @@ import pandas as pd
 
 GG_SPREADSHEET = "https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU"
 GG_SPREADSHEET_NAME = GG_SPREADSHEET + "/export?format=csv&id=KEY&gid=0"
-GG_SPREADSHEET_COLUMNS = '/edit#gid=348695068'
-GG_SPREADSHEET_GLOSSARY = '/edit#gid=1452418079'
-KIBANA = "http://orvet.pppcmla.ens-cachan.fr:443/app/kibana#/dashboard/66e9a680-8229-11ea-b3e0-13021bdba55f"
+GG_SPREADSHEET_COLUMNS = '/edit#gid=1061863733'
+GG_SPREADSHEET_GLOSSARY = '/edit#gid=693948220'
+KIBANA = "http://covidreview.org/kibana"
 
 def load_gsheet(path):
     return pd.read_csv(path).fillna('null')
@@ -164,22 +164,28 @@ if __name__ == '__main__':
     # Open target file
     myfile = open("../../README.md", "w")
 
-    add_h1_title(myfile, 'What is it ?')
-    myfile.write(u'We host here a bibliography of papers related to COVID19 outbreak.\n')
+    add_h1_title(myfile, 'Repository of a selection of papers related to COVID-19 outbreak operated by Centre Borelli (ENS Paris-Saclay, CNRS, Université de Paris, SSA)')
+    myfile.write(u'The repository prioritizes papers presenting mathematical models with practical impact, use of empirical data, strategy of containment policy, open and reproducible implementation of the model.\n\n')
+    myfile.write(u'The repository compiles the key elements of each paper such as: type of model, main assumptions, input parameters, output of the model, open source implementation, etc. The complete table can be found under three different formats:\n\n')
+    myfile.write(u"* Interactive dashboard-like table under [Kibana](https://covidreview.org/kibana)\n" +
+                  "* A [spreadsheet](" + GG_SPREADSHEET + ") --> Comments are allowed \n" +
+                  "* List with clickable entries below.\n\n")
 
-    add_h1_title(myfile, 'Who are we ?')
-    myfile.write(u'We are a group a researchers working with [Centre Borelli](https://ens-paris-saclay.fr/recherche/laboratoires-et-instituts/centre-borelli) at ENS Paris Saclay.\n')
+    add_h1_title(myfile, 'Additional information')
+    myfile.write(u'List of characteristics is provided for each paper : see [characteristics](' + GG_SPREADSHEET + GG_SPREADSHEET_COLUMNS + ') description\n\n')
+    myfile.write(u'A [glossary](' + GG_SPREADSHEET + GG_SPREADSHEET_GLOSSARY + ') of technical terms is available. \n')
 
-    add_h1_title(myfile, 'Raw data')
-    myfile.write(u'The raw data displayed here is available [here](' + GG_SPREADSHEET + ')\n')
-    myfile.write(u'\nThe meaning for each column can be found [here](' + GG_SPREADSHEET + GG_SPREADSHEET_COLUMNS + ')\n')
-    myfile.write(u'\nA glossary can be found [here](' + GG_SPREADSHEET + GG_SPREADSHEET_GLOSSARY + ')\n')
+    add_h1_title(myfile, 'Provided by Centre Borelli (ENS Paris-Saclay, CNRS, Université de Paris, SSA)')
+    myfile.write(u'[http://centreborelli.cnrs.fr](http://centreborelli.cnrs.fr)\n')
 
-    add_h1_title(myfile, 'How to contribute')
-    myfile.write(u'In order to add an entry to this bibliography please comment on the [spreadsheet](' + GG_SPREADSHEET + ') and we will process it ! \n')
+    add_h1_title(myfile, 'Contribution')
+    myfile.write(u'If you wish to suggest an article to be added to the review, please contact us via email at <A href="mailto:centreborelli.repository@gmail.com">centreborelli.repository@gmail.com</A> and we will proceed with the new entry after an internal assessment.\n')
 
-    add_h1_title(myfile, 'Also available with Kibana')
-    myfile.write(u'If you wish to browse all the information embedded into the bibliography with a more powerful search engine and some nice dashboard, please use our [Kibana](' + KIBANA + ')\n\n')
+    add_h1_title(myfile, 'Contact us')
+    myfile.write(u'Email: <A href="mailto:centreborelli.repository@gmail.com">centreborelli.repository@gmail.com</A>\n')
+
+    add_h1_title(myfile, 'Terms of Use')
+    myfile.write(u'This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay, all rights reserved, is provided to the public strictly for educational and academic research purposes. The Website relies upon publicly available data from multiple sources, that do not always agree. The ENS Paris-Saclay hereby disclaims any and all representations and warranties with respect to the Website, including accuracy, fitness for use, and merchantability. Reliance on the Website for medical guidance or use of the Website in commerce is strictly prohibited.\n')
 
     add_h1_title(myfile, 'The bibliography')
 
@@ -212,12 +218,12 @@ if __name__ == '__main__':
                 add_additional_assumptions(myfile, row['Additional Assumptions'])
             # Estimation
             add_estimation_information(myfile)
-            if (row["Problem Formulation (e.g. numerical scheme, objective function, etc.)"] != 'null' and row["Problem Formulation (e.g. numerical scheme, objective function, etc.)"] != 'not explained' ):
-                add_problem_formulation(myfile, row["Problem Formulation (e.g. numerical scheme, objective function, etc.)"])
+            if (row["Problem Formulation (eg numerical scheme, objective function, etc.)"] != 'null' and row["Problem Formulation (eg numerical scheme, objective function, etc.)"] != 'not explained' ):
+                add_problem_formulation(myfile, row["Problem Formulation (eg numerical scheme, objective function, etc.)"])
             if (row["Solving Method"] != 'null' and row["Solving Method"] != 'not explained'):
                 add_solving_method(myfile, row["Solving Method"])
-            if row['Epidemiological parameters (e.g. inherent of the virus: infection, recovery, death rates)'] != 'null':
-                add_epidemiological_parameters(myfile, row['Epidemiological parameters (e.g. inherent of the virus: infection, recovery, death rates)'])
+            if row['Epidemiological parameters (eg inherent of the virus: infection, recovery, death rates)'] != 'null':
+                add_epidemiological_parameters(myfile, row['Epidemiological parameters (eg inherent of the virus: infection, recovery, death rates)'])
             if row['Other parameters'] != 'null':
                 add_other_parameters(myfile, row['Other parameters'])
             if row['How input parameters are estimated (data-driven or from litterature)'] != 'null':

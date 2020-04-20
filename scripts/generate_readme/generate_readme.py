@@ -6,9 +6,9 @@ import pandas as pd
 
 GG_SPREADSHEET = "https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU"
 GG_SPREADSHEET_NAME = GG_SPREADSHEET + "/export?format=csv&id=KEY&gid=0"
-GG_SPREADSHEET_COLUMNS = '/edit#gid=348695068'
-GG_SPREADSHEET_GLOSSARY = '/edit#gid=1452418079'
-KIBANA = "http://orvet.pppcmla.ens-cachan.fr:443/app/kibana#/dashboard/66e9a680-8229-11ea-b3e0-13021bdba55f"
+GG_SPREADSHEET_COLUMNS = '/edit#gid=1061863733'
+GG_SPREADSHEET_GLOSSARY = '/edit#gid=693948220'
+KIBANA = "http://covidreview.org/kibana"
 
 def load_gsheet(path):
     return pd.read_csv(path).fillna('null')
@@ -165,14 +165,15 @@ if __name__ == '__main__':
     myfile = open("../../README.md", "w")
 
     add_h1_title(myfile, 'Repository of a selection of papers related to COVID-19 outbreak operated by Centre Borelli (ENS Paris-Saclay, CNRS, Université de Paris, SSA)')
-    myfile.write(u'The repository prioritizes papers presenting mathematical models with practical impact, use of empirical data, capacity to take into account containment policies, open and reproducible implementation of the model.\n\n')
+    myfile.write(u'The repository prioritizes papers presenting mathematical models with practical impact, use of empirical data, strategy of containment policy, open and reproducible implementation of the model.\n\n')
     myfile.write(u'The repository compiles the key elements of each paper such as: type of model, main assumptions, input parameters, output of the model, open source implementation, etc. The complete table can be found under three different formats:\n\n')
     myfile.write(u"* Interactive dashboard-like table under [Kibana](https://covidreview.org/kibana)\n" +
-                  "* A [spreadsheet](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU) --> Comments are allowed \n" +
+                  "* A [spreadsheet](" + GG_SPREADSHEET + ") --> Comments are allowed \n" +
                   "* List with clickable entries below.\n\n")
 
     add_h1_title(myfile, 'Additional information')
-    myfile.write(u'List of characteristics provided for each paper and glossary of technical terms available [here](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU/edit#gid=348695068)\n')
+    myfile.write(u'List of characteristics is provided for each paper : see [characteristics](' + GG_SPREADSHEET + GG_SPREADSHEET_COLUMNS + ') description\n\n')
+    myfile.write(u'A [glossary](' + GG_SPREADSHEET + GG_SPREADSHEET_GLOSSARY + ') of technical terms is available. \n')
 
     add_h1_title(myfile, 'Provided by Centre Borelli (ENS Paris-Saclay, CNRS, Université de Paris, SSA)')
     myfile.write(u'[http://centreborelli.cnrs.fr](http://centreborelli.cnrs.fr)\n')

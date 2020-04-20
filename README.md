@@ -1,5 +1,5 @@
 # Repository of a selection of papers related to COVID-19 outbreak operated by Centre Borelli (ENS Paris-Saclay, CNRS, Université de Paris, SSA) 
-The repository prioritizes papers presenting mathematical models with practical impact, use of empirical data, capacity to take into account containment policies, open and reproducible implementation of the model.
+The repository prioritizes papers presenting mathematical models with practical impact, use of empirical data, strategy of containment policy, open and reproducible implementation of the model.
 
 The repository compiles the key elements of each paper such as: type of model, main assumptions, input parameters, output of the model, open source implementation, etc. The complete table can be found under three different formats:
 
@@ -8,7 +8,9 @@ The repository compiles the key elements of each paper such as: type of model, m
 * List with clickable entries below.
 
 # Additional information 
-List of characteristics provided for each paper and glossary of technical terms available [here](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU/edit#gid=348695068)
+List of characteristics is provided for each paper : see [characteristics](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU/edit#gid=1061863733) description
+
+A [glossary](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU/edit#gid=693948220) of technical terms available 
 # Provided by Centre Borelli (ENS Paris-Saclay, CNRS, Université de Paris, SSA) 
 [http://centreborelli.cnrs.fr](http://centreborelli.cnrs.fr)
 # Contribution 

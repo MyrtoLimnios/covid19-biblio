@@ -10,7 +10,7 @@ The repository compiles the key elements of each paper such as: type of model, m
 # Additional information 
 List of characteristics is provided for each paper : see [characteristics](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU/edit#gid=1061863733) description
 
-A [glossary](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU/edit#gid=693948220) of technical terms available 
+A [glossary](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU/edit#gid=693948220) of technical terms is available. 
 # Provided by Centre Borelli (ENS Paris-Saclay, CNRS, Université de Paris, SSA) 
 [http://centreborelli.cnrs.fr](http://centreborelli.cnrs.fr)
 # Contribution 
@@ -18,7 +18,6 @@ If you wish to suggest an article to be added to the review, please contact us v
 # Contact us 
 Email: <A href="mailto:centreborelli.repository@gmail.com">centreborelli.repository@gmail.com</A>
 # Terms of Use 
-
 This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay, all rights reserved, is provided to the public strictly for educational and academic research purposes. The Website relies upon publicly available data from multiple sources, that do not always agree. The ENS Paris-Saclay hereby disclaims any and all representations and warranties with respect to the Website, including accuracy, fitness for use, and merchantability. Reliance on the Website for medical guidance or use of the Website in commerce is strictly prohibited.
 # The bibliography 
 | Title | Authors | Description |
@@ -31,7 +30,8 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 | Prediction of COVID-19 Disease Progression in India Under the Effect of National Lockdown | Sourish Das et al. | [here](#prediction-of-covid-19-disease-progression-in-india-under-the-effect-of-national-lockdown) |
 | Scenario analysis of non-pharmaceutical interventions on global COVID-19 transmissions | Xiaohui Chen et al. | [here](#scenario-analysis-of-non-pharmaceutical-interventions-on-global-covid-19-transmissions) |
 | Generic probabilistic modelling and non-homogeneity issues for the UK epidemic of COVID-19 | Anatoly Zhigljavsky et al. | [here](#generic-probabilistic-modelling-and-non-homogeneity-issues-for-the-uk-epidemic-of-covid-19) |
-| COVID-19: Analytics Of Contagion On Inhomogeneous Random Social Networks | T. R. HURD et al. | [here](#covid-19-analytics-of-contagion-on-inhomogeneous-random-social-networks) |
+| COVID-19: Analytics Of Contagion On Inhomogeneous Random Social Networks | T. R. Hurd et al. | [here](#covid-19-analytics-of-contagion-on-inhomogeneous-random-social-networks) |
+| ICU Capacity Management During the COVID-19 Pandemic Using a Stochastic Process Simulation | Andres Alban et al. | [here](#icu-capacity-management-during-the-covid-19-pandemic-using-a-stochastic-process-simulation) |
 | A Simple Planning Problem for COVID-19 Lockdown | Fernando Alvarez et al. | [here](#a-simple-planning-problem-for-covid-19-lockdown) |
 | Machine Learning the Phenomenology of COVID-19 From Early Infection Dynamics | Malik Magdon-Ismail et al. | [here](#machine-learning-the-phenomenology-of-covid-19-from-early-infection-dynamics) |
 | Coronavirus Covid-19 spreading in Italy: optimizing an epidemiological model with dynamic social distancing through Differential Evolution | I. De Falco et al. | [here](#coronavirus-covid-19-spreading-in-italy-optimizing-an-epidemiological-model-with-dynamic-social-distancing-through-differential-evolution) |
@@ -43,6 +43,7 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 | Monitoring Italian COVID-19 spread by an adaptive SEIRD model | Elena Loli Piccolomini et al. | [here](#monitoring-italian-covid-19-spread-by-an-adaptive-seird-model) |
 | Optimal COVID-19 epidemic control until vaccine deployment | R. Djidjou-Demassea et al. | [here](#optimal-covid-19-epidemic-control-until-vaccine-deployment) |
 | Stochastic modeling and estimation of COVID-19 population dynamics | Nikolay M. Yanev et al. | [here](#stochastic-modeling-and-estimation-of-covid-19-population-dynamics) |
+| Evolving epidemiology and transmission dynamics of coronavirus disease 2019 outside Hubei province, China: a descriptive and modelling study | Juanjuan Zhang et al. | [here](#evolving-epidemiology-and-transmission-dynamics-of-coronavirus-disease-2019-outside-hubei-province-china-a-descriptive-and-modelling-study) |
 | Predicting the Spread of the COVID-19 Across Cities in China with Population Migration and Policy Intervention | Jiang Zhang et al. | [here](#predicting-the-spread-of-the-covid-19-across-cities-in-china-with-population-migration-and-policy-intervention) |
 | Total Variation Regularization for Compartmental Epidemic Models with Time-varying Dynamics | Wenjie Zheng et al. | [here](#total-variation-regularization-for-compartmental-epidemic-models-with-time-varying-dynamics) |
 | A Modified SIR Model for the COVID-19 Contagion in Italy | Giuseppe C. Calafiore et al. | [here](#a-modified-sir-model-for-the-covid-19-contagion-in-italy) |
@@ -79,9 +80,7 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 | First attempts to model the dynamics of the coronavirus outbreaks 2020 | Thomas Gotz et al. | [here](#first-attempts-to-model-the-dynamics-of-the-coronavirus-outbreaks-2020) |
 | A Time Delay Dynamic System with External Sourcefor the Local Outbreak of 2019-nCoV | Yu Chen et al. | [here](#a-time-delay-dynamic-system-with-external-sourcefor-the-local-outbreak-of-2019-ncov) |
 | Understanding Unreported Cases in the 2019-nCov Epidemic Outbreak in Wuhan, China, and the Importance of Major Public Health Interventions | Z. Liu et al. | [here](#understanding-unreported-cases-in-the-2019-ncov-epidemic-outbreak-in-wuhan-china-and-the-importance-of-major-public-health-interventions) |
-| Evolving epidemiology and transmission dynamics of coronavirus disease 2019 outside Hubei province, China: a descriptive and modelling study | Juanjuan Zhang et al. | [here](#evolving-epidemiology-and-transmission-dynamics-of-coronavirus-disease-2019-outside-hubei-province-china-a-descriptive-and-modelling-study) |
 | Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study | Joseph T Wu et al. | [here](#nowcasting-and-forecasting-the-potential-domestic-and-international-spread-of-the-2019-ncov-outbreak-originating-in-wuhan-china-a-modelling-study) |
-| ICU Capacity Management During the COVID-19 Pandemic Using a Stochastic Process Simulation | Andres Alban et al. | [here](#icu-capacity-management-during-the-covid-19-pandemic-using-a-stochastic-process-simulation) |
 ## Policy brief : Analyse cout-benefice des strategies de deconfinement 
 ### General information
 **Authors** : Christian Gollier</br>
@@ -247,7 +246,7 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 ### Technical information
 #### Model information
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>dynamic panel; SIR</details>
+<details><summary> <b>Model sub-category</b> </summary>dynamic panel data model; SIR</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Italy, Spain, Germany, France, the UK, Singapore, South Korea, China, the US - 01/22 to 04/03 - historical data and data on timings of interventions</details>
 
@@ -308,7 +307,7 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 
 ## COVID-19: Analytics Of Contagion On Inhomogeneous Random Social Networks 
 ### General information
-**Authors** : T. R. HURD</br>
+**Authors** : T. R. Hurd</br>
 **Publication date** : 04/07</br>
 **Paper** : Available [here](https://arxiv.org/pdf/2004.02779.pdf)</br>
 **Code available** : No</br>
@@ -341,6 +340,19 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) extensive theory; 2) introduction of an inhomogeneous random social network as a structure for cascade infections and the modelling of immunity </details></br>
 
+## ICU Capacity Management During the COVID-19 Pandemic Using a Stochastic Process Simulation 
+### General information
+**Authors** : Andres Alban, Stephen E. Chick INSEAD, Dave A. Dongelmans, Alexander F. van der Sluijs, W. Joost Wiersinga, Alexander P. J. Vlaar, Danielle Sent</br>
+**Publication date** : 04/07</br>
+**Paper** : Available [here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3570406)</br>
+**Code available** : null</br>
+### Technical information
+#### Model information
+**Model category** : null</br>
+<details><summary> <b>Model sub-category</b> </summary>null</details>
+
+#### Estimation information
+#### Additional information
 ## A Simple Planning Problem for COVID-19 Lockdown 
 ### General information
 **Authors** : Fernando Alvarez, David Argente, Francesco Lippi</br>
@@ -480,7 +492,7 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 **Code available** : https://github.com/plai-group/covid</br>
 ### Technical information
 #### Model information
-**Model category** : compartmental, agent-based</br>
+**Model category** : compartmental;agent-based</br>
 <details><summary> <b>Model sub-category</b> </summary>SIER with 3 infectious states and agent-based (FRED)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>simulated</details>
@@ -703,6 +715,34 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) statistical guarantees for all three estimators</details></br>
 
+## Evolving epidemiology and transmission dynamics of coronavirus disease 2019 outside Hubei province, China: a descriptive and modelling study 
+### General information
+**Authors** : Juanjuan Zhang, Maria Litvinova, Wei Wang, Yan Wang, Xiaowei Deng, Xinghui Chen, Mei Li, Wen Zheng, Lan Yi, Xinhua Chen, Qianhui Wu, Yuxia Liang, Xiling Wang, Juan Yang, Kaiyuan Sun, Ira M Longini Jr, M Elizabeth Halloran, Peng Wu, Benjamin J Cowling, Stefano Merler, Cecile Viboud, Alessandro Vespignani, Marco Ajelli, Hongjie Yu</br>
+**Publication date** : 04/02</br>
+**Paper** : Available [here](http://www.cidid.org/publications-1/2020/4/6/evolving-epidemiology-and-transmission-dynamics-of-coronavirus-disease-2019-outside-hubei-province-china-a-descriptive-and-modelling-study)</br>
+**Code available** : for the calculation of the R0 dynamics, https://github.com/majelli/Rt</br>
+### Technical information
+#### Model information
+**Model category** : probabilistic</br>
+<details><summary> <b>Model sub-category</b> </summary>null</details>
+
+<details><summary> <b>Data used for the model</b> </summary>China at the provincial (outside Hubei) - 01/19 to 02/17 - individual information (demographic characteristics, exposure and travel history, and key timelines) of laboratory-confirmed cases from official public sources</details>
+
+<details><summary> <b>Global approach</b> </summary>estimate at the provincial level the variations in transmission dynamics between two periods via changes in key variables to assess whether the strict control measures put in place in China have been successful in slowing transmission</details>
+
+<details><summary> <b>Outputs</b> </summary>for the two periods 01/24 to 01/27 and 01/28 to 02/27, estimates at the provincial level of 1) the distributions of the incubation period, the serial interval, the time from symptom onset to hospital admission, the time from first healthcare consultation to hospital admission and the time from symptom onset to official reporting, with several choices of laws and the resultant AIC; 2) the dynamics of the R0
+</details>
+
+<details><summary> <b>How intervention strategies are modelled</b> </summary>influence of interventions modelled through the time-dependency of the R0</details>
+
+#### Estimation information
+<details><summary> <b>Problem Formulation</b> </summary>1) Find the best fit of the key time-to-event data between Weibull, gamma, and lognormal distributions 2) calculation of the best fitting trajectory of the R0 with the hypothesis that the number of cases is Poisson distributed</details>
+
+<details><summary> <b>Solving Method</b> </summary>1) MLE to fit parameters of Weibull, gamma and lognormal distributions, AIC to determine the best fitting 2) Metropolis-Hastings MCMC sampling to estimate the posterior distribution of the temporal serie of the R0</details>
+
+#### Additional information
+<details><summary> <b>Comment/issues</b> </summary>1) lot of information on the data 2) exploits information on individual exposure to estimate the serial interval 3) investigates robustness in the estimation of R0 wrt the changes in the detection of cases inducted by the new definition of suspected NCIP</details></br>
+
 ## Predicting the Spread of the COVID-19 Across Cities in China with Population Migration and Policy Intervention 
 ### General information
 **Authors** : Jiang Zhang, Lei Dong, Yanbo Zhang, Xinyue Chen, Guiqing, Yao, Zhangang Han</br>
@@ -826,7 +866,7 @@ Prevention))</details>
 
 <details><summary> <b>How intervention strategies are modelled</b> </summary>optimization variable: the method computes the optimal lockdown/release policy for each node of the network; weights on health and economic impact to define</details>
 
-<details><summary> <b>Additional Assumptions</b> </summary>1) strengh of connection between each pair of nodes: proportional to the product of each node's population and inversely proportional to the sqrt of the distance between them</details>
+<details><summary> <b>Additional Assumptions</b> </summary>strengh of connection between each pair of nodes: proportional to the product of each node's population and inversely proportional to the sqrt of the distance between them</details>
 
 #### Estimation information
 <details><summary> <b>Problem Formulation</b> </summary>1) reward function defined by the weighted duration of lockdown, number of infected and dead; 2) loss defined by MSE</details>
@@ -876,16 +916,28 @@ Prevention))</details>
 **Authors** : Christopher JL Murray</br>
 **Publication date** : 03/30</br>
 **Paper** : Available [here](https://www.medrxiv.org/content/10.1101/2020.03.27.20043752v1)</br>
-**Code available** : null</br>
+**Code available** : package CurveFit</br>
 ### Technical information
 #### Model information
-**Model category** : null</br>
-<details><summary> <b>Model sub-category</b> </summary>null</details>
+**Model category** : growth model</br>
+<details><summary> <b>Model sub-category</b> </summary>stochastic; panel data model</details>
 
 <details><summary> <b>Data used for the model</b> </summary>US - confirmed deaths, timings of interventions and data on licensed bed and ICU capacity and average annual utilization from local government, national government, WHO websites and the American Hospital Association; China, Italy - information on inpatient and ICU use; China, Italy, Korea, US: age-specific data on the relative population death rate by age</details>
 
+<details><summary> <b>Global approach</b> </summary>predict the extent and timing of deaths and excess demand for hospital services in the US</details>
+
+<details><summary> <b>Outputs</b> </summary>prediction of the death dynamics, date of peak for the hospital capacity, beds used at the peak, ICU beds used at the peak, ventilators used at the peak</details>
+
+<details><summary> <b>How intervention strategies are modelled</b> </summary>covariate in the model which encodes the timing of implementation of social distancing</details>
+
+<details><summary> <b>Additional Assumptions</b> </summary>time of curve inflexion depends on the timing of implementation of social distancing</details>
+
 #### Estimation information
+<details><summary> <b>Problem Formulation</b> </summary>nonlinear least squares problem</details>
+
 #### Additional information
+<details><summary> <b>Comment/issues</b> </summary>1) addresses the question of hospital capacity 2) joint estimation between US states </details></br>
+
 ## Coronavirus Optimization Algorithm: A bioinspired metaheuristic based on the COVID-19 propagation model 
 ### General information
 **Authors** : F. Martinez-Alvarez , G. Asencio-Cortes, J. F. Torres, D. Gutierrez-Aviles, L. Melgar-Garcia, R. Perez-Chacon, C. Rubio-Escudero, J. C. Riquelme, A. Troncoso</br>
@@ -1431,19 +1483,19 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 **Code available** : No</br>
 ### Technical information
 #### Model information
-**Model category** : growth model; compartmental; probabilistic</br>
+**Model category** : growth model;compartmental; probabilistic</br>
 <details><summary> <b>Model sub-category</b> </summary>1) 8 empirical functions (linear, quadratic, cubic, exponential, Hill’s, Logistic, Gompertz’sand Richards’ functions); 2) 4 statistical  inference methods (exponential growth, maximum likelihood, sequential Bayesian and time-dependent reproduction number); 3) 5 ODE models (SIR, SEIR, SEIR-QD, SEIR-AHQ and SEIR-PO)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>China, seven provinces/cities - 01/20 to 02/28 - from CDC</details>
 
 <details><summary> <b>Global approach</b> </summary>compare the forecast ability of different models</details>
 
-<details><summary> <b>Outputs</b> </summary>for each of the methods, predictions of the confirmed cases dynamics and Akaike information criterion, robustness index and RMSE are computed on the test sets after several train/test splits</details>
+<details><summary> <b>Outputs</b> </summary>for each of the methods, predictions of the confirmed cases dynamics and AIC, robustness index and RMSE are computed on the test sets after several train/test splits</details>
 
 #### Estimation information
 <details><summary> <b>Problem Formulation</b> </summary>evaluate the performance of a method in terms of forecast ability</details>
 
-<details><summary> <b>Solving Method</b> </summary>for each of the methods, data of the cumulated confirmed cases are separated in several train/test sets where the train sets consist in the data troncated at some different dates and the test sets are the data in the following days; then a forward scheme is used to predict the dynamics and the Aakaike information criterion, robustness index and RMSE are computed on the test sets</details>
+<details><summary> <b>Solving Method</b> </summary>for each of the methods, data of the cumulated confirmed cases are separated in several train/test sets where the train sets consist in the data troncated at some different dates and the test sets are the data in the following days; then a forward scheme is used to predict the dynamics and the AIC, robustness index and RMSE are computed on the test sets</details>
 
 <details><summary> <b>Epidemiological parameters</b> </summary>classic parameters</details>
 
@@ -1624,7 +1676,7 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 **Code available** : Use of R0 package in R</br>
 ### Technical information
 #### Model information
-**Model category** : compartmental, probabilistic</br>
+**Model category** : compartmental;probabilistic</br>
 <details><summary> <b>Model sub-category</b> </summary>SIR</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Wuhan - before the closure (01/19 - 01/23) and post-closure (01/23 - 02/08) - from NHC</details>
@@ -1638,7 +1690,7 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 #### Estimation information
 <details><summary> <b>Problem Formulation</b> </summary>estimation of the R0 given historical data</details>
 
-<details><summary> <b>Solving Method</b> </summary>1) first method: exponential growth method (log-linear regression) 2) second method: Poisson distribution on the number of cases generated from a single case (MLE) 3) sequential bayesian method 4) Time-dependent reproduction numbers method 5) for the overall estimate of R0: weighted average (weights from a Poisson loss function) of the five previous R0</details>
+<details><summary> <b>Solving Method</b> </summary>1) first method: log-linear regression 2) second method: Poisson distribution on the number of cases generated from a single case (MLE) 3) sequential bayesian method 4) Time-dependent reproduction numbers method 5) for the overall estimate of R0: weighted average (weights from a Poisson loss function) of the five previous R0</details>
 
 <details><summary> <b>Epidemiological parameters</b> </summary>generation time distribution</details>
 
@@ -1798,7 +1850,7 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 ## Understanding Unreported Cases in the 2019-nCov Epidemic Outbreak in Wuhan, China, and the Importance of Major Public Health Interventions 
 ### General information
 **Authors** : Z. Liu, P. Magal , O. Seydi, G. Webb</br>
-**Publication date** : 02/04</br>
+**Publication date** : 02/05</br>
 **Paper** : Available [here](https://www.preprints.org/manuscript/202002.0079/v1)</br>
 **Code available** : No</br>
 ### Technical information
@@ -1830,23 +1882,10 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) first article of a series of three; 2) prediction of cumulative reported cases from which unreported can be directly deduced by computing a fraction</details></br>
 
-## Evolving epidemiology and transmission dynamics of coronavirus disease 2019 outside Hubei province, China: a descriptive and modelling study 
-### General information
-**Authors** : Juanjuan Zhang, Maria Litvinova, Wei Wang, Yan Wang, Xiaowei Deng, Xinghui Chen, Mei Li, Wen Zheng, Lan Yi, Xinhua Chen, Qianhui Wu, Yuxia Liang, Xiling Wang, Juan Yang, Kaiyuan Sun, Ira M Longini Jr, M Elizabeth Halloran, Peng Wu, Benjamin J Cowling, Stefano Merler, Cecile Viboud, Alessandro Vespignani, Marco Ajelli, Hongjie Yu</br>
-**Publication date** : 02/04</br>
-**Paper** : Available [here](http://www.cidid.org/publications-1/2020/4/6/evolving-epidemiology-and-transmission-dynamics-of-coronavirus-disease-2019-outside-hubei-province-china-a-descriptive-and-modelling-study)</br>
-**Code available** : null</br>
-### Technical information
-#### Model information
-**Model category** : null</br>
-<details><summary> <b>Model sub-category</b> </summary>null</details>
-
-#### Estimation information
-#### Additional information
 ## Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study 
 ### General information
 **Authors** : Joseph T Wu, Kathy Leung, Gabriel M Leung</br>
-**Publication date** : 01/31</br>
+**Publication date** : 02/04</br>
 **Paper** : Available [here](https://www.thelancet.com/action/showPdf?pii=S0140-6736%2820%2930260-9)</br>
 **Code available** : null</br>
 ### Technical information
@@ -1879,16 +1918,3 @@ of cases exported from Wuhan to other cities in mainland China</details>
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>clear former article that addresses many issues including the impact of imported cases at the start of the outbreak, rigorous statistical analysis</details></br>
 
-## ICU Capacity Management During the COVID-19 Pandemic Using a Stochastic Process Simulation 
-### General information
-**Authors** : Andres Alban, Stephen E. Chick INSEAD, Dave A. Dongelmans, Alexander F. van der Sluijs, W. Joost Wiersinga, Alexander P. J. Vlaar, Danielle Sent</br>
-**Publication date** : null</br>
-**Paper** : Available [here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3570406)</br>
-**Code available** : null</br>
-### Technical information
-#### Model information
-**Model category** : null</br>
-<details><summary> <b>Model sub-category</b> </summary>null</details>
-
-#### Estimation information
-#### Additional information

@@ -94,8 +94,12 @@ the-covid-19-pandemic) |
 **Code available** : null</br>
 ### Technical information
 #### Model information
-**Model category** : null</br>
-<details><summary> <b>Model sub-category</b> </summary>null</details>
+**Model category** : compartmental</br>
+<details><summary> <b>Model sub-category</b> </summary>age-structured</details>
+
+<details><summary> <b>Data used for the model</b> </summary>France - daily hospitalizations, ICU admissions, deaths and information on patients hospitalized in public and private hospitals, from the SI-VIC web portal, completed by data from OSCOUR</details>
+
+<details><summary> <b>Outputs</b> </summary>prediction of the dynamics of daily new infections, dialy ICU admissions and number of ICU beds, predicted proportion of the population infected by May 11th for each of the 13 regions in metropolitan France</details>
 
 #### Estimation information
 #### Additional information
@@ -1059,7 +1063,7 @@ Prevention))</details>
 ### Technical information
 #### Model information
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>semi-mechanistic bayesian hierarchical model with SID compartments</details>
+<details><summary> <b>Model sub-category</b> </summary>SID</details>
 
 <details><summary> <b>Data used for the model</b> </summary>11 European countries - observed deaths from the European Centre of Disease Control</details>
 

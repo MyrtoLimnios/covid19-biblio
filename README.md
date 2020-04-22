@@ -24,7 +24,6 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 | --- | --- | --- |
 | Estimating the burden of SARS-CoV-2 in France | Henrik Salje et al. | [here](#estimating-the-burden-of-sars-cov-2-in-france) |
 | Estimating the Maximum Capacity of COVID-19 Cases Manageable per Day Given a Health Care System's Constrained Resources | Vasily Giannakeas et al. | [here](#estimating-the-maximum-capacity-of-covid-19-cases-manageable-per-day-given-a-health-care-systems-constrained-resources) |
-| Pandemic Surge Models in the Time of Severe Acute Respiratory Syndrome Coronavirus-2: Wrong or Useful? | John B. Wong et al. | [here](#pandemic-surge-models-in-the-time-of-severe-acute-respiratory-syndrome-coronavirus-2-wrong-or-useful?) |
 | Temporal dynamics in viral shedding and transmissibility of COVID-19 | Eric H. Y. Lau et al. | [here](#temporal-dynamics-in-viral-shedding-and-transmissibility-of-covid-19) |
 | Policy brief : Analyse cout-benefice des strategies de deconfinement | Christian Gollier et al. | [here](#policy-brief--analyse-cout-benefice-des-strategies-de-deconfinement) |
 | Expected impact of lockdown in Ile-de-France and possible exit strategies | Laura Di Domenico et al. | [here](#expected-impact-of-lockdown-in-ile-de-france-and-possible-exit-strategies) |
@@ -64,6 +63,7 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 | The Optimal COVID-19 Quarantine and Testing Policies | Facundo Piguillem et al. | [here](#the-optimal-covid-19-quarantine-and-testing-policies) |
 | The effect of control strategies to reduce social mixing on outcomes of the COVID-19 epidemic in Wuhan, China: a modelling study | Kiesha Prem et al. | [here](#the-effect-of-control-strategies-to-reduce-social-mixing-on-outcomes-of-the-covid-19-epidemic-in-wuhan-china-a-modelling-study) |
 | Modele SIR mecanistico-statistique pour l'estimation du nombre d'infectes et du taux de mortalite par COVID-19 | Lionel Roques et al. | [here](#modele-sir-mecanistico-statistique-pour-lestimation-du-nombre-dinfectes-et-du-taux-de-mortalite-par-covid-19) |
+| The effect of human mobility and control measures on the COVID-19 epidemic in China | Moritz U. G. Kraemer et al. | [here](#the-effect-of-human-mobility-and-control-measures-on-the-covid-19-epidemic-in-china) |
 | Composite Monte Carlo Decision Making under High Uncertainty of Novel Coronavirus Epidemic Using Hybridized Deep Learning and Fuzzy Rule Induction | Simon James Fong et al. | [here](#composite-monte-carlo-decision-making-under-high-uncertainty-of-novel-coronavirus-epidemic-using-hybridized-deep-learning-and-fuzzy-rule-induction) |
 | Optimal Timing and Effectiveness of COVID-19 Outbreak Responses in China: A Modelling Study | Anthony Zhenhuan Zhang et al. et al. | [here](#optimal-timing-and-effectiveness-of-covid-19-outbreak-responses-in-china-a-modelling-study) |
 | On a quarantine model of coronavirus infection and data analysis | Vitaly Volpert et al. | [here](#on-a-quarantine-model-of-coronavirus-infection-and-data-analysis) |
@@ -71,10 +71,12 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 | Estimating clinical severity of COVID-19 from the transmission dynamics in Wuhan, China | Joseph T. Wu et al. | [here](#estimating-clinical-severity-of-covid-19-from-the-transmission-dynamics-in-wuhan-china) |
 | Mathematical Predictions for COVID-19 as Global Pandemic | Victor Alexander Okhuese et al. | [here](#mathematical-predictions-for-covid-19-as-global-pandemic) |
 | Short-term predictions and prevention strategies forCOVID-2019: A model based study | Sk Shahid Nadim et al. | [here](#short-term-predictions-and-prevention-strategies-forcovid-2019-a-model-based-study) |
+| Transmission potential and severity of COVID-19 in South Korea | Eunha Shima et al. | [here](#transmission-potential-and-severity-of-covid-19-in-south-korea) |
 | COVID-19: Forecasting short term hospital needs in France | Clement Massonnaud et al. | [here](#covid-19-forecasting-short-term-hospital-needs-in-france) |
 | Impact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand | Neil M Ferguson et al. | [here](#impact-of-non-pharmaceutical-interventions-npis-to-reduce-covid-19-mortality-and-healthcare-demand) |
 | Substantial undocumented infection facilitates the rapid dissemination of novel coronavirus (SARS-CoV2) | Ruiyun Li et al. | [here](#substantial-undocumented-infection-facilitates-the-rapid-dissemination-of-novel-coronavirus-sars-cov2) |
 | Rational evaluation of various epidemic models based on the COVID-19 data of China | Wuyue Yang  et al. | [here](#rational-evaluation-of-various-epidemic-models-based-on-the-covid-19-data-of-china) |
+| Retrospective analysis of the possibility of predicting the COVID-19 outbreak from Internet searches and social media data, China, 2020 | Cuilian Li et al. | [here](#retrospective-analysis-of-the-possibility-of-predicting-the-covid-19-outbreak-from-internet-searches-and-social-media-data-china-2020) |
 | Early dynamics of transmission and control of COVID-19: a mathematical modelling study | Adam J Kucharski et al. | [here](#early-dynamics-of-transmission-and-control-of-covid-19-a-mathematical-modelling-study) |
 | The Impact of School Closure for COVID-19 on the US Healthcare Workforce and the Net Mortality Effects | Jude Bayham et al. | [here](#the-impact-of-school-closure-for-covid-19-on-the-us-healthcare-workforce-and-the-net-mortality-effects) |
 | Modeling the Control of COVID-19: Impact ofPolicy Interventions and Meteorological Factor | Jia Jiwei1 et al. | [here](#modeling-the-control-of-covid-19-impact-ofpolicy-interventions-and-meteorological-factor) |
@@ -85,29 +87,26 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 | A Time-dependent SIR model for COVID-19 with Undetectable Infected Persons | Yi-Cheng Chen et al. | [here](#a-time-dependent-sir-model-for-covid-19-with-undetectable-infected-persons) |
 | Predicting the cumulative number of cases for theCOVID-19 epidemic in China from early data | Z. Liu et al. | [here](#predicting-the-cumulative-number-of-cases-for-thecovid-19-epidemic-in-china-from-early-data) |
 | Estimation of the epidemic properties of the 2019 novel coronavirus: A mathematical modeling study | Jinghua Li  et al. | [here](#estimation-of-the-epidemic-properties-of-the-2019-novel-coronavirus-a-mathematical-modeling-study) |
+| Preparedness and vulnerability of African countries against importations of COVID-19: a modelling study | Marius Gilbert et al. | [here](#preparedness-and-vulnerability-of-african-countries-against-importations-of-covid-19-a-modelling-study) |
 | Estimation of the final size of the COVID-19 epidemic | Milan Batista et al. | [here](#estimation-of-the-final-size-of-the-covid-19-epidemic) |
+| Incubation Period and Other Epidemiological Characteristics of 2019 Novel Coronavirus Infections with Right Truncation: A Statistical Analysis of Publicly Available Case Data | Natalie M. Linton et al. | [here](#incubation-period-and-other-epidemiological-characteristics-of-2019-novel-coronavirus-infections-with-right-truncation-a-statistical-analysis-of-publicly-available-case-data) |
+| Assessing the Impact of Reduced Travel on Exportation Dynamics of Novel Coronavirus Infection (COVID-19) | Asami Anzai et al. | [here](#assessing-the-impact-of-reduced-travel-on-exportation-dynamics-of-novel-coronavirus-infection-covid-19) |
 | Predictions of 2019-nCoV Transmission Ending via Comprehensive Methods | Tianyu Zeng et al. | [here](#predictions-of-2019-ncov-transmission-ending-via-comprehensive-methods) |
+| Epidemiological Identification of A Novel Pathogen in Real Time: Analysis of the Atypical Pneumonia Outbreak in Wuhan, China, 2019–2020 | Sung-mok Jung et al. | [here](#epidemiological-identification-of-a-novel-pathogen-in-real-time-analysis-of-the-atypical-pneumonia-outbreak-in-wuhan-china-2019–2020) |
 | A Time Delay Dynamic System with External Sourcefor the Local Outbreak of 2019-nCoV | Yu Chen et al. | [here](#a-time-delay-dynamic-system-with-external-sourcefor-the-local-outbreak-of-2019-ncov) |
+| Effectiveness of airport screening at detecting travellers infected with novel coronavirus (2019-nCoV) | Billy J Quilty et al. | [here](#effectiveness-of-airport-screening-at-detecting-travellers-infected-with-novel-coronavirus-2019-ncov) |
 | Understanding Unreported Cases in the 2019-nCov Epidemic Outbreak in Wuhan, China, and the Importance of Major Public Health Interventions | Z. Liu et al. | [here](#understanding-unreported-cases-in-the-2019-ncov-epidemic-outbreak-in-wuhan-china-and-the-importance-of-major-public-health-interventions) |
 | Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study | Joseph T Wu et al. | [here](#nowcasting-and-forecasting-the-potential-domestic-and-international-spread-of-the-2019-ncov-outbreak-originating-in-wuhan-china-a-modelling-study) |
-| Assessing the Impact of Reduced Travel on Exportation Dynamics of Novel Coronavirus Infection (COVID-19) | null et al. | [here](#assessing-the-impact-of-reduced-travel-on-exportation-dynamics-of-novel-coronavirus-infection-covid-19) |
-| Preparedness and vulnerability of African countries against importations of COVID-19: a modelling study | null et al. | [here](#preparedness-and-vulnerability-of-african-countries-against-importations-of-covid-19-a-modelling-study) |
-| The effect of human mobility and control measures on the COVID-19 epidemic in China | null et al. | [here](#the-effect-of-human-mobility-and-control-measures-on-the-covid-19-epidemic-in-china) |
-| Transmission potential and severity of COVID-19 in South Korea | null et al. | [here](#transmission-potential-and-severity-of-covid-19-in-south-korea) |
-| Epidemiological Identification of A Novel Pathogen in Real Time: Analysis of the Atypical Pneumonia Outbreak in Wuhan, China, 2019–2020 | null et al. | [here](#epidemiological-identification-of-a-novel-pathogen-in-real-time-analysis-of-the-atypical-pneumonia-outbreak-in-wuhan-china-2019–2020) |
-| Incubation Period and Other Epidemiological Characteristics of 2019 Novel Coronavirus Infections with Right Truncation: A Statistical Analysis of Publicly Available Case Data | null et al. | [here](#incubation-period-and-other-epidemiological-characteristics-of-2019-novel-coronavirus-infections-with-right-truncation-a-statistical-analysis-of-publicly-available-case-data) |
-| Effectiveness of airport screening at detecting travellers infected with novel coronavirus (2019-nCoV) | null et al. | [here](#effectiveness-of-airport-screening-at-detecting-travellers-infected-with-novel-coronavirus-2019-ncov) |
-| Retrospective analysis of the possibility of predicting the COVID-19 outbreak from Internet searches and social media data, China, 2020 | null et al. | [here](#retrospective-analysis-of-the-possibility-of-predicting-the-covid-19-outbreak-from-internet-searches-and-social-media-data-china-2020) |
 ## Estimating the burden of SARS-CoV-2 in France 
 ### General information
 **Authors** : Henrik Salje, Cécile Tran Kiem, Noémie Lefrancq, Noémie Courtejoie, Paolo Bosetti, Juliette Paireau, Alessio Andronico, Nathanaël Hoze, Jehanne Richet, Claire-Lise Dubost, Yann Le Strat, Justin Lessler, Daniel Bruhl, Arnaud Fontanet, Lulla Opatowski, Pierre-Yves Boëlle, Simon Cauchemez </br>
 **Publication date** : 04/20</br>
 **Paper** : Available [here](https://hal-pasteur.archives-ouvertes.fr/pasteur-02548181)</br>
-**Code available** : null</br>
+**Code available** : No</br>
 ### Technical information
 #### Model information
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SEI, ICU (admission to ICU) with two E compartments; age-structured</details>
+<details><summary> <b>Model sub-category</b> </summary>SEI;ICU (admission to ICU) with two E compartments;age-structured</details>
 
 <details><summary> <b>Data used for the model</b> </summary>France - daily hospitalizations, ICU admissions, deaths and information on patients hospitalized in public and private hospitals, from the SI-VIC web portal, completed by data from OSCOUR</details>
 
@@ -126,10 +125,10 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 **Authors** : Vasily Giannakeas, Deepit Bhatia, Matthew T. Warkentin, Isaac I. Bogoch, Nathan M. Stall</br>
 **Publication date** : 04/16</br>
 **Paper** : Available [here](https://annals.org/aim/fullarticle/2764818/estimating-maximum-capacity-covid-19-cases-manageable-per-day-given)</br>
-**Code available** : null</br>
+**Code available** : code to build the web app: shiny package in R</br>
 ### Technical information
 #### Model information
-**Model category** : null</br>
+**Model category** : no model</br>
 <details><summary> <b>Model sub-category</b> </summary>null</details>
 
 <details><summary> <b>Global approach</b> </summary>propose an online tool https://caic-rt.shinyapps.io/CAIC-RT/ to estimate the maximum number of cases that could be managed per day within the catchment area served by a health care system, given acute and critical care resource availability </details>
@@ -146,33 +145,37 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 <details><summary> <b>How input parameters are estimated</b> </summary>1) default epidemiological parameters are based from litterature 2) defaults resource constraints parameters are calibrated for Ontario, Canada</details>
 
 #### Additional information
-<details><summary> <b>Comment/issues</b> </summary>interesting online tool to estimate daily capacity to care covid-19 patients</details></br>
+<details><summary> <b>Comment/issues</b> </summary>convenient online tool to estimate daily capacity to care covid-19 patients</details></br>
 
-## Pandemic Surge Models in the Time of Severe Acute Respiratory Syndrome Coronavirus-2: Wrong or Useful? 
-### General information
-**Authors** : John B. Wong</br>
-**Publication date** : 04/16</br>
-**Paper** : Available [here](https://annals.org/aim/fullarticle/2764846/pandemic-surge-models-time-severe-acute-respiratory-syndrome-coronavirus-2)</br>
-**Code available** : null</br>
-### Technical information
-#### Model information
-**Model category** : null</br>
-<details><summary> <b>Model sub-category</b> </summary>null</details>
-
-#### Estimation information
-#### Additional information
 ## Temporal dynamics in viral shedding and transmissibility of COVID-19 
 ### General information
 **Authors** : Eric H. Y. Lau, Peng Wu, Xilong Deng, Jian Wang, Xinxin Hao, Yiu Chung Lau, Jessica Y. Wong,Yujuan Guan, Xinghua Tan, Xiaoneng Mo, Yanqing Chen, Baolin Liao, Weilie Chen, Fengyu Hu, Qing Zhang, Mingqiu Zhong, Yanrong Wu, Lingzhai Zhao, Fuchun Zhang, Benjamin J. Cowling, Fang Li, Gabriel M. Leung</br>
 **Publication date** : 04/15</br>
 **Paper** : Available [here](https://www.nature.com/articles/s41591-020-0869-5)</br>
-**Code available** : null</br>
+**Code available** : code in R on https://github.com/ehylau/COVID-19</br>
 ### Technical information
 #### Model information
-**Model category** : null</br>
+**Model category** : stochastic</br>
 <details><summary> <b>Model sub-category</b> </summary>null</details>
 
+<details><summary> <b>Data used for the model</b> </summary>77 infector - infectee transmission pairs (two confirmed cases such that one
+case was highly likely to have been infected by the other) from publicly available data</details>
+
+<details><summary> <b>Global approach</b> </summary>retrace the serie of events in infection to locate the period of infectiousness</details>
+
+<details><summary> <b>Outputs</b> </summary>1) estimation of the dynamics of infectiousness (probability that the transmission event would occur) 2) simulations of the dynamics of infectiousness 3) simulation of the serial interval dynamics with different supposed infectiousness dynamics</details>
+
+<details><summary> <b>Additional Assumptions</b> </summary>infected cases would become infectious at a certain time point before or after illness onset</details>
+
 #### Estimation information
+<details><summary> <b>Problem Formulation</b> </summary>maximizing the likelihood of the observed serial intervals, assuming the distribution of the serial interval is a convolution between assumed gamma distribution of the date of transmission and the assumed lognormal distribution of the incubation period, to estimate the parameters of the date of transmission event distribution</details>
+
+<details><summary> <b>Solving Method</b> </summary>MLE, bootstrap to provide confidence intervals</details>
+
+<details><summary> <b>Epidemiological parameters</b> </summary>incubation period distribution</details>
+
+<details><summary> <b>How input parameters are estimated</b> </summary>incubation period distribution from litterature (https://www.nejm.org/doi/full/10.1056/NEJMoa2001316, data from Wuhan)</details>
+
 #### Additional information
 ## Policy brief : Analyse cout-benefice des strategies de deconfinement 
 ### General information
@@ -183,7 +186,7 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 ### Technical information
 #### Model information
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SIRD with two categories of susceptible (working and confined) and six categories of infected (quarant, working and confined and old or new within these compartments)</details>
+<details><summary> <b>Model sub-category</b> </summary>SIRD; with two categories of susceptible (working and confined) and six categories of infected (quarant, working and confined and old or new within these compartments)</details>
 
 <details><summary> <b>Global approach</b> </summary>simulations under different scenarios of interventions</details>
 
@@ -211,8 +214,8 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 **Code available** : No</br>
 ### Technical information
 #### Model information
-**Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>stochastic; age-structured; SEIRD, H (hospitalized), ICU (admission to ICU), with different categories of infected (prodromic, asymptomatic, paucisymptomatic, infectious with mild or severe symptoms)</details>
+**Model category** : stochastic;compartmental</br>
+<details><summary> <b>Model sub-category</b> </summary>age-structured;SEIRD; H (hospitalized), ICU (admission to ICU), with different categories of infected (prodromic, asymptomatic, paucisymptomatic, infectious with mild or severe symptoms)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Ile de France -  up to 04/03 - hospital admission data before lockdown from French hospital data APHP</details>
 
@@ -244,8 +247,8 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 **Code available** : No</br>
 ### Technical information
 #### Model information
-**Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>stochastic; SEIR (E: exposed latent but not infectious)</details>
+**Model category** : stochastic;compartmental</br>
+<details><summary> <b>Model sub-category</b> </summary>SEIR;(E: exposed latent but not infectious)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Washington, King and Snohomish counties - 02/28 to 03/30; Pierce county - 03/05 to 03/30 - lab testing data from WADoH through the WDRS, mobility data from Facebook Data For Good Project - Disease Prevention Maps</details>
 
@@ -292,7 +295,7 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 ### Technical information
 #### Model information
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SEIRQ (I: divided into asymptomatic and symptomatic populations)</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIRQ;(I: divided into asymptomatic and symptomatic populations)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Asia, Europe, North and South Amercia until 03/27 from WHO</details>
 
@@ -373,7 +376,7 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 ### Technical information
 #### Model information
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>dynamic panel data model; SIR</details>
+<details><summary> <b>Model sub-category</b> </summary>dynamic panel data model;SIR</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Italy, Spain, Germany, France, the UK, Singapore, South Korea, China, the US - 01/22 to 04/03 - historical data and data on timings of interventions</details>
 
@@ -405,12 +408,12 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 **Code available** : See Appendix (R and Julia) </br>
 ### Technical information
 #### Model information
-**Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>stochastic; age-structured; SIR</details>
+**Model category** : stochastic;compartmental</br>
+<details><summary> <b>Model sub-category</b> </summary>age-structured;SIR</details>
 
 <details><summary> <b>Data used for the model</b> </summary>simulated data</details>
 
-<details><summary> <b>Global approach</b> </summary>forcast of the epidemic model with various public health interventions </details>
+<details><summary> <b>Global approach</b> </summary>forecast of the epidemic model with various public health interventions </details>
 
 <details><summary> <b>Outputs</b> </summary>prediction of the compartments dynamics</details>
 
@@ -441,7 +444,7 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 ### Technical information
 #### Model information
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>IRSN + SI + SIR + SEIRD with cascade mechanism</details>
+<details><summary> <b>Model sub-category</b> </summary>IRSN;SI;SIR;SEIRD; with cascade mechanism</details>
 
 <details><summary> <b>Data used for the model</b> </summary>simulated data</details>
 
@@ -502,7 +505,7 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 ### Technical information
 #### Model information
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SIR; optimal control</details>
+<details><summary> <b>Model sub-category</b> </summary>SIR;optimal control</details>
 
 <details><summary> <b>Data used for the model</b> </summary>countries with at least 100 cases - from WHO, JHU</details>
 
@@ -537,7 +540,7 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 ### Technical information
 #### Model information
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SIR where infected cases are divided into three classes: mild cases, serious and asymptomatic cases</details>
+<details><summary> <b>Model sub-category</b> </summary>SIR;infected cases divided into mild, serious and asymptomatic cases</details>
 
 <details><summary> <b>Data used for the model</b> </summary>USA - early dynamics (first month) "in order to avoid public health protocols bias"</details>
 
@@ -568,7 +571,7 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 ### Technical information
 #### Model information
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SEIRD with a time-varying social distancing function</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIRD;time-varying social distancing function</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Italy until 03/29 - from Italian Ministry for Health free repository </details>
 
@@ -601,7 +604,7 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 ### Technical information
 #### Model information
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SIR + SEIR + Neural Network</details>
+<details><summary> <b>Model sub-category</b> </summary>SIR;SEIR;Neural Network</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Wuhan - 01/24 to 03/03 from CDC, Italy - 02/24 to 03/23, South Korea - 02/22 to 03/17, USA - 03/08 to 04/01 from CSSE and JHU</details>
 
@@ -633,7 +636,7 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 ### Technical information
 #### Model information
 **Model category** : compartmental;agent-based</br>
-<details><summary> <b>Model sub-category</b> </summary>SIER with 3 infectious states and agent-based (FRED)</details>
+<details><summary> <b>Model sub-category</b> </summary>SIER; with 3 infectious states;FRED</details>
 
 <details><summary> <b>Data used for the model</b> </summary>simulated</details>
 
@@ -669,7 +672,7 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 ### Technical information
 #### Model information
 **Model category** : growth model</br>
-<details><summary> <b>Model sub-category</b> </summary>GLR, Gompertz</details>
+<details><summary> <b>Model sub-category</b> </summary>GLR;Gompertz</details>
 
 <details><summary> <b>Data used for the model</b> </summary>China, South Korea, Spain, Costa Rica, Italy, USA - from European Centre for Disease Prevention and Control</details>
 
@@ -697,7 +700,7 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 **Code available** : Yes but link broken</br>
 ### Technical information
 #### Model information
-**Model category** : hierarchical bayesian model</br>
+**Model category** : stochastic</br>
 <details><summary> <b>Model sub-category</b> </summary>time varying bayesian autoregressive model for counts</details>
 
 <details><summary> <b>Data used for the model</b> </summary>3 most affected regions in China, South Korea, Singapore (for aggressive testing strategy), USA, European countries - 01/23 to 03/26 </details>
@@ -732,8 +735,8 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 **Code available** : Use of https://github.com/ryansmcgee/seirsplus</br>
 ### Technical information
 #### Model information
-**Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SEIR-Erlang and stochastic SEIR on social network (R: recovered, quarantined or dead)</details>
+**Model category** : stochastic;compartmental</br>
+<details><summary> <b>Model sub-category</b> </summary>SEIR-Erlang;SEIR;on social network;(R: recovered, quarantined or dead)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>simulated data</details>
 
@@ -797,7 +800,7 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 ### Technical information
 #### Model information
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SEAIR (two categories: mild or severe infection for each state), optimal control</details>
+<details><summary> <b>Model sub-category</b> </summary>SEAIR; (two categories: mild or severe infection for each state);optimal control</details>
 
 <details><summary> <b>Data used for the model</b> </summary>simulated data</details>
 
@@ -832,7 +835,7 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 **Code available** : No but daily reports per country http://ir-statistics.net/covid-19/</br>
 ### Technical information
 #### Model information
-**Model category** : stochastic process</br>
+**Model category** : stochastic</br>
 <details><summary> <b>Model sub-category</b> </summary>branching processes</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Bulgaria, Italy, France, Germany, Spain - 03/08 to 03/28 - from WHO </details>
@@ -863,7 +866,7 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 **Code available** : for the calculation of the R0 dynamics, https://github.com/majelli/Rt</br>
 ### Technical information
 #### Model information
-**Model category** : probabilistic</br>
+**Model category** : stochastic</br>
 <details><summary> <b>Model sub-category</b> </summary>null</details>
 
 <details><summary> <b>Data used for the model</b> </summary>China at the provincial (outside Hubei) - 01/19 to 02/17 - individual information (demographic characteristics, exposure and travel history, and key timelines) of laboratory-confirmed cases from official public sources</details>
@@ -929,8 +932,8 @@ Prevention))</details>
 **Code available** : https://github.com/WenjieZ/2019-nCoV</br>
 ### Technical information
 #### Model information
-**Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>stochastic state-space framework for SIR and SIRQ (R: death/recovered, Q: hospitalized or quarantined)</details>
+**Model category** : stochastic;compartmental</br>
+<details><summary> <b>Model sub-category</b> </summary>state-space framework;SIR;SIRQ; (R: death/recovered, Q: hospitalized or quarantined)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>simulated data: virulence data, surveillance data, serological data</details>
 
@@ -996,7 +999,7 @@ Prevention))</details>
 ### Technical information
 #### Model information
 **Model category** : reinforcement learning</br>
-<details><summary> <b>Model sub-category</b> </summary>SEIRD and NN</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIRD;NN</details>
 
 <details><summary> <b>Data used for the model</b> </summary>simulated</details>
 
@@ -1059,8 +1062,8 @@ Prevention))</details>
 **Code available** : package CurveFit</br>
 ### Technical information
 #### Model information
-**Model category** : growth model</br>
-<details><summary> <b>Model sub-category</b> </summary>stochastic; panel data model</details>
+**Model category** : stochastic;growth model</br>
+<details><summary> <b>Model sub-category</b> </summary>panel data model</details>
 
 <details><summary> <b>Data used for the model</b> </summary>US - confirmed deaths, timings of interventions and data on licensed bed and ICU capacity and average annual utilization from local government, national government, WHO websites and the American Hospital Association; China, Italy - information on inpatient and ICU use; China, Italy, Korea, US: age-specific data on the relative population death rate by age</details>
 
@@ -1086,8 +1089,8 @@ Prevention))</details>
 **Code available** : 1) partial pseudo-code 2) git with java code https://github.com/DataLabUPO/CVOA_academic</br>
 ### Technical information
 #### Model information
-**Model category** : agent-based</br>
-<details><summary> <b>Model sub-category</b> </summary>stochastic; agent-based</details>
+**Model category** : stochastic;agent-based</br>
+<details><summary> <b>Model sub-category</b> </summary>agent-based</details>
 
 <details><summary> <b>Global approach</b> </summary>simulate a growing population of infectious starting from a patient zero with a simple binary encoding of individuals</details>
 
@@ -1164,7 +1167,7 @@ Prevention))</details>
 ### Technical information
 #### Model information
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SIR with diffusion</details>
+<details><summary> <b>Model sub-category</b> </summary>SIR; with diffusion</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Europe and India - from 02/24 </details>
 
@@ -1228,7 +1231,7 @@ Prevention))</details>
 ### Technical information
 #### Model information
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SEIR, optimal control</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIR;optimal control</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Italy, early data</details>
 
@@ -1263,7 +1266,7 @@ Prevention))</details>
 ### Technical information
 #### Model information
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>stochastic; age-structured; SEIR, with clinical and subclinical I</details>
+<details><summary> <b>Model sub-category</b> </summary>stochastic;age-structured;SEIR; with clinical and subclinical I</details>
 
 <details><summary> <b>Data used for the model</b> </summary>simulated - synthetic contact mixing matrices for China scaled to Wuhan population size</details>
 
@@ -1300,7 +1303,7 @@ resulted from a subclinical individual; daily rate entering in R and daily rate 
 ### Technical information
 #### Model information
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SIR and inferential statistics</details>
+<details><summary> <b>Model sub-category</b> </summary>SIR;inferential statistics</details>
 
 <details><summary> <b>Data used for the model</b> </summary>France, South Korea - 02/22 to 03/17</details>
 
@@ -1322,6 +1325,19 @@ resulted from a subclinical individual; daily rate entering in R and daily rate 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) interesting statistical inference method to estimate the total number of unreported cases; 2) basic a priori distribution chosen</details></br>
 
+## The effect of human mobility and control measures on the COVID-19 epidemic in China 
+### General information
+**Authors** : Moritz U. G. Kraemer, Chia-Hung Yang, Bernardo Gutierrez, Chieh-Hsi Wu, Brennan Klein, David M. Pigott, Louis du Plessis, Nuno R. Faria, Ruoran Li, William P. Hanage, John S. Brownstein, Maylis Layan, Alessandro Vespignani, Huaiyu Tian, Christopher Dye, Oliver G. Pybus, Samuel V. Scarpino</br>
+**Publication date** : 03/25</br>
+**Paper** : Available [here](https://science.sciencemag.org/content/early/2020/03/25/science.abb4218)</br>
+**Code available** : null</br>
+### Technical information
+#### Model information
+**Model category** : null</br>
+<details><summary> <b>Model sub-category</b> </summary>null</details>
+
+#### Estimation information
+#### Additional information
 ## Composite Monte Carlo Decision Making under High Uncertainty of Novel Coronavirus Epidemic Using Hybridized Deep Learning and Fuzzy Rule Induction 
 ### General information
 **Authors** : Simon James Fong, Gloria Li, Nilanjan Dey, Ruben Gonzalez Crespo, Enrique Herrera-Viedma</br>
@@ -1364,7 +1380,7 @@ resulted from a subclinical individual; daily rate entering in R and daily rate 
 ### Technical information
 #### Model information
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SEIR (I: divided into symptomatic and asymptomatic populations)</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIR; (I: divided into symptomatic and asymptomatic populations)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Major Chinese cities - 12/01/19 to 03/31 - from CDC, WHO, Diamond Princess Cruise</details>
 
@@ -1430,7 +1446,7 @@ resulted from a subclinical individual; daily rate entering in R and daily rate 
 ### Technical information
 #### Model information
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SIRU (I: asymptomatic infectious, R: reported symptomatic, U: unreported symptomatic)</details>
+<details><summary> <b>Model sub-category</b> </summary>SIRU; (I: asymptomatic infectious, R: reported symptomatic, U: unreported symptomatic)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Korean Center for Disease Control 01/20 - 03/09, Italian Ministry of Health 01/31 - 03/03, French Public Agency of Health 02/25 - 03/09 and Robert Koch Institute of Germany 02/24 - 03/09</details>
 
@@ -1499,7 +1515,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 ### Technical information
 #### Model information
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SEIRUS (R: infected population quarantined and expecting recovery at time t, U: recovered satisfying undetectable criteria)</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIRUS; (R: infected population quarantined and expecting recovery at time t, U: recovered satisfying undetectable criteria)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Worldwide - 01/22 to 03/14 - WHO, JHU</details>
 
@@ -1534,7 +1550,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 ### Technical information
 #### Model information
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SEIRQAJ (quarantined, asymptomatic, symptomatic, isolated, recovered)</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIRQAJ; (quarantined, asymptomatic, symptomatic, isolated, recovered)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>China, five provinces - 01/22 to 02/22 </details>
 
@@ -1560,6 +1576,19 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) indepth theoritical analysis; 2) comparison if control policy and if not; 3) predictive model + estimation of R0 et if control, RC; 4) good numerical analysis (RMSE +MAE); 5) long and short term prediction (quick numerical analysis of possible outbreak); 6) interesting heat maps for parameters correlations and impact on RC</details></br>
 
+## Transmission potential and severity of COVID-19 in South Korea 
+### General information
+**Authors** : Eunha Shima, Amna Tariqb , Wongyeong Choia , Yiseul Leeb , Gerardo Chowe</br>
+**Publication date** : 03/17</br>
+**Paper** : Available [here](https://www.ijidonline.com/article/S1201-9712(20)30150-8/fulltext)</br>
+**Code available** : null</br>
+### Technical information
+#### Model information
+**Model category** : null</br>
+<details><summary> <b>Model sub-category</b> </summary>null</details>
+
+#### Estimation information
+#### Additional information
 ## COVID-19: Forecasting short term hospital needs in France 
 ### General information
 **Authors** : Clement Massonnaud, Jonathan Roux, Pascal Crépey</br>
@@ -1569,7 +1598,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 ### Technical information
 #### Model information
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>age-structured; SEIR</details>
+<details><summary> <b>Model sub-category</b> </summary>age-structured;SEIR</details>
 
 <details><summary> <b>Data used for the model</b> </summary>French regions - 01/22 to 03/14 - from INSEE, SAE</details>
 
@@ -1603,8 +1632,8 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 **Code available** : No</br>
 ### Technical information
 #### Model information
-**Model category** : agent-based</br>
-<details><summary> <b>Model sub-category</b> </summary>stochastic, spatially structured agent-based</details>
+**Model category** : stochastic;agent-based</br>
+<details><summary> <b>Model sub-category</b> </summary>spatially-structured;agent-based</details>
 
 <details><summary> <b>Data used for the model</b> </summary>GB - data on spatial and social repartition (age and household distribution size, average class sizes and staff-student ratios, distribution of workplace size)</details>
 
@@ -1649,7 +1678,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 **Code available** : No</br>
 ### Technical information
 #### Model information
-**Model category** : growth model;compartmental; probabilistic</br>
+**Model category** : growth model;compartmental;stochastic</br>
 <details><summary> <b>Model sub-category</b> </summary>1) 8 empirical functions (linear, quadratic, cubic, exponential, Hill’s, Logistic, Gompertz’sand Richards’ functions); 2) 4 statistical  inference methods (exponential growth, maximum likelihood, sequential Bayesian and time-dependent reproduction number); 3) 5 ODE models (SIR, SEIR, SEIR-QD, SEIR-AHQ and SEIR-PO)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>China, seven provinces/cities - 01/20 to 02/28 - from CDC</details>
@@ -1670,6 +1699,19 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) systematical investigation on the forecast ability of 8 widely used empirical functions, 4 statistical inference methods and 5 dynamical models widely used in the literature; addresses the requierements on robustness, sensitivity and the trade-off between model complexity and accuracy; 2) not enough details on the different methods</details></br>
 
+## Retrospective analysis of the possibility of predicting the COVID-19 outbreak from Internet searches and social media data, China, 2020 
+### General information
+**Authors** : Cuilian Li, Li Jia Chen, Xueyu Chen, Mingzhi Zhang, Chi Pui Pang, Haoyu Chen</br>
+**Publication date** : 03/12</br>
+**Paper** : Available [here](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.10.2000199)</br>
+**Code available** : null</br>
+### Technical information
+#### Model information
+**Model category** : null</br>
+<details><summary> <b>Model sub-category</b> </summary>null</details>
+
+#### Estimation information
+#### Additional information
 ## Early dynamics of transmission and control of COVID-19: a mathematical modelling study 
 ### General information
 **Authors** : Adam J Kucharski, Timothy W Russell, Charlie Diamond, Yang Liu, John Edmunds, Sebastian Funk, Rosalind M Eggo, </br>
@@ -1751,8 +1793,8 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 **Code available** : No</br>
 ### Technical information
 #### Model information
-**Model category** : compartmental; agent-based</br>
-<details><summary> <b>Model sub-category</b> </summary>SLIR (L = Latent)</details>
+**Model category** : compartmental;agent-based</br>
+<details><summary> <b>Model sub-category</b> </summary>SLIR; (L: Latent)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>for hubs International Air Transport Association (IATA) and OAG database - for human mobility the Offices of Statistics of 30 countries on five continents</details>
 
@@ -1862,7 +1904,7 @@ slope of 0 </details>
 ### Technical information
 #### Model information
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>time-dependent SIR with asymptomatic and independent cascade (IC) model</details>
+<details><summary> <b>Model sub-category</b> </summary>time-dependent;SIR;with asymptomatic and independent cascade (IC) model</details>
 
 <details><summary> <b>Data used for the model</b> </summary>China and other countries, including Japan, Singapore, South Korea, Italy and  Iran - 01/15 (China) and 01/22 (world) to 03/02 - from NHC (China) and JHU (World) and a network from Facebook for social distancing modelling</details>
 
@@ -1898,7 +1940,7 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 ### Technical information
 #### Model information
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SIRU (I: asymptomatic infectious, R: reported symptomatic, U: unreported symptomatic)</details>
+<details><summary> <b>Model sub-category</b> </summary>SIRU; (I: asymptomatic infectious, R: reported symptomatic, U: unreported symptomatic)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Wuhan and central region of China - 01/20 to 02/15</details>
 
@@ -1932,7 +1974,7 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 **Code available** : Use of R0 package in R</br>
 ### Technical information
 #### Model information
-**Model category** : compartmental;probabilistic</br>
+**Model category** : compartmental;stochastic</br>
 <details><summary> <b>Model sub-category</b> </summary>SIR</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Wuhan - before the closure (01/19 - 01/23) and post-closure (01/23 - 02/08) - from NHC</details>
@@ -1955,6 +1997,19 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) comparison of five estimation methods to estimate the R0; 2) very brief details on methods in the appendix; 3) no analysis of the methods robustness/sensitivity </details></br>
 
+## Preparedness and vulnerability of African countries against importations of COVID-19: a modelling study 
+### General information
+**Authors** : Marius Gilbert, Giulia Pullano, Francesco Pinotti, Eugenio Valdano, Chiara Poletto, Pierre-Yves Boëlle, Eric D’Ortenzio, Yazdan Yazdanpanah, Serge Paul Eholie, Mathias Altmann, Bernardo Gutierrez, Moritz U G Kraemer, Vittoria Colizza</br>
+**Publication date** : 02/20</br>
+**Paper** : Available [here](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30411-6/fulltext#sec1)</br>
+**Code available** : null</br>
+### Technical information
+#### Model information
+**Model category** : null</br>
+<details><summary> <b>Model sub-category</b> </summary>null</details>
+
+#### Estimation information
+#### Additional information
 ## Estimation of the final size of the COVID-19 epidemic 
 ### General information
 **Authors** : Milan Batista</br>
@@ -1980,6 +2035,32 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) all the code is available; 2) authors alert on the fact that it is a reasonable description only of the one-stage epidemic</details></br>
 
+## Incubation Period and Other Epidemiological Characteristics of 2019 Novel Coronavirus Infections with Right Truncation: A Statistical Analysis of Publicly Available Case Data 
+### General information
+**Authors** : Natalie M. Linton, Tetsuro Kobayashi, Yichi Yang, Katsuma Hayashi, Andrei R. Akhmetzhanov, Sung-mok Jung, Baoyin Yuan, Ryo Kinoshita, Hiroshi Nishiura</br>
+**Publication date** : 02/17</br>
+**Paper** : Available [here](https://www.mdpi.com/2077-0383/9/2/538)</br>
+**Code available** : null</br>
+### Technical information
+#### Model information
+**Model category** : null</br>
+<details><summary> <b>Model sub-category</b> </summary>null</details>
+
+#### Estimation information
+#### Additional information
+## Assessing the Impact of Reduced Travel on Exportation Dynamics of Novel Coronavirus Infection (COVID-19) 
+### General information
+**Authors** : Asami Anzai, Tetsuro Kobayashi, Natalie M. Linton, Ryo Kinoshita, Katsuma Hayashi, Ayako Suzuki, Yichi Yang, Sung-mok Jung, Takeshi Miyama, Andrei R. Akhmetzhanov, Hiroshi Nishiura</br>
+**Publication date** : 02/13</br>
+**Paper** : Available [here](https://www.mdpi.com/2077-0383/9/2/601)</br>
+**Code available** : null</br>
+### Technical information
+#### Model information
+**Model category** : null</br>
+<details><summary> <b>Model sub-category</b> </summary>null</details>
+
+#### Estimation information
+#### Additional information
 ## Predictions of 2019-nCoV Transmission Ending via Comprehensive Methods 
 ### General information
 **Authors** : Tianyu Zeng, Yunong Zhang, Zhenyu Li, Xiao Liu, Binbin Qiu</br>
@@ -1989,7 +2070,7 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 ### Technical information
 #### Model information
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SEIRSD (R: recovered) and Multi-Model ODEs Neural Network (each neuron has a SEIRSD model so that for each layer, the parameters are optimized)</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIRSD; (R: recovered);Multi-Model ODEs Neural Network (each neuron has a SEIRSD model so that for each layer, the parameters are optimized)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>China - 01/10 to 02/04 - from epidemic datasets, density and transportation data during the Spring Festival</details>
 
@@ -2015,6 +2096,19 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) article with a lot of simulations and predictions; 2) test sample of 4 days; 3) model includes the possible multi-infection patients</details></br>
 
+## Epidemiological Identification of A Novel Pathogen in Real Time: Analysis of the Atypical Pneumonia Outbreak in Wuhan, China, 2019–2020 
+### General information
+**Authors** : Sung-mok Jung, Ryo Kinoshita, Robin N. Thompson, Natalie M. Linton, Yichi Yang, Andrei R. Akhmetzhanov, Hiroshi Nishiura</br>
+**Publication date** : 02/08</br>
+**Paper** : Available [here](https://www.mdpi.com/2077-0383/9/3/637)</br>
+**Code available** : null</br>
+### Technical information
+#### Model information
+**Model category** : null</br>
+<details><summary> <b>Model sub-category</b> </summary>null</details>
+
+#### Estimation information
+#### Additional information
 ## A Time Delay Dynamic System with External Sourcefor the Local Outbreak of 2019-nCoV 
 ### General information
 **Authors** : Yu Chen, Jin Cheng, Yu Jiang, Keji Liu</br>
@@ -2024,7 +2118,7 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 ### Technical information
 #### Model information
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>IRGJ (I: infected, R: cured, G: isolated infected, J: confirmed)</details>
+<details><summary> <b>Model sub-category</b> </summary>IRGJ; (I: infected, R: cured, G: isolated infected, J: confirmed)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Chinese regions - 01/23 to 02/04</details>
 
@@ -2046,6 +2140,19 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) time-delay dynamic system; 2) use of gaussian kernels to define cumulative dynamics of compartments; 3) models flows impacts on different populations/regions</details></br>
 
+## Effectiveness of airport screening at detecting travellers infected with novel coronavirus (2019-nCoV) 
+### General information
+**Authors** : Billy J Quilty, Sam Clifford, Stefan Flasche, Rosalind M Eggo</br>
+**Publication date** : 02/06</br>
+**Paper** : Available [here](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.5.2000080#r9)</br>
+**Code available** : https://github.com/bquilty25/airport_screening</br>
+### Technical information
+#### Model information
+**Model category** : null</br>
+<details><summary> <b>Model sub-category</b> </summary>null</details>
+
+#### Estimation information
+#### Additional information
 ## Understanding Unreported Cases in the 2019-nCov Epidemic Outbreak in Wuhan, China, and the Importance of Major Public Health Interventions 
 ### General information
 **Authors** : Z. Liu, P. Magal , O. Seydi, G. Webb</br>
@@ -2055,7 +2162,7 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 ### Technical information
 #### Model information
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SIRU (I: asymptomatic infectious, R: reported symptomatic, U: unreported symptomatic)</details>
+<details><summary> <b>Model sub-category</b> </summary>SIRU; (I: asymptomatic infectious, R: reported symptomatic, U: unreported symptomatic)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Wuhan - 01/23 to 01/31 - from Chinese Center for Disease Control and Prevention and the Wuhan Municipal Health Commission for Hubei Province</details>
 
@@ -2117,107 +2224,3 @@ of cases exported from Wuhan to other cities in mainland China</details>
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>clear former article that addresses many issues including the impact of imported cases at the start of the outbreak, rigorous statistical analysis</details></br>
 
-## Assessing the Impact of Reduced Travel on Exportation Dynamics of Novel Coronavirus Infection (COVID-19) 
-### General information
-**Authors** : null</br>
-**Publication date** : null</br>
-**Paper** : Available [here](https://www.mdpi.com/2077-0383/9/2/601)</br>
-**Code available** : null</br>
-### Technical information
-#### Model information
-**Model category** : null</br>
-<details><summary> <b>Model sub-category</b> </summary>null</details>
-
-#### Estimation information
-#### Additional information
-## Preparedness and vulnerability of African countries against importations of COVID-19: a modelling study 
-### General information
-**Authors** : null</br>
-**Publication date** : null</br>
-**Paper** : Available [here](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30411-6/fulltext#sec1)</br>
-**Code available** : null</br>
-### Technical information
-#### Model information
-**Model category** : null</br>
-<details><summary> <b>Model sub-category</b> </summary>null</details>
-
-#### Estimation information
-#### Additional information
-## The effect of human mobility and control measures on the COVID-19 epidemic in China 
-### General information
-**Authors** : null</br>
-**Publication date** : null</br>
-**Paper** : Available [here](https://science.sciencemag.org/content/early/2020/03/25/science.abb4218)</br>
-**Code available** : null</br>
-### Technical information
-#### Model information
-**Model category** : null</br>
-<details><summary> <b>Model sub-category</b> </summary>null</details>
-
-#### Estimation information
-#### Additional information
-## Transmission potential and severity of COVID-19 in South Korea 
-### General information
-**Authors** : null</br>
-**Publication date** : null</br>
-**Paper** : Available [here](https://www.ijidonline.com/article/S1201-9712(20)30150-8/fulltext)</br>
-**Code available** : null</br>
-### Technical information
-#### Model information
-**Model category** : null</br>
-<details><summary> <b>Model sub-category</b> </summary>null</details>
-
-#### Estimation information
-#### Additional information
-## Epidemiological Identification of A Novel Pathogen in Real Time: Analysis of the Atypical Pneumonia Outbreak in Wuhan, China, 2019–2020 
-### General information
-**Authors** : null</br>
-**Publication date** : null</br>
-**Paper** : Available [here](https://www.mdpi.com/2077-0383/9/3/637)</br>
-**Code available** : null</br>
-### Technical information
-#### Model information
-**Model category** : null</br>
-<details><summary> <b>Model sub-category</b> </summary>null</details>
-
-#### Estimation information
-#### Additional information
-## Incubation Period and Other Epidemiological Characteristics of 2019 Novel Coronavirus Infections with Right Truncation: A Statistical Analysis of Publicly Available Case Data 
-### General information
-**Authors** : null</br>
-**Publication date** : null</br>
-**Paper** : Available [here](https://www.mdpi.com/2077-0383/9/2/538)</br>
-**Code available** : null</br>
-### Technical information
-#### Model information
-**Model category** : null</br>
-<details><summary> <b>Model sub-category</b> </summary>null</details>
-
-#### Estimation information
-#### Additional information
-## Effectiveness of airport screening at detecting travellers infected with novel coronavirus (2019-nCoV) 
-### General information
-**Authors** : null</br>
-**Publication date** : null</br>
-**Paper** : Available [here](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.5.2000080#r9)</br>
-**Code available** : https://github.com/bquilty25/airport_screening</br>
-### Technical information
-#### Model information
-**Model category** : null</br>
-<details><summary> <b>Model sub-category</b> </summary>null</details>
-
-#### Estimation information
-#### Additional information
-## Retrospective analysis of the possibility of predicting the COVID-19 outbreak from Internet searches and social media data, China, 2020 
-### General information
-**Authors** : null</br>
-**Publication date** : null</br>
-**Paper** : Available [here](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.10.2000199)</br>
-**Code available** : null</br>
-### Technical information
-#### Model information
-**Model category** : null</br>
-<details><summary> <b>Model sub-category</b> </summary>null</details>
-
-#### Estimation information
-#### Additional information

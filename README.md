@@ -126,7 +126,7 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 **Authors** : Vasily Giannakeas, Deepit Bhatia, Matthew T. Warkentin, Isaac I. Bogoch, Nathan M. Stall</br>
 **Publication date** : 04/16</br>
 **Paper** : Available [here](https://annals.org/aim/fullarticle/2764818/estimating-maximum-capacity-covid-19-cases-manageable-per-day-given)</br>
-**Code available** : whiny package in R to build the app</br>
+**Code available** : null</br>
 ### Technical information
 #### Model information
 **Model category** : null</br>

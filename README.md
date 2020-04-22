@@ -35,9 +35,7 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 | Generic probabilistic modelling and non-homogeneity issues for the UK epidemic of COVID-19 | Anatoly Zhigljavsky et al. | [here](#generic-probabilistic-modelling-and-non-homogeneity-issues-for-the-uk-epidemic-of-covid-19) |
 | COVID-19: Analytics Of Contagion On Inhomogeneous Random Social Networks | T. R. Hurd et al. | [here](#covid-19-analytics-of-contagion-on-inhomogeneous-random-social-networks) |
 | ICU Capacity Management During the COVID-19 Pandemic Using a Stochastic Process Simulation | Andres Alban et al. | [here](#icu-capacity-management-during-the-covid-19-pandemic-using-a-stochastic-process-simulation) |
-| Locally Informed Simulation to Predict Hospital Capacity Needs During
-the COVID-19 Pandemic | Gary E. Weissman et al. | [here](#locally-informed-simulation-to-predict-hospital-capacity-needs-during
-the-covid-19-pandemic) |
+| Locally Informed Simulation to Predict Hospital Capacity Needs During the COVID-19 Pandemic | Gary E. Weissman et al. | [here](#locally-informed-simulation-to-predict-hospital-capacity-needs-during-the-covid-19-pandemic) |
 | A Simple Planning Problem for COVID-19 Lockdown | Fernando Alvarez et al. | [here](#a-simple-planning-problem-for-covid-19-lockdown) |
 | Machine Learning the Phenomenology of COVID-19 From Early Infection Dynamics | Malik Magdon-Ismail et al. | [here](#machine-learning-the-phenomenology-of-covid-19-from-early-infection-dynamics) |
 | Coronavirus Covid-19 spreading in Italy: optimizing an epidemiological model with dynamic social distancing through Differential Evolution | I. De Falco et al. | [here](#coronavirus-covid-19-spreading-in-italy-optimizing-an-epidemiological-model-with-dynamic-social-distancing-through-differential-evolution) |
@@ -422,8 +420,7 @@ the-covid-19-pandemic) |
 
 #### Estimation information
 #### Additional information
-## Locally Informed Simulation to Predict Hospital Capacity Needs During
-the COVID-19 Pandemic 
+## Locally Informed Simulation to Predict Hospital Capacity Needs During the COVID-19 Pandemic 
 ### General information
 **Authors** : Gary E. Weissman, Andrew Crane-Droesch, Corey Chivers, ThaiBinh Luong, Asaf Hanish, Michael Z. Levy, Jason Lubken,  Michael Becker, Michael E. Draugelis, George L. Anesi, Patrick J. Brennan, Jason D. Christie, C. William Hanson III, Mark E. Mikkelsen, Scott D. Halpern</br>
 **Publication date** : 04/07</br>
@@ -802,7 +799,7 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 ### General information
 **Authors** : Juanjuan Zhang, Maria Litvinova, Wei Wang, Yan Wang, Xiaowei Deng, Xinghui Chen, Mei Li, Wen Zheng, Lan Yi, Xinhua Chen, Qianhui Wu, Yuxia Liang, Xiling Wang, Juan Yang, Kaiyuan Sun, Ira M Longini Jr, M Elizabeth Halloran, Peng Wu, Benjamin J Cowling, Stefano Merler, Cecile Viboud, Alessandro Vespignani, Marco Ajelli, Hongjie Yu</br>
 **Publication date** : 04/02</br>
-**Paper** : Available [here](http://www.cidid.org/publications-1/2020/4/6/evolving-epidemiology-and-transmission-dynamics-of-coronavirus-disease-2019-outside-hubei-province-china-a-descriptive-and-modelling-study)</br>
+**Paper** : Available [here](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30230-9/fulltext)</br>
 **Code available** : for the calculation of the R0 dynamics, https://github.com/majelli/Rt</br>
 ### Technical information
 #### Model information

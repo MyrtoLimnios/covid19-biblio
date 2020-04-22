@@ -137,7 +137,7 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 <details><summary> <b>Outputs</b> </summary>maximum numbers of manageable cases per day separately for acute care beds, critical care beds, and mechanical ventilators</details>
 
 #### Estimation information
-<details><summary> <b>Problem Formulation</b> </summary>maximum manageable cases per day for a particular resource is the maximal number of this resource available divided by the expected duration of their use for patients times the probability of each resource being used among cases</details>
+<details><summary> <b>Solving Method</b> </summary>maximum manageable cases per day for a particular resource is the maximal number of this resource available divided by the expected duration of their use for patients times the probability of each resource being used among cases</details>
 
 <details><summary> <b>Epidemiological parameters</b> </summary>mean days in acute care, mean days in critical care, mean days on a mechanical ventilator</details>
 

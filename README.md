@@ -25,11 +25,13 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 | Estimating the burden of SARS-CoV-2 in France | Henrik Salje et al. | [here](#estimating-the-burden-of-sars-cov-2-in-france) |
 | Estimating the Maximum Capacity of COVID-19 Cases Manageable per Day Given a Health Care System's Constrained Resources | Vasily Giannakeas et al. | [here](#estimating-the-maximum-capacity-of-covid-19-cases-manageable-per-day-given-a-health-care-systems-constrained-resources) |
 | Pandemic Surge Models in the Time of Severe Acute Respiratory Syndrome Coronavirus-2: Wrong or Useful? | John B. Wong et al. | [here](#pandemic-surge-models-in-the-time-of-severe-acute-respiratory-syndrome-coronavirus-2-wrong-or-useful?) |
+| Temporal dynamics in viral shedding and transmissibility of COVID-19 | Eric H. Y. Lau et al. | [here](#temporal-dynamics-in-viral-shedding-and-transmissibility-of-covid-19) |
 | Policy brief : Analyse cout-benefice des strategies de deconfinement | Christian Gollier et al. | [here](#policy-brief--analyse-cout-benefice-des-strategies-de-deconfinement) |
 | Expected impact of lockdown in Ile-de-France and possible exit strategies | Laura Di Domenico et al. | [here](#expected-impact-of-lockdown-in-ile-de-france-and-possible-exit-strategies) |
 | Physical distancing is working and still needed to prevent COVID-19 resurgence in King, Snohomish, and Pierce counties | Niket Thakkar et al. | [here](#physical-distancing-is-working-and-still-needed-to-prevent-covid-19-resurgence-in-king-snohomish-and-pierce-counties) |
 | Commentary on Ferguson, et al., “Impact of Non-pharmaceutical Interventions (NPIs) to Reduce COVID-19 Mortality and Healthcare Demand” | S Eubank et al. | [here](#commentary-on-ferguson-et-al.-“impact-of-non-pharmaceutical-interventions-npis-to-reduce-covid-19-mortality-and-healthcare-demand”) |
 | Strong correlations between power-law growth of COVID-19 in fourcontinents and the inefficiency of soft quarantine strategies | Cesar Manchein et al. | [here](#strong-correlations-between-power-law-growth-of-covid-19-in-fourcontinents-and-the-inefficiency-of-soft-quarantine-strategies) |
+| First-wave COVID-19 transmissibility and severity in China outside Hubei after control measures, and second-wave scenario planning: a modelling impact assessment | Kathy Leung et al. | [here](#first-wave-covid-19-transmissibility-and-severity-in-china-outside-hubei-after-control-measures-and-second-wave-scenario-planning-a-modelling-impact-assessment) |
 | Prediction of COVID-19 Disease Progression in India Under the Effect of National Lockdown | Sourish Das et al. | [here](#prediction-of-covid-19-disease-progression-in-india-under-the-effect-of-national-lockdown) |
 | Scenario analysis of non-pharmaceutical interventions on global COVID-19 transmissions | Xiaohui Chen et al. | [here](#scenario-analysis-of-non-pharmaceutical-interventions-on-global-covid-19-transmissions) |
 | Generic probabilistic modelling and non-homogeneity issues for the UK epidemic of COVID-19 | Anatoly Zhigljavsky et al. | [here](#generic-probabilistic-modelling-and-non-homogeneity-issues-for-the-uk-epidemic-of-covid-19) |
@@ -56,6 +58,7 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 | Forecasting COVID-19 impact on hospital bed-days, ICU-days, ventilatordays and deaths by US state in the next 4 months | Christopher JL Murray et al. | [here](#forecasting-covid-19-impact-on-hospital-bed-days-icu-days-ventilatordays-and-deaths-by-us-state-in-the-next-4-months) |
 | Coronavirus Optimization Algorithm: A bioinspired metaheuristic based on the COVID-19 propagation model | F. Martinez-Alvarez  et al. | [here](#coronavirus-optimization-algorithm-a-bioinspired-metaheuristic-based-on-the-covid-19-propagation-model) |
 | Report 13: Estimating the number of infections and the impact of non-pharmaceutical interventions on COVID-19 in 11 European countries | Seth Flaxman et al. | [here](#report-13-estimating-the-number-of-infections-and-the-impact-of-non-pharmaceutical-interventions-on-covid-19-in-11-european-countries) |
+| Estimates of the severity of coronavirus disease 2019: a model-based analysis | Robert Verity et al. | [here](#estimates-of-the-severity-of-coronavirus-disease-2019-a-model-based-analysis) |
 | A simple Stochastic SIR model for COVID-19 Infection Dynamics for Karnataka - Learning from Europ | Ashutosh Simha et al. | [here](#a-simple-stochastic-sir-model-for-covid-19-infection-dynamics-for-karnataka---learning-from-europ) |
 | Susceptible-Infected-Recovered (SIR) Dynamics of COVID-19 and Economic Impact | Alexis Akira Toda et al. | [here](#susceptible-infected-recovered-sir-dynamics-of-covid-19-and-economic-impact) |
 | The Optimal COVID-19 Quarantine and Testing Policies | Facundo Piguillem et al. | [here](#the-optimal-covid-19-quarantine-and-testing-policies) |
@@ -70,10 +73,13 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 | Short-term predictions and prevention strategies forCOVID-2019: A model based study | Sk Shahid Nadim et al. | [here](#short-term-predictions-and-prevention-strategies-forcovid-2019-a-model-based-study) |
 | COVID-19: Forecasting short term hospital needs in France | Clement Massonnaud et al. | [here](#covid-19-forecasting-short-term-hospital-needs-in-france) |
 | Impact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand | Neil M Ferguson et al. | [here](#impact-of-non-pharmaceutical-interventions-npis-to-reduce-covid-19-mortality-and-healthcare-demand) |
+| Substantial undocumented infection facilitates the rapid dissemination of novel coronavirus (SARS-CoV2) | Ruiyun Li et al. | [here](#substantial-undocumented-infection-facilitates-the-rapid-dissemination-of-novel-coronavirus-sars-cov2) |
 | Rational evaluation of various epidemic models based on the COVID-19 data of China | Wuyue Yang  et al. | [here](#rational-evaluation-of-various-epidemic-models-based-on-the-covid-19-data-of-china) |
+| Early dynamics of transmission and control of COVID-19: a mathematical modelling study | Adam J Kucharski et al. | [here](#early-dynamics-of-transmission-and-control-of-covid-19-a-mathematical-modelling-study) |
 | The Impact of School Closure for COVID-19 on the US Healthcare Workforce and the Net Mortality Effects | Jude Bayham et al. | [here](#the-impact-of-school-closure-for-covid-19-on-the-us-healthcare-workforce-and-the-net-mortality-effects) |
 | Modeling the Control of COVID-19: Impact ofPolicy Interventions and Meteorological Factor | Jia Jiwei1 et al. | [here](#modeling-the-control-of-covid-19-impact-ofpolicy-interventions-and-meteorological-factor) |
 | Modeling of COVID-19 epidemic in the United States | GLEAM Team et al. | [here](#modeling-of-covid-19-epidemic-in-the-united-states) |
+| The effect of travel restrictions on the spread of the 2019 novel coronavirus (COVID-19) outbreak | Matteo Chinazzi et al. | [here](#the-effect-of-travel-restrictions-on-the-spread-of-the-2019-novel-coronavirus-covid-19-outbreak) |
 | Evaluating the impact of international airline suspensions on the early global spread of COVID-19 | Aniruddha Adiga et al. | [here](#evaluating-the-impact-of-international-airline-suspensions-on-the-early-global-spread-of-covid-19) |
 | Evaluating the impact of international airline suspensions on COVID-19 direct importation risk | Aniruddha Adiga et al. | [here](#evaluating-the-impact-of-international-airline-suspensions-on-covid-19-direct-importation-risk) |
 | A Time-dependent SIR model for COVID-19 with Undetectable Infected Persons | Yi-Cheng Chen et al. | [here](#a-time-dependent-sir-model-for-covid-19-with-undetectable-infected-persons) |
@@ -84,6 +90,14 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 | A Time Delay Dynamic System with External Sourcefor the Local Outbreak of 2019-nCoV | Yu Chen et al. | [here](#a-time-delay-dynamic-system-with-external-sourcefor-the-local-outbreak-of-2019-ncov) |
 | Understanding Unreported Cases in the 2019-nCov Epidemic Outbreak in Wuhan, China, and the Importance of Major Public Health Interventions | Z. Liu et al. | [here](#understanding-unreported-cases-in-the-2019-ncov-epidemic-outbreak-in-wuhan-china-and-the-importance-of-major-public-health-interventions) |
 | Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study | Joseph T Wu et al. | [here](#nowcasting-and-forecasting-the-potential-domestic-and-international-spread-of-the-2019-ncov-outbreak-originating-in-wuhan-china-a-modelling-study) |
+| Assessing the Impact of Reduced Travel on Exportation Dynamics of Novel Coronavirus Infection (COVID-19) | null et al. | [here](#assessing-the-impact-of-reduced-travel-on-exportation-dynamics-of-novel-coronavirus-infection-covid-19) |
+| Preparedness and vulnerability of African countries against importations of COVID-19: a modelling study | null et al. | [here](#preparedness-and-vulnerability-of-african-countries-against-importations-of-covid-19-a-modelling-study) |
+| The effect of human mobility and control measures on the COVID-19 epidemic in China | null et al. | [here](#the-effect-of-human-mobility-and-control-measures-on-the-covid-19-epidemic-in-china) |
+| Transmission potential and severity of COVID-19 in South Korea | null et al. | [here](#transmission-potential-and-severity-of-covid-19-in-south-korea) |
+| Epidemiological Identification of A Novel Pathogen in Real Time: Analysis of the Atypical Pneumonia Outbreak in Wuhan, China, 2019–2020 | null et al. | [here](#epidemiological-identification-of-a-novel-pathogen-in-real-time-analysis-of-the-atypical-pneumonia-outbreak-in-wuhan-china-2019–2020) |
+| Incubation Period and Other Epidemiological Characteristics of 2019 Novel Coronavirus Infections with Right Truncation: A Statistical Analysis of Publicly Available Case Data | null et al. | [here](#incubation-period-and-other-epidemiological-characteristics-of-2019-novel-coronavirus-infections-with-right-truncation-a-statistical-analysis-of-publicly-available-case-data) |
+| Effectiveness of airport screening at detecting travellers infected with novel coronavirus (2019-nCoV) | null et al. | [here](#effectiveness-of-airport-screening-at-detecting-travellers-infected-with-novel-coronavirus-2019-ncov) |
+| Retrospective analysis of the possibility of predicting the COVID-19 outbreak from Internet searches and social media data, China, 2020 | null et al. | [here](#retrospective-analysis-of-the-possibility-of-predicting-the-covid-19-outbreak-from-internet-searches-and-social-media-data-china-2020) |
 ## Estimating the burden of SARS-CoV-2 in France 
 ### General information
 **Authors** : Henrik Salje, Cécile Tran Kiem, Noémie Lefrancq, Noémie Courtejoie, Paolo Bosetti, Juliette Paireau, Alessio Andronico, Nathanaël Hoze, Jehanne Richet, Claire-Lise Dubost, Yann Le Strat, Justin Lessler, Daniel Bruhl, Arnaud Fontanet, Lulla Opatowski, Pierre-Yves Boëlle, Simon Cauchemez </br>
@@ -93,19 +107,52 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 ### Technical information
 #### Model information
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>age-structured</details>
+<details><summary> <b>Model sub-category</b> </summary>SEI, ICU (admission to ICU) with two E compartments; age-structured</details>
 
 <details><summary> <b>Data used for the model</b> </summary>France - daily hospitalizations, ICU admissions, deaths and information on patients hospitalized in public and private hospitals, from the SI-VIC web portal, completed by data from OSCOUR</details>
 
+<details><summary> <b>Global approach</b> </summary>estimate the risk of infection and severe outcomes by age and gender, estimate the impact of the lockdown and current population immunity</details>
+
 <details><summary> <b>Outputs</b> </summary>prediction of the dynamics of daily new infections, dialy ICU admissions and number of ICU beds, predicted proportion of the population infected by May 11th for each of the 13 regions in metropolitan France</details>
 
+<details><summary> <b>How intervention strategies are modelled</b> </summary>changes in the contact matrix</details>
+
 #### Estimation information
+<details><summary> <b>How input parameters are estimated</b> </summary>1) baseline contact matrix is estimated from https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0133203 and the package socialmixr https://github.com/sbfnk/socialmixr</details>
+
 #### Additional information
 ## Estimating the Maximum Capacity of COVID-19 Cases Manageable per Day Given a Health Care System's Constrained Resources 
 ### General information
 **Authors** : Vasily Giannakeas, Deepit Bhatia, Matthew T. Warkentin, Isaac I. Bogoch, Nathan M. Stall</br>
 **Publication date** : 04/16</br>
 **Paper** : Available [here](https://annals.org/aim/fullarticle/2764818/estimating-maximum-capacity-covid-19-cases-manageable-per-day-given)</br>
+**Code available** : whiny package in R to build the app</br>
+### Technical information
+#### Model information
+**Model category** : null</br>
+<details><summary> <b>Model sub-category</b> </summary>null</details>
+
+<details><summary> <b>Global approach</b> </summary>propose an online tool https://caic-rt.shinyapps.io/CAIC-RT/ to estimate the maximum number of cases that could be managed per day within the catchment area served by a health care system, given acute and critical care resource availability </details>
+
+<details><summary> <b>Outputs</b> </summary>maximum numbers of manageable cases per day separately for acute care beds, critical care beds, and mechanical ventilators</details>
+
+#### Estimation information
+<details><summary> <b>Problem Formulation</b> </summary>maximum manageable cases per day for a particular resource is the maximal number of this resource available divided by the expected duration of their use for patients times the probability of each resource being used among cases</details>
+
+<details><summary> <b>Epidemiological parameters</b> </summary>mean days in acute care, mean days in critical care, mean days on a mechanical ventilator</details>
+
+<details><summary> <b>Other parameters</b> </summary>number of acute beds available for covid-19 patients, number of critical care beds available for covid-19 patients, number of mechanical ventilators available for covid-19 patients</details>
+
+<details><summary> <b>How input parameters are estimated</b> </summary>1) default epidemiological parameters are based from litterature 2) defaults resource constraints parameters are calibrated for Ontario, Canada</details>
+
+#### Additional information
+<details><summary> <b>Comment/issues</b> </summary>interesting online tool to estimate daily capacity to care covid-19 patients</details></br>
+
+## Pandemic Surge Models in the Time of Severe Acute Respiratory Syndrome Coronavirus-2: Wrong or Useful? 
+### General information
+**Authors** : John B. Wong</br>
+**Publication date** : 04/16</br>
+**Paper** : Available [here](https://annals.org/aim/fullarticle/2764846/pandemic-surge-models-time-severe-acute-respiratory-syndrome-coronavirus-2)</br>
 **Code available** : null</br>
 ### Technical information
 #### Model information
@@ -114,11 +161,11 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 
 #### Estimation information
 #### Additional information
-## Pandemic Surge Models in the Time of Severe Acute Respiratory Syndrome Coronavirus-2: Wrong or Useful? 
+## Temporal dynamics in viral shedding and transmissibility of COVID-19 
 ### General information
-**Authors** : John B. Wong</br>
-**Publication date** : 04/16</br>
-**Paper** : Available [here](https://annals.org/aim/fullarticle/2764846/pandemic-surge-models-time-severe-acute-respiratory-syndrome-coronavirus-2)</br>
+**Authors** : Eric H. Y. Lau, Peng Wu, Xilong Deng, Jian Wang, Xinxin Hao, Yiu Chung Lau, Jessica Y. Wong,Yujuan Guan, Xinghua Tan, Xiaoneng Mo, Yanqing Chen, Baolin Liao, Weilie Chen, Fengyu Hu, Qing Zhang, Mingqiu Zhong, Yanrong Wu, Lingzhai Zhao, Fuchun Zhang, Benjamin J. Cowling, Fang Li, Gabriel M. Leung</br>
+**Publication date** : 04/15</br>
+**Paper** : Available [here](https://www.nature.com/articles/s41591-020-0869-5)</br>
 **Code available** : null</br>
 ### Technical information
 #### Model information
@@ -271,6 +318,19 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) data-based estimation of R0/region; 2) estimates similarity of the cumulative infected confirmed patients evolution using distance correlation metric; 3) interesting conclusion wrt policy</details></br>
 
+## First-wave COVID-19 transmissibility and severity in China outside Hubei after control measures, and second-wave scenario planning: a modelling impact assessment 
+### General information
+**Authors** : Kathy Leung, Joseph T Wu, Di Liu, Gabriel M Leung</br>
+**Publication date** : 04/08</br>
+**Paper** : Available [here](https://www.sciencedirect.com/science/article/pii/S0140673620307467?casa_token=2RgBVkfxteIAAAAA:gbHVp1xLZAp9hYxQ2-MRtg6MIWA4WQffXkXRONqtan7NnDcdaQa14uZ_No-L1Mem500PnFuQYg)</br>
+**Code available** : null</br>
+### Technical information
+#### Model information
+**Model category** : null</br>
+<details><summary> <b>Model sub-category</b> </summary>null</details>
+
+#### Estimation information
+#### Additional information
 ## Prediction of COVID-19 Disease Progression in India Under the Effect of National Lockdown 
 ### General information
 **Authors** : Sourish Das</br>
@@ -1082,6 +1142,19 @@ Prevention))</details>
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) joint estimation of hierarchical model for all countries with estimation of the influence of policies; 2) validation and sensibility analysis</details></br>
 
+## Estimates of the severity of coronavirus disease 2019: a model-based analysis 
+### General information
+**Authors** : Robert Verity, Lucy C Okell, Ilaria Dorigatti, Peter Winskill, Charles Whittaker, Natsuko Imai, Gina Cuomo-Dannenburg, Hayley Thompson, Patrick G T Walker, Han Fu, Amy Dighe, Jamie T Griffin, Marc Baguelin, Sangeeta Bhatia, Adhiratha Boonyasiri, Anne Cori, Zulma Cucunubá, Rich FitzJohn, Katy Gaythorpe, Will Green, Arran Hamlet, Wes Hinsley, Daniel Laydon, Gemma Nedjati-Gilani, Steven Riley, Sabine van Elsland, Erik Volz, Haowei Wang, Yuanrong Wang, Xiaoyue Xi, Christl A Donnelly, Azra C Ghani, Neil M Ferguson</br>
+**Publication date** : 03/30</br>
+**Paper** : Available [here](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30243-7/fulltext)</br>
+**Code available** : null</br>
+### Technical information
+#### Model information
+**Model category** : null</br>
+<details><summary> <b>Model sub-category</b> </summary>null</details>
+
+#### Estimation information
+#### Additional information
 ## A simple Stochastic SIR model for COVID-19 Infection Dynamics for Karnataka - Learning from Europ 
 ### General information
 **Authors** : Ashutosh Simha, R. Venkatesha Prasad, Sujay Narayana</br>
@@ -1555,6 +1628,19 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) a simulated population is generated to reproduce a realistic distribution across geographical space and realistic contact patterns; 2) country-scale simulation which can embed a high level of details and structure and parameterize different strategies, but demands many geographical, social and health data</details></br>
 
+## Substantial undocumented infection facilitates the rapid dissemination of novel coronavirus (SARS-CoV2) 
+### General information
+**Authors** : Ruiyun Li, Sen Pei, Bin Chen, Yimeng Song, Tao Zhang, Wan Yang, Jeffrey Shaman</br>
+**Publication date** : 03/16</br>
+**Paper** : Available [here](https://science.sciencemag.org/content/early/2020/03/24/science.abb3221)</br>
+**Code available** : null</br>
+### Technical information
+#### Model information
+**Model category** : null</br>
+<details><summary> <b>Model sub-category</b> </summary>null</details>
+
+#### Estimation information
+#### Additional information
 ## Rational evaluation of various epidemic models based on the COVID-19 data of China 
 ### General information
 **Authors** : Wuyue Yang , Dongyan Zhang , Liangrong Peng , Changjing Zhuge , Liu Hong</br>
@@ -1584,6 +1670,19 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) systematical investigation on the forecast ability of 8 widely used empirical functions, 4 statistical inference methods and 5 dynamical models widely used in the literature; addresses the requierements on robustness, sensitivity and the trade-off between model complexity and accuracy; 2) not enough details on the different methods</details></br>
 
+## Early dynamics of transmission and control of COVID-19: a mathematical modelling study 
+### General information
+**Authors** : Adam J Kucharski, Timothy W Russell, Charlie Diamond, Yang Liu, John Edmunds, Sebastian Funk, Rosalind M Eggo, </br>
+**Publication date** : 03/11</br>
+**Paper** : Available [here](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30144-4/fulltext)</br>
+**Code available** : null</br>
+### Technical information
+#### Model information
+**Model category** : null</br>
+<details><summary> <b>Model sub-category</b> </summary>null</details>
+
+#### Estimation information
+#### Additional information
 ## The Impact of School Closure for COVID-19 on the US Healthcare Workforce and the Net Mortality Effects 
 ### General information
 **Authors** : Jude Bayham, Eli P. Fenichel</br>
@@ -1677,6 +1776,19 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>an impressive number of parameters are considered to model the mobility in a very precise way </details></br>
 
+## The effect of travel restrictions on the spread of the 2019 novel coronavirus (COVID-19) outbreak 
+### General information
+**Authors** : Matteo Chinazzi, Jessica T. Davis, Marco Ajelli, Corrado Gioannini, Maria Litvinova, Stefano Merler, Ana Pastore y Piontti, Kunpeng Mu, Luca Rossi, Kaiyuan Sun, Cécile Viboud, Xinyue Xiong, Hongjie Yu, M. Elizabeth Halloran, Ira M. Longini Jr., Alessandro Vespignani</br>
+**Publication date** : 03/06</br>
+**Paper** : Available [here](https://science.sciencemag.org/content/early/2020/03/05/science.aba9757)</br>
+**Code available** : null</br>
+### Technical information
+#### Model information
+**Model category** : null</br>
+<details><summary> <b>Model sub-category</b> </summary>null</details>
+
+#### Estimation information
+#### Additional information
 ## Evaluating the impact of international airline suspensions on the early global spread of COVID-19 
 ### General information
 **Authors** : Aniruddha Adiga, Srinivasan Venkatramanan, James Schlitt, Akhil Peddireddy, Allan Dickerman, Andrei Bura, Andrew Warren, Brian D Klahn, Chunhong Mao, Dawen Xie, Dustin Machi, Erin Raymond, Fanchao Meng, Golda Barrow, Henning Mortveit, Jiangzhuo Chen, Jim Walke, Joshua Goldstein, Mandy L Wilson, Mark Orr, Przemyslaw Porebski, Pyrros A Telionis, Richard Beckman, Stefan Hoops, Stephen Eubank, Young Yun Baek, Bryan Lewis, Madhav Marathe, Chris Barrett</br>
@@ -2005,3 +2117,107 @@ of cases exported from Wuhan to other cities in mainland China</details>
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>clear former article that addresses many issues including the impact of imported cases at the start of the outbreak, rigorous statistical analysis</details></br>
 
+## Assessing the Impact of Reduced Travel on Exportation Dynamics of Novel Coronavirus Infection (COVID-19) 
+### General information
+**Authors** : null</br>
+**Publication date** : null</br>
+**Paper** : Available [here](https://www.mdpi.com/2077-0383/9/2/601)</br>
+**Code available** : null</br>
+### Technical information
+#### Model information
+**Model category** : null</br>
+<details><summary> <b>Model sub-category</b> </summary>null</details>
+
+#### Estimation information
+#### Additional information
+## Preparedness and vulnerability of African countries against importations of COVID-19: a modelling study 
+### General information
+**Authors** : null</br>
+**Publication date** : null</br>
+**Paper** : Available [here](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30411-6/fulltext#sec1)</br>
+**Code available** : null</br>
+### Technical information
+#### Model information
+**Model category** : null</br>
+<details><summary> <b>Model sub-category</b> </summary>null</details>
+
+#### Estimation information
+#### Additional information
+## The effect of human mobility and control measures on the COVID-19 epidemic in China 
+### General information
+**Authors** : null</br>
+**Publication date** : null</br>
+**Paper** : Available [here](https://science.sciencemag.org/content/early/2020/03/25/science.abb4218)</br>
+**Code available** : null</br>
+### Technical information
+#### Model information
+**Model category** : null</br>
+<details><summary> <b>Model sub-category</b> </summary>null</details>
+
+#### Estimation information
+#### Additional information
+## Transmission potential and severity of COVID-19 in South Korea 
+### General information
+**Authors** : null</br>
+**Publication date** : null</br>
+**Paper** : Available [here](https://www.ijidonline.com/article/S1201-9712(20)30150-8/fulltext)</br>
+**Code available** : null</br>
+### Technical information
+#### Model information
+**Model category** : null</br>
+<details><summary> <b>Model sub-category</b> </summary>null</details>
+
+#### Estimation information
+#### Additional information
+## Epidemiological Identification of A Novel Pathogen in Real Time: Analysis of the Atypical Pneumonia Outbreak in Wuhan, China, 2019–2020 
+### General information
+**Authors** : null</br>
+**Publication date** : null</br>
+**Paper** : Available [here](https://www.mdpi.com/2077-0383/9/3/637)</br>
+**Code available** : null</br>
+### Technical information
+#### Model information
+**Model category** : null</br>
+<details><summary> <b>Model sub-category</b> </summary>null</details>
+
+#### Estimation information
+#### Additional information
+## Incubation Period and Other Epidemiological Characteristics of 2019 Novel Coronavirus Infections with Right Truncation: A Statistical Analysis of Publicly Available Case Data 
+### General information
+**Authors** : null</br>
+**Publication date** : null</br>
+**Paper** : Available [here](https://www.mdpi.com/2077-0383/9/2/538)</br>
+**Code available** : null</br>
+### Technical information
+#### Model information
+**Model category** : null</br>
+<details><summary> <b>Model sub-category</b> </summary>null</details>
+
+#### Estimation information
+#### Additional information
+## Effectiveness of airport screening at detecting travellers infected with novel coronavirus (2019-nCoV) 
+### General information
+**Authors** : null</br>
+**Publication date** : null</br>
+**Paper** : Available [here](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.5.2000080#r9)</br>
+**Code available** : https://github.com/bquilty25/airport_screening</br>
+### Technical information
+#### Model information
+**Model category** : null</br>
+<details><summary> <b>Model sub-category</b> </summary>null</details>
+
+#### Estimation information
+#### Additional information
+## Retrospective analysis of the possibility of predicting the COVID-19 outbreak from Internet searches and social media data, China, 2020 
+### General information
+**Authors** : null</br>
+**Publication date** : null</br>
+**Paper** : Available [here](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.10.2000199)</br>
+**Code available** : null</br>
+### Technical information
+#### Model information
+**Model category** : null</br>
+<details><summary> <b>Model sub-category</b> </summary>null</details>
+
+#### Estimation information
+#### Additional information

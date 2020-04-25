@@ -187,7 +187,7 @@ if __name__ == '__main__':
     add_h1_title(myfile, 'Terms of Use')
     myfile.write(u'This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay, all rights reserved, is provided to the public strictly for educational and academic research purposes. The Website relies upon publicly available data from multiple sources, that do not always agree. The ENS Paris-Saclay hereby disclaims any and all representations and warranties with respect to the Website, including accuracy, fitness for use, and merchantability. Reliance on the Website for medical guidance or use of the Website in commerce is strictly prohibited.\n')
 
-    add_h1_title(myfile, 'The bibliography')
+    add_h1_title(myfile, 'The review (%d articles in total)' %(df.shape[0]))
 
     add_table(myfile, df['Paper(s)'], df['Authors'])
 
@@ -234,5 +234,3 @@ if __name__ == '__main__':
                 add_comments(myfile, row['Comment/issues'])
 
     myfile.close()
-
-

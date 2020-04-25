@@ -19,10 +19,11 @@ If you wish to suggest an article to be added to the review, please contact us v
 Email: <A href="mailto:centreborelli.repository@gmail.com">centreborelli.repository@gmail.com</A>
 # Terms of Use 
 This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay, all rights reserved, is provided to the public strictly for educational and academic research purposes. The Website relies upon publicly available data from multiple sources, that do not always agree. The ENS Paris-Saclay hereby disclaims any and all representations and warranties with respect to the Website, including accuracy, fitness for use, and merchantability. Reliance on the Website for medical guidance or use of the Website in commerce is strictly prohibited.
-# The bibliography 
+# The review (78 articles in total) 
 | Title | Authors | Description |
 | --- | --- | --- |
 | COVID-19: One-month impact of the French lockdown on the epidemic burden | Jonathan Roux et al. | [here](#covid-19-one-month-impact-of-the-french-lockdown-on-the-epidemic-burden) |
+| Forecasting the impact of the first wave of the COVID-19 pandemic on hospital demand and deaths for the USA and European Economic Area countries | IHME COVID-19 health service utilization forecasting team et al. | [here](#forecasting-the-impact-of-the-first-wave-of-the-covid-19-pandemic-on-hospital-demand-and-deaths-for-the-usa-and-european-economic-area-countries) |
 | Estimating the burden of SARS-CoV-2 in France | Henrik Salje et al. | [here](#estimating-the-burden-of-sars-cov-2-in-france) |
 | Estimating the Maximum Capacity of COVID-19 Cases Manageable per Day Given a Health Care System's Constrained Resources | Vasily Giannakeas et al. | [here](#estimating-the-maximum-capacity-of-covid-19-cases-manageable-per-day-given-a-health-care-systems-constrained-resources) |
 | Temporal dynamics in viral shedding and transmissibility of COVID-19 | Eric H. Y. Lau et al. | [here](#temporal-dynamics-in-viral-shedding-and-transmissibility-of-covid-19) |
@@ -55,7 +56,7 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 | A Modified SIR Model for the COVID-19 Contagion in Italy | Giuseppe C. Calafiore et al. | [here](#a-modified-sir-model-for-the-covid-19-contagion-in-italy) |
 | Optimising Lockdown Policies for Epidemic Control using Reinforcement Learning | Harshad Khadilkar et al. | [here](#optimising-lockdown-policies-for-epidemic-control-using-reinforcement-learning) |
 | Convex Recovery of Marked Spatio-Temporal Point Processes | Anatoli Juditsky et al. | [here](#convex-recovery-of-marked-spatio-temporal-point-processes) |
-| Forecasting COVID-19 impact on hospital bed-days, ICU-days, ventilatordays and deaths by US state in the next 4 months | Christopher JL Murray et al. | [here](#forecasting-covid-19-impact-on-hospital-bed-days-icu-days-ventilatordays-and-deaths-by-us-state-in-the-next-4-months) |
+| Forecasting COVID-19 impact on hospital bed-days, ICU-days, ventilatordays and deaths by US state in the next 4 months | IHME COVID-19 health service utilization forecasting team et al. | [here](#forecasting-covid-19-impact-on-hospital-bed-days-icu-days-ventilatordays-and-deaths-by-us-state-in-the-next-4-months) |
 | Coronavirus Optimization Algorithm: A bioinspired metaheuristic based on the COVID-19 propagation model | F. Martinez-Alvarez  et al. | [here](#coronavirus-optimization-algorithm-a-bioinspired-metaheuristic-based-on-the-covid-19-propagation-model) |
 | Report 13: Estimating the number of infections and the impact of non-pharmaceutical interventions on COVID-19 in 11 European countries | Seth Flaxman et al. | [here](#report-13-estimating-the-number-of-infections-and-the-impact-of-non-pharmaceutical-interventions-on-covid-19-in-11-european-countries) |
 | Estimates of the severity of coronavirus disease 2019: a model-based analysis | Robert Verity et al. | [here](#estimates-of-the-severity-of-coronavirus-disease-2019-a-model-based-analysis) |
@@ -107,7 +108,7 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 **Code available** : bbmle package in R</br>
 ### Technical information
 #### Model information
-**Model category** : compartmental;deterministic</br>
+**Model category** : Estimating the maximum capacity</br>
 <details><summary> <b>Model sub-category</b> </summary>SEIR;age-structured;location-structured;region-structured; with several I states (pre-symptomatic, symptomatic, hospitalized or not) and an asymptomatic state</details>
 
 <details><summary> <b>Data used for the model</b> </summary>France - 03/20 to 03/28 - regional data on hospitalizations, ICU admissions, and deaths from Santé Publique France;  data on ICU beds capacity per French Region </details>
@@ -132,6 +133,19 @@ https://spiral.imperial.ac.uk:8443/handle/10044/1/77482; infectivity
 of the asymptomatic cases from
 https://science.sciencemag.org/content/early/2020/04/09/science.abb6936.abstract; data-driven: probability of infection by region, other parameters from the APHP; data-driven: introduction date and other parameters are estimated by maximum likelihood assuming some specific distributions for the hospitalization data, the occupation of hospitalization beds, the ICU and deaths data</details>
 
+#### Additional information
+## Forecasting the impact of the first wave of the COVID-19 pandemic on hospital demand and deaths for the USA and European Economic Area countries 
+### General information
+**Authors** : IHME COVID-19 health service utilization forecasting team</br>
+**Publication date** : 04/21</br>
+**Paper** : Available [here](http://www.healthdata.org/research-article/forecasting-impact-first-wave-covid-19-pandemic-hospital-demand-and-deaths-usa-and)</br>
+**Code available** : null</br>
+### Technical information
+#### Model information
+**Model category** : null</br>
+<details><summary> <b>Model sub-category</b> </summary>null</details>
+
+#### Estimation information
 #### Additional information
 ## Estimating the burden of SARS-CoV-2 in France 
 ### General information
@@ -1094,7 +1108,7 @@ Prevention))</details>
 
 ## Forecasting COVID-19 impact on hospital bed-days, ICU-days, ventilatordays and deaths by US state in the next 4 months 
 ### General information
-**Authors** : Christopher JL Murray</br>
+**Authors** : IHME COVID-19 health service utilization forecasting team, Christopher JL Murray</br>
 **Publication date** : 03/30</br>
 **Paper** : Available [here](https://www.medrxiv.org/content/10.1101/2020.03.27.20043752v1)</br>
 **Code available** : package CurveFit</br>
@@ -1384,7 +1398,7 @@ resulted from a subclinical individual; daily rate entering in R and daily rate 
 **Code available** : No</br>
 ### Technical information
 #### Model information
-**Model category** : stochastic </br>
+**Model category** : stochastic</br>
 <details><summary> <b>Model sub-category</b> </summary>composite MC (CMCM)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>China - 01/25 to 02/25 - from Chinese Center for Disease Control and Prevention</details>
@@ -2168,7 +2182,7 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 **Code available** : No</br>
 ### Technical information
 #### Model information
-**Model category** : compartmental;deterministic</br>
+**Model category** : compartmental</br>
 <details><summary> <b>Model sub-category</b> </summary>IRGJ;(I: infected, R: cured, G: isolated infected, J: confirmed)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Chinese regions - 01/23 to 02/04</details>
@@ -2195,7 +2209,7 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 ### General information
 **Authors** : Billy J Quilty, Sam Clifford, Stefan Flasche, Rosalind M Eggo</br>
 **Publication date** : 02/06</br>
-**Paper** : Available [here](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.5.2000080#r9)</br>
+**Paper** : Available [here](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.5.2000080)</br>
 **Code available** : https://github.com/bquilty25/airport_screening</br>
 ### Technical information
 #### Model information

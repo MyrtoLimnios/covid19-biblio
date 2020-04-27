@@ -23,6 +23,7 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 | Title | Authors | Description |
 | --- | --- | --- |
 | COVID-19: One-month impact of the French lockdown on the epidemic burden | Jonathan Roux et al. | [here](#covid-19-one-month-impact-of-the-french-lockdown-on-the-epidemic-burden) |
+| Forecasting the impact of the first wave of the COVID-19 pandemic on hospital demand and deaths for the USA and European Economic Area countries | IHME COVID-19 health service utilization forecasting team et al. | [here](#forecasting-the-impact-of-the-first-wave-of-the-covid-19-pandemic-on-hospital-demand-and-deaths-for-the-usa-and-european-economic-area-countries) |
 | Estimating the burden of SARS-CoV-2 in France | Henrik Salje et al. | [here](#estimating-the-burden-of-sars-cov-2-in-france) |
 | Estimating the Maximum Capacity of COVID-19 Cases Manageable per Day Given a Health Care System's Constrained Resources | Vasily Giannakeas et al. | [here](#estimating-the-maximum-capacity-of-covid-19-cases-manageable-per-day-given-a-health-care-systems-constrained-resources) |
 | Temporal dynamics in viral shedding and transmissibility of COVID-19 | Eric H. Y. Lau et al. | [here](#temporal-dynamics-in-viral-shedding-and-transmissibility-of-covid-19) |
@@ -55,7 +56,7 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 | A Modified SIR Model for the COVID-19 Contagion in Italy | Giuseppe C. Calafiore et al. | [here](#a-modified-sir-model-for-the-covid-19-contagion-in-italy) |
 | Optimising Lockdown Policies for Epidemic Control using Reinforcement Learning | Harshad Khadilkar et al. | [here](#optimising-lockdown-policies-for-epidemic-control-using-reinforcement-learning) |
 | Convex Recovery of Marked Spatio-Temporal Point Processes | Anatoli Juditsky et al. | [here](#convex-recovery-of-marked-spatio-temporal-point-processes) |
-| Forecasting COVID-19 impact on hospital bed-days, ICU-days, ventilatordays and deaths by US state in the next 4 months | Christopher JL Murray et al. | [here](#forecasting-covid-19-impact-on-hospital-bed-days-icu-days-ventilatordays-and-deaths-by-us-state-in-the-next-4-months) |
+| Forecasting COVID-19 impact on hospital bed-days, ICU-days, ventilatordays and deaths by US state in the next 4 months | IHME COVID-19 health service utilization forecasting team et al. | [here](#forecasting-covid-19-impact-on-hospital-bed-days-icu-days-ventilatordays-and-deaths-by-us-state-in-the-next-4-months) |
 | Coronavirus Optimization Algorithm: A bioinspired metaheuristic based on the COVID-19 propagation model | F. Martinez-Alvarez  et al. | [here](#coronavirus-optimization-algorithm-a-bioinspired-metaheuristic-based-on-the-covid-19-propagation-model) |
 | Report 13: Estimating the number of infections and the impact of non-pharmaceutical interventions on COVID-19 in 11 European countries | Seth Flaxman et al. | [here](#report-13-estimating-the-number-of-infections-and-the-impact-of-non-pharmaceutical-interventions-on-covid-19-in-11-european-countries) |
 | Estimates of the severity of coronavirus disease 2019: a model-based analysis | Robert Verity et al. | [here](#estimates-of-the-severity-of-coronavirus-disease-2019-a-model-based-analysis) |
@@ -94,9 +95,7 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 | Incubation Period and Other Epidemiological Characteristics of 2019 Novel Coronavirus Infections with Right Truncation: A Statistical Analysis of Publicly Available Case Data | Natalie M. Linton et al. | [here](#incubation-period-and-other-epidemiological-characteristics-of-2019-novel-coronavirus-infections-with-right-truncation-a-statistical-analysis-of-publicly-available-case-data) |
 | Assessing the Impact of Reduced Travel on Exportation Dynamics of Novel Coronavirus Infection (COVID-19) | Asami Anzai et al. | [here](#assessing-the-impact-of-reduced-travel-on-exportation-dynamics-of-novel-coronavirus-infection-covid-19) |
 | Predictions of 2019-nCoV Transmission Ending via Comprehensive Methods | Tianyu Zeng et al. | [here](#predictions-of-2019-ncov-transmission-ending-via-comprehensive-methods) |
-| Epidemiological Identification of A Novel Pathogen in Real Time: Analysis of the Atypical Pneumonia Outbreak in Wuhan, China, 2019–2020 | Sung-mok Jung et al. | [here](#epidemiological-identification-of-a-novel-pathogen-in-real-time-analysis-of-the-atypical-pneumonia-outbreak-in-wuhan-china-2019–2020) |
 | A Time Delay Dynamic System with External Sourcefor the Local Outbreak of 2019-nCoV | Yu Chen et al. | [here](#a-time-delay-dynamic-system-with-external-sourcefor-the-local-outbreak-of-2019-ncov) |
-| Effectiveness of airport screening at detecting travellers infected with novel coronavirus (2019-nCoV) | Billy J Quilty et al. | [here](#effectiveness-of-airport-screening-at-detecting-travellers-infected-with-novel-coronavirus-2019-ncov) |
 | Understanding Unreported Cases in the 2019-nCov Epidemic Outbreak in Wuhan, China, and the Importance of Major Public Health Interventions | Z. Liu et al. | [here](#understanding-unreported-cases-in-the-2019-ncov-epidemic-outbreak-in-wuhan-china-and-the-importance-of-major-public-health-interventions) |
 | Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study | Joseph T Wu et al. | [here](#nowcasting-and-forecasting-the-potential-domestic-and-international-spread-of-the-2019-ncov-outbreak-originating-in-wuhan-china-a-modelling-study) |
 ## COVID-19: One-month impact of the French lockdown on the epidemic burden 
@@ -107,8 +106,9 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 **Code available** : bbmle package in R</br>
 ### Technical information
 #### Model information
-**Model category** : compartmental;deterministic</br>
-<details><summary> <b>Model sub-category</b> </summary>SEIR;age-structured;location-structured;region-structured; with several I states (pre-symptomatic, symptomatic, hospitalized or not) and an asymptomatic state</details>
+**Model deterministic vs. stochastic** : null</br>
+**Model category** : compartmental</br>
+<details><summary> <b>Model sub-category</b> </summary>SEIR; age-structured; location-structured; region-structured; with several I states (pre-symptomatic, symptomatic, hospitalized or not) and an asymptomatic state</details>
 
 <details><summary> <b>Data used for the model</b> </summary>France - 03/20 to 03/28 - regional data on hospitalizations, ICU admissions, and deaths from Santé Publique France;  data on ICU beds capacity per French Region </details>
 
@@ -127,10 +127,38 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 
 <details><summary> <b>Other parameters</b> </summary>contact matrix; introduction date of the virus in a specific region</details>
 
-<details><summary> <b>How input parameters are estimated</b> </summary>litterature: contacts matrices for the French population estimated in https://journals.plos.org/ploscompbiol/article?rev=2&id=10.1371/journal.pcbi.1005697; hospitalization rate and incubation period from
+<details><summary> <b>How input parameters are estimated</b> </summary>1) contacts matrices for the French population estimated in https://journals.plos.org/ploscompbiol/article?rev=2&id=10.1371/journal.pcbi.1005697; 2) hospitalization rate and incubation period from
 https://spiral.imperial.ac.uk:8443/handle/10044/1/77482; infectivity
 of the asymptomatic cases from
-https://science.sciencemag.org/content/early/2020/04/09/science.abb6936.abstract; data-driven: probability of infection by region, other parameters from the APHP; data-driven: introduction date and other parameters are estimated by maximum likelihood assuming some specific distributions for the hospitalization data, the occupation of hospitalization beds, the ICU and deaths data</details>
+https://science.sciencemag.org/content/early/2020/04/09/science.abb6936.abstract; data-driven: probability of infection by region, other parameters from the APHP; 3) introduction date and other parameters are estimated by maximum likelihood assuming some specific distributions for the hospitalization data, the occupation of hospitalization beds, the ICU and deaths data</details>
+
+#### Additional information
+## Forecasting the impact of the first wave of the COVID-19 pandemic on hospital demand and deaths for the USA and European Economic Area countries 
+### General information
+**Authors** : IHME COVID-19 health service utilization forecasting team</br>
+**Publication date** : 04/21</br>
+**Paper** : Available [here](http://www.healthdata.org/research-article/forecasting-impact-first-wave-covid-19-pandemic-hospital-demand-and-deaths-usa-and)</br>
+**Code available** : Python; https://github.com/ihmeuw-msca/CurveFit</br>
+### Technical information
+#### Model information
+**Model deterministic vs. stochastic** : stochastic</br>
+**Model category** : growth model</br>
+<details><summary> <b>Model sub-category</b> </summary>panel data model; age-structured; region-structured; mixed-effects model</details>
+
+<details><summary> <b>Data used for the model</b> </summary>Europe, US - data on confirmed deaths from WHO and governments websites and data on hospital capacity and utilisation from publicly available sources and government websites; Hubei, Italy, Korea, US - average age pattern of mortality rates</details>
+
+<details><summary> <b>Global approach</b> </summary>estimate and forecast deaths across locations as a function of the implementation of social distancing measures with an online visualization tool https://covid19.healthdata.org/united-states-of-america + forecasting on health service needs (hospital admissions, ICU admissions, length of stay, and ventilator need)</details>
+
+<details><summary> <b>Outputs</b> </summary>predicted and projeted deaths dynamics across locations, forecasting on health service needs (hospital admissions, ICU admissions, length of stay, and ventilator need)</details>
+
+<details><summary> <b>How intervention strategies are modelled</b> </summary>covariate in the model which encodes the timing of implementation of social distancing</details>
+
+<details><summary> <b>Additional Assumptions</b> </summary>time of curve inflexion depends on the timing of implementation of social distancing</details>
+
+#### Estimation information
+<details><summary> <b>Problem Formulation</b> </summary>non-linear least-squares regression of an ERF on the confirmed deaths </details>
+
+<details><summary> <b>Solving Method</b> </summary>CurveFit package</details>
 
 #### Additional information
 ## Estimating the burden of SARS-CoV-2 in France 
@@ -141,8 +169,9 @@ https://science.sciencemag.org/content/early/2020/04/09/science.abb6936.abstract
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SEI; with ICU (admission to ICU) and two E compartments;age-structured</details>
+<details><summary> <b>Model sub-category</b> </summary>SEI ICU; ICU (admission to ICU) and two E compartments;age-structured</details>
 
 <details><summary> <b>Data used for the model</b> </summary>France - daily hospitalizations, ICU admissions, deaths and information on patients hospitalized in public and private hospitals, from the SI-VIC web portal, completed by data from OSCOUR</details>
 
@@ -166,6 +195,7 @@ https://science.sciencemag.org/content/early/2020/04/09/science.abb6936.abstract
 **Code available** : code to build the web app: shiny package in R</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : deterministic</br>
 <details><summary> <b>Model sub-category</b> </summary>null</details>
 
@@ -193,6 +223,7 @@ https://science.sciencemag.org/content/early/2020/04/09/science.abb6936.abstract
 **Code available** : code in R on https://github.com/ehylau/COVID-19</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : stochastic</br>
 <details><summary> <b>Model sub-category</b> </summary>null</details>
 
@@ -223,7 +254,8 @@ case was highly likely to have been infected by the other) from publicly availab
 **Code available** : No</br>
 ### Technical information
 #### Model information
-**Model category** : compartmental;deterministic</br>
+**Model deterministic vs. stochastic** : null</br>
+**Model category** : compartmental; deterministic</br>
 <details><summary> <b>Model sub-category</b> </summary>SIRD; with two categories of susceptible (working and confined) and six categories of infected (quarant, working and confined and old or new within these compartments)</details>
 
 <details><summary> <b>Global approach</b> </summary>simulations under different scenarios of interventions</details>
@@ -252,6 +284,7 @@ case was highly likely to have been infected by the other) from publicly availab
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : stochastic;compartmental</br>
 <details><summary> <b>Model sub-category</b> </summary>age-structured;location-structured;SEIRD;(H: hospitalized, ICU: admission to ICU, I: divided into prodromic, asymptomatic, paucisymptomatic, infectious with mild or severe symptoms)</details>
 
@@ -285,8 +318,9 @@ case was highly likely to have been infected by the other) from publicly availab
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : stochastic;compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SEIR;(E: exposed latent but not infectious)</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIR; (E: exposed latent but not infectious)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Washington, King and Snohomish counties - 02/28 to 03/30; Pierce county - 03/05 to 03/30 - lab testing data from WADoH through the WDRS, mobility data from Facebook Data For Good Project - Disease Prevention Maps</details>
 
@@ -319,6 +353,7 @@ case was highly likely to have been infected by the other) from publicly availab
 **Code available** : null</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : null</br>
 <details><summary> <b>Model sub-category</b> </summary>null</details>
 
@@ -332,8 +367,9 @@ case was highly likely to have been infected by the other) from publicly availab
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SEIRQ;(I: divided into asymptomatic and symptomatic populations)</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIRQ; several I states (divided into asymptomatic and symptomatic populations)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Asia, Europe, North and South Amercia until 03/27 from WHO</details>
 
@@ -367,6 +403,7 @@ case was highly likely to have been infected by the other) from publicly availab
 **Code available** : null</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : null</br>
 <details><summary> <b>Model sub-category</b> </summary>null</details>
 
@@ -380,6 +417,7 @@ case was highly likely to have been infected by the other) from publicly availab
 **Code available** : https://github.com/sourish-cmi/Covid19</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental</br>
 <details><summary> <b>Model sub-category</b> </summary>SIR</details>
 
@@ -413,6 +451,7 @@ case was highly likely to have been infected by the other) from publicly availab
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental;deterministic</br>
 <details><summary> <b>Model sub-category</b> </summary>dynamic panel data model;SIR</details>
 
@@ -446,6 +485,7 @@ case was highly likely to have been infected by the other) from publicly availab
 **Code available** : See Appendix (R and Julia) </br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : stochastic;compartmental</br>
 <details><summary> <b>Model sub-category</b> </summary>age-structured;SIR</details>
 
@@ -481,6 +521,7 @@ case was highly likely to have been infected by the other) from publicly availab
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental</br>
 <details><summary> <b>Model sub-category</b> </summary>IRSN;SI;SIR;SEIRD;cascade mechanism</details>
 
@@ -516,6 +557,7 @@ case was highly likely to have been infected by the other) from publicly availab
 **Code available** : null</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : null</br>
 <details><summary> <b>Model sub-category</b> </summary>null</details>
 
@@ -529,6 +571,7 @@ case was highly likely to have been infected by the other) from publicly availab
 **Code available** : null</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : null</br>
 <details><summary> <b>Model sub-category</b> </summary>null</details>
 
@@ -542,6 +585,7 @@ case was highly likely to have been infected by the other) from publicly availab
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental;stochastic</br>
 <details><summary> <b>Model sub-category</b> </summary>SIR;optimal control</details>
 
@@ -577,8 +621,9 @@ case was highly likely to have been infected by the other) from publicly availab
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : null</br>
-<details><summary> <b>Model sub-category</b> </summary>SIR;(I: divided into mild, serious and asymptomatic populations)</details>
+<details><summary> <b>Model sub-category</b> </summary>SIR; (I: divided into mild, serious and asymptomatic populations)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>USA - early dynamics (first month) "in order to avoid public health protocols bias"</details>
 
@@ -608,6 +653,7 @@ case was highly likely to have been infected by the other) from publicly availab
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental</br>
 <details><summary> <b>Model sub-category</b> </summary>SEIRD;time-varying social distancing function</details>
 
@@ -641,6 +687,7 @@ case was highly likely to have been infected by the other) from publicly availab
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental</br>
 <details><summary> <b>Model sub-category</b> </summary>SIR;SEIR;Neural Network</details>
 
@@ -673,8 +720,9 @@ case was highly likely to have been infected by the other) from publicly availab
 **Code available** : https://github.com/plai-group/covid</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental;agent-based</br>
-<details><summary> <b>Model sub-category</b> </summary>SIER;(I: divided into mild, severe and critical cases);FRED</details>
+<details><summary> <b>Model sub-category</b> </summary>SIER; (I: divided into mild, severe and critical cases); FRED</details>
 
 <details><summary> <b>Data used for the model</b> </summary>simulated</details>
 
@@ -709,8 +757,9 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : growth model</br>
-<details><summary> <b>Model sub-category</b> </summary>GLR;Gompertz</details>
+<details><summary> <b>Model sub-category</b> </summary>GLR; Gompertz</details>
 
 <details><summary> <b>Data used for the model</b> </summary>China, South Korea, Spain, Costa Rica, Italy, USA - from European Centre for Disease Prevention and Control</details>
 
@@ -738,6 +787,7 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 **Code available** : Yes but link broken</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : stochastic</br>
 <details><summary> <b>Model sub-category</b> </summary>time varying bayesian autoregressive model for counts</details>
 
@@ -773,8 +823,9 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 **Code available** : Use of https://github.com/ryansmcgee/seirsplus</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : stochastic;compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SEIR-Erlang;SEIR;on social network;(R: recovered, quarantined or dead)</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIR-Erlang; SEIR; on social network;(R: recovered, quarantined or dead)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>simulated data</details>
 
@@ -806,6 +857,7 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 **Code available** : https://github.com/pcm-dpc/COVID-19</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental</br>
 <details><summary> <b>Model sub-category</b> </summary>SEIRD</details>
 
@@ -837,8 +889,9 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SEAIR;mild or severe infection for each state;optimal control</details>
+<details><summary> <b>Model sub-category</b> </summary>SEAIR; mild or severe infection for each state; optimal control</details>
 
 <details><summary> <b>Data used for the model</b> </summary>simulated data</details>
 
@@ -873,6 +926,7 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 **Code available** : No but daily reports per country http://ir-statistics.net/covid-19/</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : stochastic</br>
 <details><summary> <b>Model sub-category</b> </summary>branching processes</details>
 
@@ -904,6 +958,7 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 **Code available** : for the calculation of the R0 dynamics, https://github.com/majelli/Rt</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : stochastic</br>
 <details><summary> <b>Model sub-category</b> </summary>null</details>
 
@@ -932,8 +987,9 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 **Code available** : https://github.com/jakezj/SICRD_model_COVID19_in_China</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SICRD;(I: infectious unconfirmed, C:confirmed)</details>
+<details><summary> <b>Model sub-category</b> </summary>SICRD; (I: infectious unconfirmed, C:confirmed)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>China - 01/01 to 02/07 - 
 R package nCov2019 and Population Migration dataset from Baidu Migration Project</details>
@@ -970,8 +1026,9 @@ Prevention))</details>
 **Code available** : https://github.com/WenjieZ/2019-nCoV</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : stochastic;compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>state-space framework;SIR;SIRQ;(R: death/recovered, Q: hospitalized or quarantined)</details>
+<details><summary> <b>Model sub-category</b> </summary>state-space framework; SIR; SIRQ; (R: death/recovered, Q: hospitalized or quarantined)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>simulated data: virulence data, surveillance data, serological data</details>
 
@@ -1003,6 +1060,7 @@ Prevention))</details>
 **Code available** : https://github.com/pcm-dpc/COVID-19</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental</br>
 <details><summary> <b>Model sub-category</b> </summary>SIRD</details>
 
@@ -1036,8 +1094,9 @@ Prevention))</details>
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : reinforcement learning</br>
-<details><summary> <b>Model sub-category</b> </summary>SEIRD;NN</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIRD; NN</details>
 
 <details><summary> <b>Data used for the model</b> </summary>simulated</details>
 
@@ -1071,6 +1130,7 @@ Prevention))</details>
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : stochastic</br>
 <details><summary> <b>Model sub-category</b> </summary>spatio-temporal Bernoulli process</details>
 
@@ -1094,14 +1154,15 @@ Prevention))</details>
 
 ## Forecasting COVID-19 impact on hospital bed-days, ICU-days, ventilatordays and deaths by US state in the next 4 months 
 ### General information
-**Authors** : Christopher JL Murray</br>
+**Authors** : IHME COVID-19 health service utilization forecasting team, Christopher JL Murray</br>
 **Publication date** : 03/30</br>
 **Paper** : Available [here](https://www.medrxiv.org/content/10.1101/2020.03.27.20043752v1)</br>
-**Code available** : package CurveFit</br>
+**Code available** : Python; https://github.com/ihmeuw-msca/CurveFit</br>
 ### Technical information
 #### Model information
-**Model category** : stochastic;growth model</br>
-<details><summary> <b>Model sub-category</b> </summary>panel data model</details>
+**Model deterministic vs. stochastic** : null</br>
+**Model category** : stochastic; growth model</br>
+<details><summary> <b>Model sub-category</b> </summary>panel data model; region-structured; mixed-effects model</details>
 
 <details><summary> <b>Data used for the model</b> </summary>US - confirmed deaths, timings of interventions and data on licensed bed and ICU capacity and average annual utilization from local government, national government, WHO websites and the American Hospital Association; China, Italy - information on inpatient and ICU use; China, Italy, Korea, US: age-specific data on the relative population death rate by age</details>
 
@@ -1127,7 +1188,8 @@ Prevention))</details>
 **Code available** : 1) partial pseudo-code 2) git with java code https://github.com/DataLabUPO/CVOA_academic</br>
 ### Technical information
 #### Model information
-**Model category** : stochastic;agent-based</br>
+**Model deterministic vs. stochastic** : null</br>
+**Model category** : stochastic; agent-based</br>
 <details><summary> <b>Model sub-category</b> </summary>agent-based</details>
 
 <details><summary> <b>Global approach</b> </summary>simulate a growing population of infectious starting from a patient zero with a simple binary encoding of individuals</details>
@@ -1160,6 +1222,7 @@ Prevention))</details>
 **Code available** : https://github.com/ImperialCollegeLondon/covid19model/releases/tag/v1.0</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental</br>
 <details><summary> <b>Model sub-category</b> </summary>SID</details>
 
@@ -1191,6 +1254,7 @@ Prevention))</details>
 **Code available** : null</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : null</br>
 <details><summary> <b>Model sub-category</b> </summary>null</details>
 
@@ -1204,8 +1268,9 @@ Prevention))</details>
 **Code available** : No</br>
 ### Technical information
 #### Model information
-**Model category** : compartmental;stochastic</br>
-<details><summary> <b>Model sub-category</b> </summary>SIR;with diffusion</details>
+**Model deterministic vs. stochastic** : null</br>
+**Model category** : compartmental; stochastic</br>
+<details><summary> <b>Model sub-category</b> </summary>SIR; with diffusion</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Europe and India - from 02/24 </details>
 
@@ -1237,6 +1302,7 @@ Prevention))</details>
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental</br>
 <details><summary> <b>Model sub-category</b> </summary>SIR </details>
 
@@ -1268,8 +1334,9 @@ Prevention))</details>
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SEIR;optimal control</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIR; optimal control</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Italy, early data</details>
 
@@ -1303,8 +1370,9 @@ Prevention))</details>
 **Code available** : Code in R https://github.com/kieshaprem/covid19-agestructureSEIR-wuhan-social-distancing</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>stochastic;age-structured;location-structured;SEIR;(I: divided into clinical and subclinical)</details>
+<details><summary> <b>Model sub-category</b> </summary>stochastic; age-structured; location-structured; SEIR; (I: divided into clinical and subclinical)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>simulated - synthetic contact mixing matrices for China scaled to Wuhan population size</details>
 
@@ -1340,8 +1408,9 @@ resulted from a subclinical individual; daily rate entering in R and daily rate 
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SIR;inferential statistics</details>
+<details><summary> <b>Model sub-category</b> </summary>SIR; inferential statistics</details>
 
 <details><summary> <b>Data used for the model</b> </summary>France, South Korea - 02/22 to 03/17</details>
 
@@ -1371,6 +1440,7 @@ resulted from a subclinical individual; daily rate entering in R and daily rate 
 **Code available** : null</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : null</br>
 <details><summary> <b>Model sub-category</b> </summary>null</details>
 
@@ -1384,7 +1454,8 @@ resulted from a subclinical individual; daily rate entering in R and daily rate 
 **Code available** : No</br>
 ### Technical information
 #### Model information
-**Model category** : stochastic </br>
+**Model deterministic vs. stochastic** : null</br>
+**Model category** : stochastic</br>
 <details><summary> <b>Model sub-category</b> </summary>composite MC (CMCM)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>China - 01/25 to 02/25 - from Chinese Center for Disease Control and Prevention</details>
@@ -1417,8 +1488,9 @@ resulted from a subclinical individual; daily rate entering in R and daily rate 
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SEIR;(I: divided into symptomatic and asymptomatic populations)</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIR; (I: divided into symptomatic and asymptomatic populations)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Major Chinese cities - 12/01/19 to 03/31 - from CDC, WHO, Diamond Princess Cruise</details>
 
@@ -1452,6 +1524,7 @@ resulted from a subclinical individual; daily rate entering in R and daily rate 
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental;deterministic</br>
 <details><summary> <b>Model sub-category</b> </summary>SIR</details>
 
@@ -1483,8 +1556,9 @@ resulted from a subclinical individual; daily rate entering in R and daily rate 
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SIRU;(I: asymptomatic infectious, R: reported symptomatic, U: unreported symptomatic)</details>
+<details><summary> <b>Model sub-category</b> </summary>SIRU; (I: asymptomatic infectious, R: reported symptomatic, U: unreported symptomatic)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Korean Center for Disease Control 01/20 - 03/09, Italian Ministry of Health 01/31 - 03/03, French Public Agency of Health 02/25 - 03/09 and Robert Koch Institute of Germany 02/24 - 03/09</details>
 
@@ -1519,6 +1593,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 **Code available** : upon request to the corresponding author</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental</br>
 <details><summary> <b>Model sub-category</b> </summary>SIR</details>
 
@@ -1552,6 +1627,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental</br>
 <details><summary> <b>Model sub-category</b> </summary>SEIRUS;(R: infected population quarantined and expecting recovery at time t, U: recovered satisfying undetectable criteria)</details>
 
@@ -1587,6 +1663,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental</br>
 <details><summary> <b>Model sub-category</b> </summary>SEIRQAJ;(Q: quarantined, A: asymptomatic, I: infected symptomatic, J: isolated, R: recovered)</details>
 
@@ -1622,6 +1699,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 **Code available** : null</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : null</br>
 <details><summary> <b>Model sub-category</b> </summary>null</details>
 
@@ -1635,6 +1713,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 **Code available** : upon request (R package and application developed) </br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental</br>
 <details><summary> <b>Model sub-category</b> </summary>age-structured;SEIR</details>
 
@@ -1670,8 +1749,9 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 **Code available** : No</br>
 ### Technical information
 #### Model information
-**Model category** : stochastic;agent-based</br>
-<details><summary> <b>Model sub-category</b> </summary>spatially-structured;agent-based</details>
+**Model deterministic vs. stochastic** : null</br>
+**Model category** : stochastic; agent-based</br>
+<details><summary> <b>Model sub-category</b> </summary>spatially-structured</details>
 
 <details><summary> <b>Data used for the model</b> </summary>GB - data on spatial and social repartition (age and household distribution size, average class sizes and staff-student ratios, distribution of workplace size)</details>
 
@@ -1703,6 +1783,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 **Code available** : null</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : null</br>
 <details><summary> <b>Model sub-category</b> </summary>null</details>
 
@@ -1716,6 +1797,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 **Code available** : null</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : stochastic</br>
 <details><summary> <b>Model sub-category</b> </summary>null</details>
 
@@ -1729,6 +1811,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : growth model;compartmental;stochastic</br>
 <details><summary> <b>Model sub-category</b> </summary>1) 8 empirical functions (linear, quadratic, cubic, exponential, Hill’s, Logistic, Gompertz’sand Richards’ functions); 2) 4 statistical  inference methods (exponential growth, maximum likelihood, sequential Bayesian and time-dependent reproduction number); 3) 5 ODE models (SIR, SEIR, SEIR-QD, SEIR-AHQ and SEIR-PO)</details>
 
@@ -1758,6 +1841,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 **Code available** : null</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : null</br>
 <details><summary> <b>Model sub-category</b> </summary>null</details>
 
@@ -1771,6 +1855,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 **Code available** : null</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : null</br>
 <details><summary> <b>Model sub-category</b> </summary>null</details>
 
@@ -1784,6 +1869,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : null</br>
 <details><summary> <b>Model sub-category</b> </summary>null</details>
 
@@ -1811,6 +1897,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental</br>
 <details><summary> <b>Model sub-category</b> </summary>SEIRDAQ</details>
 
@@ -1844,6 +1931,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental;agent-based</br>
 <details><summary> <b>Model sub-category</b> </summary>SLIR;(L: Latent)</details>
 
@@ -1877,6 +1965,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 **Code available** : null</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : null</br>
 <details><summary> <b>Model sub-category</b> </summary>null</details>
 
@@ -1890,6 +1979,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 **Code available** : https://nssac.github.io/covid-19/import_risk.html</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : null</br>
 <details><summary> <b>Model sub-category</b> </summary>null</details>
 
@@ -1922,6 +2012,7 @@ slope of 0 </details>
 **Code available** : https://nssac.github.io/covid-19/import_risk.html</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : null</br>
 <details><summary> <b>Model sub-category</b> </summary>null</details>
 
@@ -1954,8 +2045,9 @@ slope of 0 </details>
 **Code available** : https://github.com/PingEnLu/Time-dependent_SIR_COVID-19</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>time-dependent;SIR;(I: divided into asymptomatic and symptomatic populations);cascade mechanism</details>
+<details><summary> <b>Model sub-category</b> </summary>time-dependent; SIR; (I: divided into asymptomatic and symptomatic populations);cascade mechanism</details>
 
 <details><summary> <b>Data used for the model</b> </summary>China and other countries, including Japan, Singapore, South Korea, Italy and  Iran - 01/15 (China) and 01/22 (world) to 03/02 - from NHC (China) and JHU (World) and a network from Facebook for social distancing modelling</details>
 
@@ -1990,8 +2082,9 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SIRU; (I: asymptomatic infectious, R: reported symptomatic, U: unreported symptomatic)</details>
+<details><summary> <b>Model sub-category</b> </summary>SIRU; I: asymptomatic infectious, R: reported symptomatic, U: unreported symptomatic</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Wuhan and central region of China - 01/20 to 02/15</details>
 
@@ -2025,6 +2118,7 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 **Code available** : Use of R0 package in R</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental;stochastic</br>
 <details><summary> <b>Model sub-category</b> </summary>SIR</details>
 
@@ -2056,6 +2150,7 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 **Code available** : null</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : null</br>
 <details><summary> <b>Model sub-category</b> </summary>null</details>
 
@@ -2069,6 +2164,7 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 **Code available** : https://www.mathworks.com/matlabcentral/fileexchange/74411-fitvirus</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : growth model</br>
 <details><summary> <b>Model sub-category</b> </summary>logistic growth model</details>
 
@@ -2094,6 +2190,7 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 **Code available** : null</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : null</br>
 <details><summary> <b>Model sub-category</b> </summary>null</details>
 
@@ -2107,6 +2204,7 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 **Code available** : null</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : null</br>
 <details><summary> <b>Model sub-category</b> </summary>null</details>
 
@@ -2120,6 +2218,7 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental</br>
 <details><summary> <b>Model sub-category</b> </summary>SEIRSD;(R: recovered);Multi-Model ODEs Neural Network</details>
 
@@ -2147,19 +2246,6 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) article with a lot of simulations and predictions; 2) test sample of 4 days; 3) model includes the possible multi-infection patients</details></br>
 
-## Epidemiological Identification of A Novel Pathogen in Real Time: Analysis of the Atypical Pneumonia Outbreak in Wuhan, China, 2019–2020 
-### General information
-**Authors** : Sung-mok Jung, Ryo Kinoshita, Robin N. Thompson, Natalie M. Linton, Yichi Yang, Andrei R. Akhmetzhanov, Hiroshi Nishiura</br>
-**Publication date** : 02/08</br>
-**Paper** : Available [here](https://www.mdpi.com/2077-0383/9/3/637)</br>
-**Code available** : null</br>
-### Technical information
-#### Model information
-**Model category** : null</br>
-<details><summary> <b>Model sub-category</b> </summary>null</details>
-
-#### Estimation information
-#### Additional information
 ## A Time Delay Dynamic System with External Sourcefor the Local Outbreak of 2019-nCoV 
 ### General information
 **Authors** : Yu Chen, Jin Cheng, Yu Jiang, Keji Liu</br>
@@ -2168,8 +2254,9 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 **Code available** : No</br>
 ### Technical information
 #### Model information
-**Model category** : compartmental;deterministic</br>
-<details><summary> <b>Model sub-category</b> </summary>IRGJ;(I: infected, R: cured, G: isolated infected, J: confirmed)</details>
+**Model deterministic vs. stochastic** : null</br>
+**Model category** : compartmental</br>
+<details><summary> <b>Model sub-category</b> </summary>IRGJ; (I: infected, R: cured, G: isolated infected, J: confirmed)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Chinese regions - 01/23 to 02/04</details>
 
@@ -2191,19 +2278,6 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) time-delay dynamic system; 2) use of gaussian kernels to define cumulative dynamics of compartments; 3) models flows impacts on different populations/regions</details></br>
 
-## Effectiveness of airport screening at detecting travellers infected with novel coronavirus (2019-nCoV) 
-### General information
-**Authors** : Billy J Quilty, Sam Clifford, Stefan Flasche, Rosalind M Eggo</br>
-**Publication date** : 02/06</br>
-**Paper** : Available [here](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.5.2000080#r9)</br>
-**Code available** : https://github.com/bquilty25/airport_screening</br>
-### Technical information
-#### Model information
-**Model category** : null</br>
-<details><summary> <b>Model sub-category</b> </summary>null</details>
-
-#### Estimation information
-#### Additional information
 ## Understanding Unreported Cases in the 2019-nCov Epidemic Outbreak in Wuhan, China, and the Importance of Major Public Health Interventions 
 ### General information
 **Authors** : Z. Liu, P. Magal , O. Seydi, G. Webb</br>
@@ -2212,6 +2286,7 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental;deterministic</br>
 <details><summary> <b>Model sub-category</b> </summary>SIRU; (I: asymptomatic infectious, R: reported symptomatic, U: unreported symptomatic)</details>
 
@@ -2247,6 +2322,7 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Model deterministic vs. stochastic** : null</br>
 **Model category** : compartmental;stochastic</br>
 <details><summary> <b>Model sub-category</b> </summary>SEIRD</details>
 

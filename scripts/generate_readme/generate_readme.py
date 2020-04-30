@@ -71,9 +71,12 @@ def add_stochastic_deterministic(fd, text):
     fd.write(u''.join(('**Deterministic or stochastic model** : ', text.encode('utf-8').decode('utf-8'), '</br>', '\n')))
 
 def add_category_of_model(fd, text):
-    #print(text.encode('utf-8'))
-    fd.write(u''.join(('**Model category** : ', text.encode('utf-8').decode('utf-8'), '</br>', '\n')))
-
+    #print(text.encode('utf-8')) 
+    if text != 'null':
+        fd.write(u''.join(('**Model category** : ', text.encode('utf-8').decode('utf-8'), '</br>', '\n')))
+    else:
+         fd.write(u''.join(('**Model category** : ', '</br>', '\n')))
+       
 def add_sub_category_of_model(fd, text):
     form = '''<details><summary> <b>Model sub-category</b> </summary>''' + text.encode('utf-8').decode('utf-8') + '''</details>'''
     fd.write(u''.join((form, '\n', '\n')))
@@ -131,7 +134,7 @@ def add_input_estimation(fd, text):
     fd.write(u''.join((form, '\n', '\n')))
     
 def add_details_input_estimation(fd, text):
-    form = '''<details><summary> <b>Details on parameters estimation</b> </summary>''' + text.encode(
+    form = '''<details><summary> <b>How parameters are estimated</b> </summary>''' + text.encode(
         'utf-8').decode('utf-8') + '''</details>'''
     fd.write(u''.join((form, '\n', '\n')))
     
@@ -214,7 +217,10 @@ if __name__ == '__main__':
             add_technical_information(myfile)
             # Model information
             add_model_information(myfile)
-            add_stochastic_deterministic(myfile, row['Stochastic vs. Deterministic'])
+
+            if row['Stochastic vs. Deterministic'] != 'null':
+                add_stochastic_deterministic(myfile, row['Stochastic vs. Deterministic'])
+
             add_category_of_model(myfile, row['Category of model'])
             add_sub_category_of_model(myfile, row['Subcategory of model'])
             if row['Data used for the model (e.g. historical or simulated)'] != 'null':
@@ -240,8 +246,7 @@ if __name__ == '__main__':
                 add_epidemiological_parameters(myfile, row['Epidemiological parameters (eg inherent of the virus: infection, recovery, death rates)'])
             if row['Other parameters'] != 'null':
                 add_other_parameters(myfile, row['Other parameters'])
-            if row['How input parameters are estimated (data-driven or from litterature)'] != 'null':
-                add_input_estimation(myfile, row['How input parameters are estimated (data-driven or from litterature)'])
+
             if row['Details on parameters estimation'] != 'null':
                 add_details_input_estimation(myfile, row['Details on parameters estimation'])
             # Additional

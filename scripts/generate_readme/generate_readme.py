@@ -39,6 +39,8 @@ def add_model_information(fd):
 def add_estimation_information(fd):
     fd.write(u''.join(('####', ' Estimation information', '\n')))
 
+def add_parameters_information(fd):
+    fd.write(u''.join(('####', ' Model parameters information', '\n')))
 
 def add_additional_information(fd):
     fd.write(u''.join(('####', ' Additional information', '\n')))
@@ -124,7 +126,7 @@ def add_other_parameters(fd, text):
 
 
 def add_input_estimation(fd, text):
-    form = '''<details><summary> <b>Estimation of parameters data-driven or from litterature</b> </summary>''' + text.encode(
+    form = '''<details><summary> <b>Estimation data-driven or from litterature</b> </summary>''' + text.encode(
         'utf-8').decode('utf-8') + '''</details>'''
     fd.write(u''.join((form, '\n', '\n')))
     
@@ -225,12 +227,15 @@ if __name__ == '__main__':
                 add_intervention_strategies(myfile, row['How intervention strategies are modelled'])
             if row['Additional Assumptions'] != 'null':
                 add_additional_assumptions(myfile, row['Additional Assumptions'])
-            # Estimation
-            add_estimation_information(myfile)
+
             if (row["Problem Formulation (eg numerical scheme, objective function, etc.)"] != 'null' and row["Problem Formulation (eg numerical scheme, objective function, etc.)"] != 'not explained' ):
                 add_problem_formulation(myfile, row["Problem Formulation (eg numerical scheme, objective function, etc.)"])
             if (row["Solving Method"] != 'null' and row["Solving Method"] != 'not explained'):
                 add_solving_method(myfile, row["Solving Method"])
+                
+            # Estimation
+            add_parameters_information(myfile)
+
             if row['Epidemiological parameters (eg inherent of the virus: infection, recovery, death rates)'] != 'null':
                 add_epidemiological_parameters(myfile, row['Epidemiological parameters (eg inherent of the virus: infection, recovery, death rates)'])
             if row['Other parameters'] != 'null':

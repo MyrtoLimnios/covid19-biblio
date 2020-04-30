@@ -12,6 +12,11 @@ List of characteristics is provided for each paper : see [characteristics](https
 
 A [glossary](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU/edit#gid=693948220) of technical terms is available. 
 # Provided by Centre Borelli (ENS Paris-Saclay, CNRS, Université de Paris, SSA) 
+
+Authors: Marie Garin, Myrto Limnios, Alice Nicolaï, Nicolas Vayatis
+
+Credits: Olivier Boulant, Amir Dib
+
 [http://centreborelli.cnrs.fr](http://centreborelli.cnrs.fr)
 # Contribution 
 If you wish to suggest an article to be added to the review, please contact us via email at <A href="mailto:centreborelli.repository@gmail.com">centreborelli.repository@gmail.com</A> and we will proceed with the new entry after an internal assessment.

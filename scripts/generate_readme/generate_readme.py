@@ -251,7 +251,8 @@ if __name__ == '__main__':
             if row['Details on parameters estimation'] != 'null':
                 add_details_input_estimation(myfile, row['Details on parameters estimation'])
             # Additional
-            add_additional_information(myfile)
+            if row['Comment/issues'] != 'null':
+                add_additional_information(myfile)
             if row['Comment/issues'] != 'null':
                 add_comments(myfile, row['Comment/issues'])
 

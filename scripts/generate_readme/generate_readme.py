@@ -64,10 +64,13 @@ def add_code_available(fd, text):
     fd.write(u''.join(('**Code available** : ', text.encode('utf-8').decode('utf-8'), '</br>', '\n')))
 
 
+def add_stochastic_deterministic(fd, text):
+    #print(text.encode('utf-8'))
+    fd.write(u''.join(('**Deterministic or stochastic model** : ', text.encode('utf-8').decode('utf-8'), '</br>', '\n')))
+
 def add_category_of_model(fd, text):
     #print(text.encode('utf-8'))
     fd.write(u''.join(('**Model category** : ', text.encode('utf-8').decode('utf-8'), '</br>', '\n')))
-
 
 def add_sub_category_of_model(fd, text):
     form = '''<details><summary> <b>Model sub-category</b> </summary>''' + text.encode('utf-8').decode('utf-8') + '''</details>'''
@@ -121,10 +124,15 @@ def add_other_parameters(fd, text):
 
 
 def add_input_estimation(fd, text):
-    form = '''<details><summary> <b>How input parameters are estimated</b> </summary>''' + text.encode(
+    form = '''<details><summary> <b>Estimation of parameters data-driven or from litterature</b> </summary>''' + text.encode(
         'utf-8').decode('utf-8') + '''</details>'''
     fd.write(u''.join((form, '\n', '\n')))
-
+    
+def add_details_input_estimation(df, text):
+    form = '''<details><summary> <b>Details on parameters estimation</b> </summary>''' + text.encode(
+        'utf-8').decode('utf-8') + '''</details>'''
+    fd.write(u''.join((form, '\n', '\n')))
+    
 
 def add_additional_assumptions(fd, text):
     form = '''<details><summary> <b>Additional Assumptions</b> </summary>''' + text.encode(
@@ -187,7 +195,7 @@ if __name__ == '__main__':
     add_h1_title(myfile, 'Terms of Use')
     myfile.write(u'This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay, all rights reserved, is provided to the public strictly for educational and academic research purposes. The Website relies upon publicly available data from multiple sources, that do not always agree. The ENS Paris-Saclay hereby disclaims any and all representations and warranties with respect to the Website, including accuracy, fitness for use, and merchantability. Reliance on the Website for medical guidance or use of the Website in commerce is strictly prohibited.\n')
 
-    add_h1_title(myfile, 'The bibliography')
+    add_h1_title(myfile, 'The review (%d articles in total)' %(df.shape[0]))
 
     add_table(myfile, df['Paper(s)'], df['Authors'])
 
@@ -204,6 +212,7 @@ if __name__ == '__main__':
             add_technical_information(myfile)
             # Model information
             add_model_information(myfile)
+            add_stochastic_deterministic(myfile, row['Stochastic vs. Deterministic'])
             add_category_of_model(myfile, row['Category of model'])
             add_sub_category_of_model(myfile, row['Subcategory of model'])
             if row['Data used for the model (e.g. historical or simulated)'] != 'null':
@@ -228,11 +237,11 @@ if __name__ == '__main__':
                 add_other_parameters(myfile, row['Other parameters'])
             if row['How input parameters are estimated (data-driven or from litterature)'] != 'null':
                 add_input_estimation(myfile, row['How input parameters are estimated (data-driven or from litterature)'])
+            if row['Details on parameters estimation'] != 'null':
+                add_input_estimation(myfile, row['Details on parameters estimation'])
             # Additional
             add_additional_information(myfile)
             if row['Comment/issues'] != 'null':
                 add_comments(myfile, row['Comment/issues'])
 
     myfile.close()
-
-

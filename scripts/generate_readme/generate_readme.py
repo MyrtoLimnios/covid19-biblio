@@ -126,12 +126,12 @@ def add_other_parameters(fd, text):
 
 
 def add_input_estimation(fd, text):
-    form = '''<details><summary> <b>Estimation data-driven or from litterature</b> </summary>''' + text.encode(
+    form = '''<details><summary> <b>How parameters are estimated</b> </summary>''' + text.encode(
         'utf-8').decode('utf-8') + '''</details>'''
     fd.write(u''.join((form, '\n', '\n')))
     
 def add_details_input_estimation(fd, text):
-    form = '''<details><summary> <b>How parameters are estimated</b> </summary>''' + text.encode(
+    form = '''<details><summary> <b>Details on parameters estimation</b> </summary>''' + text.encode(
         'utf-8').decode('utf-8') + '''</details>'''
     fd.write(u''.join((form, '\n', '\n')))
     
@@ -217,9 +217,11 @@ if __name__ == '__main__':
 
             if row['Stochastic vs. Deterministic'] != 'null':
                 add_stochastic_deterministic(myfile, row['Stochastic vs. Deterministic'])
-
-            add_category_of_model(myfile, row['Category of model'])
-            add_sub_category_of_model(myfile, row['Subcategory of model'])
+            if row['Category of model'] != 'null':
+                add_category_of_model(myfile, row['Category of model'])
+            
+            if row['Subcategory of model'] != 'null':
+                add_sub_category_of_model(myfile, row['Subcategory of model'])
             if row['Data used for the model (e.g. historical or simulated)'] != 'null':
                 add_data_used_for_the_model(myfile, row['Data used for the model (e.g. historical or simulated)'])
             if row['Global approach'] != 'null':
@@ -244,6 +246,8 @@ if __name__ == '__main__':
             if row['Other parameters'] != 'null':
                 add_other_parameters(myfile, row['Other parameters'])
 
+            if row['How input parameters are estimated (data-driven or from litterature)'] != 'null':
+                add_input_estimation(myfile, row['How input parameters are estimated (data-driven or from litterature)'])
             if row['Details on parameters estimation'] != 'null':
                 add_details_input_estimation(myfile, row['Details on parameters estimation'])
             # Additional

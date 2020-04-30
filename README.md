@@ -129,7 +129,7 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 
 <details><summary> <b>Estimation data-driven or from litterature</b> </summary>litterature; data-driven</details>
 
-<details><summary> <b>Estimation data-driven or from litterature</b> </summary>1) contacts matrices for the French population estimated in https://journals.plos.org/ploscompbiol/article?rev=2&id=10.1371/journal.pcbi.1005697; 2) hospitalization rate and incubation period from
+<details><summary> <b>Details on parameters estimation</b> </summary>1) contacts matrices for the French population estimated in https://journals.plos.org/ploscompbiol/article?rev=2&id=10.1371/journal.pcbi.1005697; 2) hospitalization rate and incubation period from
 https://spiral.imperial.ac.uk:8443/handle/10044/1/77482; infectivity
 of the asymptomatic cases from
 https://science.sciencemag.org/content/early/2020/04/09/science.abb6936.abstract; data-driven: probability of infection by region, other parameters from the APHP; 3) introduction date and other parameters are estimated by maximum likelihood assuming some specific distributions for the hospitalization data, the occupation of hospitalization beds, the ICU and deaths data</details>
@@ -184,7 +184,7 @@ https://science.sciencemag.org/content/early/2020/04/09/science.abb6936.abstract
 <details><summary> <b>How intervention strategies are modelled</b> </summary>changes in the contact matrix</details>
 
 #### Model parameters information
-<details><summary> <b>Estimation data-driven or from litterature</b> </summary>baseline contact matrix is estimated from https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0133203 and the package socialmixr https://github.com/sbfnk/socialmixr parameters</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>baseline contact matrix is estimated from https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0133203 and the package socialmixr https://github.com/sbfnk/socialmixr parameters</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) couples hospitalization data with the complete dataset from the Princess Diamond to disentangle the risk of being hospitalized in those infected from the underlying probability of infection 2) sensitivity study and simulations where the true parameters are known to assess the performance of the estimation </details></br>
@@ -214,7 +214,7 @@ https://science.sciencemag.org/content/early/2020/04/09/science.abb6936.abstract
 
 <details><summary> <b>Estimation data-driven or from litterature</b> </summary>litterature; data-driven</details>
 
-<details><summary> <b>Estimation data-driven or from litterature</b> </summary>default epidemiological parameters are based from litterature; defaults resource constraints parameters are calibrated for Ontario, Canada</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>default epidemiological parameters are based from litterature; defaults resource constraints parameters are calibrated for Ontario, Canada</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>convenient online tool to estimate daily capacity to care covid-19 patients</details></br>
@@ -249,7 +249,7 @@ case was highly likely to have been infected by the other) from publicly availab
 
 <details><summary> <b>Estimation data-driven or from litterature</b> </summary>litterature</details>
 
-<details><summary> <b>Estimation data-driven or from litterature</b> </summary>incubation period distribution from litterature (https://www.nejm.org/doi/full/10.1056/NEJMoa2001316, data from Wuhan)</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>incubation period distribution from litterature (https://www.nejm.org/doi/full/10.1056/NEJMoa2001316, data from Wuhan)</details>
 
 #### Additional information
 ## Policy brief : Analyse cout-benefice des strategies de deconfinement 
@@ -347,7 +347,7 @@ case was highly likely to have been infected by the other) from publicly availab
 
 <details><summary> <b>Estimation data-driven or from litterature</b> </summary>data-driven</details>
 
-<details><summary> <b>Estimation data-driven or from litterature</b> </summary>infection rate estimated by regression of movement covariate against case-based estimates; latent and infectious periods fixed</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>infection rate estimated by regression of movement covariate against case-based estimates; latent and infectious periods fixed</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) conservative assumption of the constant reporting rate; 2) mobility data to measure changes in mobility and places where people spend time by the mobility covariate; 3) mobility data used to make more reliable the estimations; 4) 95% confidence interval for all the estimations; 5) mortality data not yet used; 6) based on a previous report https://covid.idmod.org/data/Social_distancing_mobility_reductions_reduced_COVID_Seattle.pdf
@@ -386,7 +386,7 @@ case was highly likely to have been infected by the other) from publicly availab
 
 <details><summary> <b>Estimation data-driven or from litterature</b> </summary>data-driven</details>
 
-<details><summary> <b>Estimation data-driven or from litterature</b> </summary>power-law features per country</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>power-law features per country</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) data-based estimation of R0/region; 2) estimates similarity of the cumulative infected confirmed patients evolution using distance correlation metric; 3) interesting conclusion wrt policy</details></br>
@@ -486,7 +486,7 @@ case was highly likely to have been infected by the other) from publicly availab
 
 <details><summary> <b>Estimation data-driven or from litterature</b> </summary>litterature; data-driven</details>
 
-<details><summary> <b>Estimation data-driven or from litterature</b> </summary>OLS</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>OLS</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) simultaneous parameters estimation for several countries; 2) evaluate the effects of different strategies from mask wearing to quarantine; 3) confidence intervals for parameters estimation; 4) interpretation of simultaneously fitted parameters not evident</details></br>
@@ -690,7 +690,7 @@ case was highly likely to have been infected by the other) from publicly availab
 
 <details><summary> <b>Estimation data-driven or from litterature</b> </summary>data-driven</details>
 
-<details><summary> <b>Estimation data-driven or from litterature</b> </summary>on Italien data</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>on Italien data</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) efficient model with a relevant approach that considers that the rate of social distancing is not fixed but a time-varying function</details></br>
@@ -725,7 +725,7 @@ case was highly likely to have been infected by the other) from publicly availab
 
 <details><summary> <b>Estimation data-driven or from litterature</b> </summary>data-driven</details>
 
-<details><summary> <b>Estimation data-driven or from litterature</b> </summary>data-driven for the NN on infected and population public data per region</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>data-driven for the NN on infected and population public data per region</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) lack of reproductibility by NN; 2) NN ables to introduce quarantine strategies and to predict stagnation in the infected numbers, that does not show classic SIR model (comparison showed); 3) effective reproduction number dynamic deduced directly from the infectious rate (or quarantine strength) dynamic; 4) based on Rackauckas et al.( 2020, 2019); 5) indepth detailed procedure and parameter estimation</details></br>
@@ -762,7 +762,7 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 
 <details><summary> <b>Other parameters</b> </summary>reduction rate of social contact</details>
 
-<details><summary> <b>Estimation data-driven or from litterature</b> </summary>covid-19 data not processed</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>covid-19 data not processed</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) well-written article that offers a comparison between SIER model and agent-based; 2) simple form of planning as inference to perform inference task in pre-existing stochastic epidemiological models </details></br>
@@ -830,7 +830,7 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 
 <details><summary> <b>Estimation data-driven or from litterature</b> </summary>data-driven</details>
 
-<details><summary> <b>Estimation data-driven or from litterature</b> </summary>MCMC for parameters of prior distributions estimation</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>MCMC for parameters of prior distributions estimation</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) time-varying parameter for count-series modelled by Poisson regression; 2) interesting, good predictions and future work promising;</details></br>
@@ -866,7 +866,7 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 
 <details><summary> <b>Estimation data-driven or from litterature</b> </summary>litterature</details>
 
-<details><summary> <b>Estimation data-driven or from litterature</b> </summary>litterature (Bar-On et al. 2020)</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>litterature (Bar-On et al. 2020)</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) original lockdown policy to maintain low R: 4days work-10days lockdown; 2) economic analysis</details></br>
@@ -900,7 +900,7 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 
 <details><summary> <b>Estimation data-driven or from litterature</b> </summary>data-driven</details>
 
-<details><summary> <b>Estimation data-driven or from litterature</b> </summary>data-driven (on 18 days and 31 days)</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>data-driven (on 18 days and 31 days)</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) low relative error on the modeled data; 2)  exponential decay of the transmission rate too fast wrt Italian data</details></br>
@@ -1037,7 +1037,7 @@ R package nCov2019 and Population Migration dataset from Baidu Migration Project
 
 <details><summary> <b>Estimation data-driven or from litterature</b> </summary>data-driven</details>
 
-<details><summary> <b>Estimation data-driven or from litterature</b> </summary>from Wolfram database (National Health Comission and Chinese Centers for Disease Control and
+<details><summary> <b>Details on parameters estimation</b> </summary>from Wolfram database (National Health Comission and Chinese Centers for Disease Control and
 Prevention)</details>
 
 #### Additional information
@@ -1075,7 +1075,7 @@ Prevention)</details>
 
 <details><summary> <b>Estimation data-driven or from litterature</b> </summary>data-driven</details>
 
-<details><summary> <b>Estimation data-driven or from litterature</b> </summary>data-driven for the initial state</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>data-driven for the initial state</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) models the discontinuous policy implied by lockdowns; 2) state-space framework so possibility to use data from multiple sources; 3) can find a global optimum by MAP thanks to regularization; 4) evaluates the a posteriori mode (not mean); 5) need to choose prior distributions for SIRQ's parameters (two proposed)</details></br>
@@ -1177,7 +1177,7 @@ Prevention)</details>
 
 <details><summary> <b>Estimation data-driven or from litterature</b> </summary>data-driven</details>
 
-<details><summary> <b>Estimation data-driven or from litterature</b> </summary>number of confirmed patients for every 30 minutes at 34 Provincial Administrative Regions</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>number of confirmed patients for every 30 minutes at 34 Provincial Administrative Regions</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) application of a pre-existing model to the COVID-19; 2) extensive theoretical developments of the model</details></br>
@@ -1323,7 +1323,7 @@ Prevention)</details>
 
 <details><summary> <b>Estimation data-driven or from litterature</b> </summary>data-driven</details>
 
-<details><summary> <b>Estimation data-driven or from litterature</b> </summary>simultaneous minimization of the square integral error, terminal error and terminal rate error between the data and the model</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>simultaneous minimization of the square integral error, terminal error and terminal rate error between the data and the model</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) embeds volatility in SIR equations</details></br>
@@ -1357,7 +1357,7 @@ Prevention)</details>
 
 <details><summary> <b>Estimation data-driven or from litterature</b> </summary>data-driven</details>
 
-<details><summary> <b>Estimation data-driven or from litterature</b> </summary>nonlinear least squares if S,I,R timeseries are available else litterature,  numerical minimization of sum of squared logarithmic errors if only I is available</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>nonlinear least squares if S,I,R timeseries are available else litterature,  numerical minimization of sum of squared logarithmic errors if only I is available</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>comparison of SIR parameters estimation for many countries, addresses the question of the optimal policy to minimize the peak and the optimal time to start the policy</details></br>
@@ -1395,7 +1395,7 @@ Prevention)</details>
 
 <details><summary> <b>Estimation data-driven or from litterature</b> </summary>litterature; data-driven</details>
 
-<details><summary> <b>Estimation data-driven or from litterature</b> </summary>calibration on Italy data</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>calibration on Italy data</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) model formulated in terms of economic loss, gives the optimal trajectory of the intensity of lockdown 2) demands lot of exogenously fixed or calibrated parameters.</details></br>
@@ -1515,7 +1515,7 @@ resulted from a subclinical individual; daily rate entering in R and daily rate 
 
 <details><summary> <b>Estimation data-driven or from litterature</b> </summary>litterature; data-driven</details>
 
-<details><summary> <b>Estimation data-driven or from litterature</b> </summary>compartements dynamics forecast by BFGS-PNN to feed the CMCM model </details>
+<details><summary> <b>Details on parameters estimation</b> </summary>compartements dynamics forecast by BFGS-PNN to feed the CMCM model </details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) composite MC model that enables non-deterministic data distributions along with future predictions from a deterministic model; 2) original approach to solve the very specific problem of estimating the total cost of the pandemic; 3) based on very strong assumptions</details></br>
@@ -1553,7 +1553,7 @@ resulted from a subclinical individual; daily rate entering in R and daily rate 
 
 <details><summary> <b>Estimation data-driven or from litterature</b> </summary>data-driven</details>
 
-<details><summary> <b>Estimation data-driven or from litterature</b> </summary>data-driven (on mortality and morbidity dynamics per age category - CDC and WHO, rates for symptomatics and asymptomatics using the Cruise data); litterature for the economic parameters</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>data-driven (on mortality and morbidity dynamics per age category - CDC and WHO, rates for symptomatics and asymptomatics using the Cruise data); litterature for the economic parameters</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) complete report after the lockdown in China, with interesting policy strategies, cost estimation, sensitivity analysis; 2) parameter calibration depending on the three categories of ages; 3) age-mixing modelled by the contact matrix estimation</details></br>
@@ -1623,7 +1623,7 @@ resulted from a subclinical individual; daily rate entering in R and daily rate 
 
 <details><summary> <b>Estimation data-driven or from litterature</b> </summary>data-driven</details>
 
-<details><summary> <b>Estimation data-driven or from litterature</b> </summary>using methods of the previous article (https://www.preprints.org/manuscript/202002.0079/v1)</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>using methods of the previous article (https://www.preprints.org/manuscript/202002.0079/v1)</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) similar analysis as for China (https://arxiv.org/pdf/2002.12298.pdf) applied to South Korea, Italy, France and Germany</details></br>
@@ -1696,7 +1696,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 
 <details><summary> <b>Estimation data-driven or from litterature</b> </summary>litterature; data-driven</details>
 
-<details><summary> <b>Estimation data-driven or from litterature</b> </summary>R0 derived from the next generation method (Dieckmann et al 2009)</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>R0 derived from the next generation method (Dieckmann et al 2009)</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) models the possible event of multi-infections; 2) analysis of the disease free equilibrium point; 3) effectiveness of the quarantine and observatory rate through the recovery rate</details></br>
@@ -1734,7 +1734,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 
 <details><summary> <b>Estimation data-driven or from litterature</b> </summary>data-driven</details>
 
-<details><summary> <b>Estimation data-driven or from litterature</b> </summary>five provinces in China from 01/22 to 02/22</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>five provinces in China from 01/22 to 02/22</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) indepth theoritical analysis; 2) comparison if control policy and if not; 3) predictive model + estimation of R0 et if control, RC; 4) good numerical analysis (RMSE +MAE); 5) long and short term prediction (quick numerical analysis of possible outbreak); 6) interesting heat maps for parameters correlations and impact on RC</details></br>
@@ -1786,7 +1786,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 
 <details><summary> <b>Estimation data-driven or from litterature</b> </summary>litterature; data-driven</details>
 
-<details><summary> <b>Estimation data-driven or from litterature</b> </summary>litterature for incubation and contagion period; data-driven for the age sensors based on Chinese datasets but for age-dependent death risk on the Italian National Institute of Health</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>litterature for incubation and contagion period; data-driven for the age sensors based on Chinese datasets but for age-dependent death risk on the Italian National Institute of Health</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) introduction of 17 age groups with estimation of age-dependent mixing ; 2) mortality rate per age estimated with Chinese data but different in Europe cf recent data; 3) estimation of ICU beds and date of capacity limits / region; 4) no transmissions between regions; 5) age-mixing modelling by the contact matrix estimation</details></br>
@@ -1880,7 +1880,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 
 <details><summary> <b>Estimation data-driven or from litterature</b> </summary>data-driven</details>
 
-<details><summary> <b>Estimation data-driven or from litterature</b> </summary>standard non-linear least squares</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>standard non-linear least squares</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) systematical investigation on the forecast ability of 8 widely used empirical functions, 4 statistical inference methods and 5 dynamical models widely used in the literature; addresses the requierements on robustness, sensitivity and the trade-off between model complexity and accuracy; 2) not enough details on the different methods</details></br>
@@ -1972,7 +1972,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 
 <details><summary> <b>Estimation data-driven or from litterature</b> </summary>litterature; data-driven</details>
 
-<details><summary> <b>Estimation data-driven or from litterature</b> </summary>LSE for suceptible to exposed rate and recovery rate; empirical estimates otherwise or from litterature</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>LSE for suceptible to exposed rate and recovery rate; empirical estimates otherwise or from litterature</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) data based parameter estimation; 2) strict lockdown scenarios with different durations; 3) data-driven estimation of R0 per region and the global dynamic wrt time; 4) supplementary analysis of the meteorogical impact; 5) supplementary prediction if vaccine</details></br>
@@ -2125,7 +2125,7 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 
 <details><summary> <b>Estimation data-driven or from litterature</b> </summary>litterature</details>
 
-<details><summary> <b>Estimation data-driven or from litterature</b> </summary>probability to have symptoms if infected = 89.7%, others are data-driven from China data</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>probability to have symptoms if infected = 89.7%, others are data-driven from China data</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) extensive in theory and in terms of numerical experiments; 2) SIR model containing asymptomatic cases and discrete variations of SIR model parameters showing relevant results; 3) proposal for the modelling of social distancing via Independent Cascades, experimentations on a random network from Facebook</details></br>
@@ -2163,7 +2163,7 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 
 <details><summary> <b>Estimation data-driven or from litterature</b> </summary>data-driven</details>
 
-<details><summary> <b>Estimation data-driven or from litterature</b> </summary>on the period 01/20 - 01/29 using the methods of the previous article (https://www.preprints.org/manuscript/202002.0079/v1)</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>on the period 01/20 - 01/29 using the methods of the previous article (https://www.preprints.org/manuscript/202002.0079/v1)</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) illustrates the effect of China's policy; 2) based on previous work on parameter estimation from early-staged epidemic (https://www.preprints.org/manuscript/202002.0079/v1); 3) asymptomatic and symptomatic are modelled </details></br>
@@ -2369,7 +2369,7 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 
 <details><summary> <b>Estimation data-driven or from litterature</b> </summary>litterature; data-driven</details>
 
-<details><summary> <b>Estimation data-driven or from litterature</b> </summary>litterature: average time patients are asymptomatic or symptomatic, proportion of reported symptomatic patients, S0; data-driven: others</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>litterature: average time patients are asymptomatic or symptomatic, proportion of reported symptomatic patients, S0; data-driven: others</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) first article of a series of three; 2) prediction of cumulative reported cases from which unreported can be directly deduced by computing a fraction</details></br>

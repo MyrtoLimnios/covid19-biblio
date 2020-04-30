@@ -130,12 +130,12 @@ def add_input_estimation(fd, text):
         'utf-8').decode('utf-8') + '''</details>'''
     fd.write(u''.join((form, '\n', '\n')))
     
-def add_details_input_estimation(df, text):
+def add_details_input_estimation(fd, text):
     form = '''<details><summary> <b>Details on parameters estimation</b> </summary>''' + text.encode(
         'utf-8').decode('utf-8') + '''</details>'''
     fd.write(u''.join((form, '\n', '\n')))
     
-
+    
 def add_additional_assumptions(fd, text):
     form = '''<details><summary> <b>Additional Assumptions</b> </summary>''' + text.encode(
         'utf-8').decode('utf-8') + '''</details>'''
@@ -243,7 +243,7 @@ if __name__ == '__main__':
             if row['How input parameters are estimated (data-driven or from litterature)'] != 'null':
                 add_input_estimation(myfile, row['How input parameters are estimated (data-driven or from litterature)'])
             if row['Details on parameters estimation'] != 'null':
-                add_input_estimation(myfile, row['Details on parameters estimation'])
+                add_details_input_estimation(myfile, row['Details on parameters estimation'])
             # Additional
             add_additional_information(myfile)
             if row['Comment/issues'] != 'null':

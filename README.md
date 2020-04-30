@@ -15,8 +15,6 @@ A [glossary](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtY
 
 Authors: Marie Garin, Myrto Limnios, Alice Nicolaï, Nicolas Vayatis
 
-Credits: Olivier Boulant, Amir Dib
-
 [http://centreborelli.cnrs.fr](http://centreborelli.cnrs.fr)
 # Contribution 
 If you wish to suggest an article to be added to the review, please contact us via email at <A href="mailto:centreborelli.repository@gmail.com">centreborelli.repository@gmail.com</A> and we will proceed with the new entry after an internal assessment.

@@ -39,6 +39,8 @@ def add_model_information(fd):
 def add_estimation_information(fd):
     fd.write(u''.join(('####', ' Estimation information', '\n')))
 
+def add_parameters_information(fd):
+    fd.write(u''.join(('####', ' Model parameters information', '\n')))
 
 def add_additional_information(fd):
     fd.write(u''.join(('####', ' Additional information', '\n')))
@@ -64,10 +66,13 @@ def add_code_available(fd, text):
     fd.write(u''.join(('**Code available** : ', text.encode('utf-8').decode('utf-8'), '</br>', '\n')))
 
 
-def add_category_of_model(fd, text):
+def add_stochastic_deterministic(fd, text):
     #print(text.encode('utf-8'))
-    fd.write(u''.join(('**Model category** : ', text.encode('utf-8').decode('utf-8'), '</br>', '\n')))
+    fd.write(u''.join(('**Deterministic or stochastic model** : ', text.encode('utf-8').decode('utf-8'), '</br>', '\n')))
 
+def add_category_of_model(fd, text):
+    #print(text.encode('utf-8')) 
+    fd.write(u''.join(('**Model category** : ', text.encode('utf-8').decode('utf-8'), '</br>', '\n')))
 
 def add_sub_category_of_model(fd, text):
     form = '''<details><summary> <b>Model sub-category</b> </summary>''' + text.encode('utf-8').decode('utf-8') + '''</details>'''
@@ -121,11 +126,16 @@ def add_other_parameters(fd, text):
 
 
 def add_input_estimation(fd, text):
-    form = '''<details><summary> <b>How input parameters are estimated</b> </summary>''' + text.encode(
+    form = '''<details><summary> <b>How parameters are estimated</b> </summary>''' + text.encode(
         'utf-8').decode('utf-8') + '''</details>'''
     fd.write(u''.join((form, '\n', '\n')))
-
-
+    
+def add_details_input_estimation(fd, text):
+    form = '''<details><summary> <b>Details on parameters estimation</b> </summary>''' + text.encode(
+        'utf-8').decode('utf-8') + '''</details>'''
+    fd.write(u''.join((form, '\n', '\n')))
+    
+    
 def add_additional_assumptions(fd, text):
     form = '''<details><summary> <b>Additional Assumptions</b> </summary>''' + text.encode(
         'utf-8').decode('utf-8') + '''</details>'''
@@ -204,8 +214,14 @@ if __name__ == '__main__':
             add_technical_information(myfile)
             # Model information
             add_model_information(myfile)
-            add_category_of_model(myfile, row['Category of model'])
-            add_sub_category_of_model(myfile, row['Subcategory of model'])
+
+            if row['Stochastic vs. Deterministic'] != 'null':
+                add_stochastic_deterministic(myfile, row['Stochastic vs. Deterministic'])
+            if row['Category of model'] != 'null':
+                add_category_of_model(myfile, row['Category of model'])
+            
+            if row['Subcategory of model'] != 'null':
+                add_sub_category_of_model(myfile, row['Subcategory of model'])
             if row['Data used for the model (e.g. historical or simulated)'] != 'null':
                 add_data_used_for_the_model(myfile, row['Data used for the model (e.g. historical or simulated)'])
             if row['Global approach'] != 'null':
@@ -216,20 +232,27 @@ if __name__ == '__main__':
                 add_intervention_strategies(myfile, row['How intervention strategies are modelled'])
             if row['Additional Assumptions'] != 'null':
                 add_additional_assumptions(myfile, row['Additional Assumptions'])
-            # Estimation
-            add_estimation_information(myfile)
+
             if (row["Problem Formulation (eg numerical scheme, objective function, etc.)"] != 'null' and row["Problem Formulation (eg numerical scheme, objective function, etc.)"] != 'not explained' ):
                 add_problem_formulation(myfile, row["Problem Formulation (eg numerical scheme, objective function, etc.)"])
             if (row["Solving Method"] != 'null' and row["Solving Method"] != 'not explained'):
                 add_solving_method(myfile, row["Solving Method"])
+                
+            # Estimation
+            add_parameters_information(myfile)
+
             if row['Epidemiological parameters (eg inherent of the virus: infection, recovery, death rates)'] != 'null':
                 add_epidemiological_parameters(myfile, row['Epidemiological parameters (eg inherent of the virus: infection, recovery, death rates)'])
             if row['Other parameters'] != 'null':
                 add_other_parameters(myfile, row['Other parameters'])
+
             if row['How input parameters are estimated (data-driven or from litterature)'] != 'null':
                 add_input_estimation(myfile, row['How input parameters are estimated (data-driven or from litterature)'])
+            if row['Details on parameters estimation'] != 'null':
+                add_details_input_estimation(myfile, row['Details on parameters estimation'])
             # Additional
-            add_additional_information(myfile)
+            if row['Comment/issues'] != 'null':
+                add_additional_information(myfile)
             if row['Comment/issues'] != 'null':
                 add_comments(myfile, row['Comment/issues'])
 

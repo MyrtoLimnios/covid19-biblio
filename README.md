@@ -134,7 +134,6 @@ https://spiral.imperial.ac.uk:8443/handle/10044/1/77482; infectivity
 of the asymptomatic cases from
 https://science.sciencemag.org/content/early/2020/04/09/science.abb6936.abstract; data-driven: probability of infection by region, other parameters from the APHP; 3) introduction date and other parameters are estimated by maximum likelihood assuming some specific distributions for the hospitalization data, the occupation of hospitalization beds, the ICU and deaths data</details>
 
-#### Additional information
 ## Forecasting the impact of the first wave of the COVID-19 pandemic on hospital demand and deaths for the USA and European Economic Area countries 
 ### General information
 **Authors** : IHME COVID-19 health service utilization forecasting team</br>
@@ -162,7 +161,6 @@ https://science.sciencemag.org/content/early/2020/04/09/science.abb6936.abstract
 <details><summary> <b>Solving Method</b> </summary>CurveFit package</details>
 
 #### Model parameters information
-#### Additional information
 ## Estimating the burden of SARS-CoV-2 in France 
 ### General information
 **Authors** : Henrik Salje, Cécile Tran Kiem, Noémie Lefrancq, Noémie Courtejoie, Paolo Bosetti, Juliette Paireau, Alessio Andronico, Nathanaël Hoze, Jehanne Richet, Claire-Lise Dubost, Yann Le Strat, Justin Lessler, Daniel Bruhl, Arnaud Fontanet, Lulla Opatowski, Pierre-Yves Boëlle, Simon Cauchemez </br>
@@ -245,7 +243,6 @@ case was highly likely to have been infected by the other) from publicly availab
 
 <details><summary> <b>Details on parameters estimation</b> </summary>incubation period distribution from litterature (https://www.nejm.org/doi/full/10.1056/NEJMoa2001316, data from Wuhan)</details>
 
-#### Additional information
 ## Policy brief : Analyse cout-benefice des strategies de deconfinement 
 ### General information
 **Authors** : Christian Gollier</br>
@@ -394,7 +391,6 @@ case was highly likely to have been infected by the other) from publicly availab
 ### Technical information
 #### Model information
 #### Model parameters information
-#### Additional information
 ## Modeling strict age-targeted mitigation strategies for COVID-19 
 ### General information
 **Authors** : Maria Chikina, Wesley Pegden</br>
@@ -404,7 +400,6 @@ case was highly likely to have been infected by the other) from publicly availab
 ### Technical information
 #### Model information
 #### Model parameters information
-#### Additional information
 ## Prediction of COVID-19 Disease Progression in India Under the Effect of National Lockdown 
 ### General information
 **Authors** : Sourish Das</br>
@@ -558,7 +553,6 @@ case was highly likely to have been infected by the other) from publicly availab
 ### Technical information
 #### Model information
 #### Model parameters information
-#### Additional information
 ## Locally Informed Simulation to Predict Hospital Capacity Needs During the COVID-19 Pandemic 
 ### General information
 **Authors** : Gary E. Weissman, Andrew Crane-Droesch, Corey Chivers, ThaiBinh Luong, Asaf Hanish, Michael Z. Levy, Jason Lubken,  Michael Becker, Michael E. Draugelis, George L. Anesi, Patrick J. Brennan, Jason D. Christie, C. William Hanson III, Mark E. Mikkelsen, Scott D. Halpern</br>
@@ -568,7 +562,6 @@ case was highly likely to have been infected by the other) from publicly availab
 ### Technical information
 #### Model information
 #### Model parameters information
-#### Additional information
 ## A Simple Planning Problem for COVID-19 Lockdown 
 ### General information
 **Authors** : Fernando Alvarez, David Argente, Francesco Lippi</br>
@@ -1260,7 +1253,6 @@ Prevention)</details>
 ### Technical information
 #### Model information
 #### Model parameters information
-#### Additional information
 ## A simple Stochastic SIR model for COVID-19 Infection Dynamics for Karnataka - Learning from Europ 
 ### General information
 **Authors** : Ashutosh Simha, R. Venkatesha Prasad, Sujay Narayana</br>
@@ -1448,7 +1440,6 @@ resulted from a subclinical individual; daily rate entering in R and daily rate 
 ### Technical information
 #### Model information
 #### Model parameters information
-#### Additional information
 ## Composite Monte Carlo Decision Making under High Uncertainty of Novel Coronavirus Epidemic Using Hybridized Deep Learning and Fuzzy Rule Induction 
 ### General information
 **Authors** : Simon James Fong, Gloria Li, Nilanjan Dey, Ruben Gonzalez Crespo, Enrique Herrera-Viedma</br>
@@ -1712,7 +1703,6 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 ### Technical information
 #### Model information
 #### Model parameters information
-#### Additional information
 ## COVID-19: Forecasting short term hospital needs in France 
 ### General information
 **Authors** : Clement Massonnaud, Jonathan Roux, Pascal Crépey</br>
@@ -1794,7 +1784,6 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 ### Technical information
 #### Model information
 #### Model parameters information
-#### Additional information
 ## Expected impact of school closure and telework to mitigate COVID-19 epidemic in France 
 ### General information
 **Authors** : Laura Di Domenico, Giulia Pullano, Pietro Coletti, Niel Hens, Vittoria Colizza</br>
@@ -1805,7 +1794,6 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 #### Model information
 **Deterministic or stochastic model** : stochastic</br>
 #### Model parameters information
-#### Additional information
 ## Rational evaluation of various epidemic models based on the COVID-19 data of China 
 ### General information
 **Authors** : Wuyue Yang , Dongyan Zhang , Liangrong Peng , Changjing Zhuge , Liu Hong</br>
@@ -1847,7 +1835,6 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 ### Technical information
 #### Model information
 #### Model parameters information
-#### Additional information
 ## Early dynamics of transmission and control of COVID-19: a mathematical modelling study 
 ### General information
 **Authors** : Adam J Kucharski, Timothy W Russell, Charlie Diamond, Yang Liu, John Edmunds, Sebastian Funk, Rosalind M Eggo, </br>
@@ -1857,7 +1844,6 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 ### Technical information
 #### Model information
 #### Model parameters information
-#### Additional information
 ## The Impact of School Closure for COVID-19 on the US Healthcare Workforce and the Net Mortality Effects 
 ### General information
 **Authors** : Jude Bayham, Eli P. Fenichel</br>
@@ -1962,7 +1948,6 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 ### Technical information
 #### Model information
 #### Model parameters information
-#### Additional information
 ## Evaluating the impact of international airline suspensions on the early global spread of COVID-19 
 ### General information
 **Authors** : Aniruddha Adiga, Srinivasan Venkatramanan, James Schlitt, Akhil Peddireddy, Allan Dickerman, Andrei Bura, Andrew Warren, Brian D Klahn, Chunhong Mao, Dawen Xie, Dustin Machi, Erin Raymond, Fanchao Meng, Golda Barrow, Henning Mortveit, Jiangzhuo Chen, Jim Walke, Joshua Goldstein, Mandy L Wilson, Mark Orr, Przemyslaw Porebski, Pyrros A Telionis, Richard Beckman, Stefan Hoops, Stephen Eubank, Young Yun Baek, Bryan Lewis, Madhav Marathe, Chris Barrett</br>
@@ -2141,7 +2126,6 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 ### Technical information
 #### Model information
 #### Model parameters information
-#### Additional information
 ## Estimation of the final size of the COVID-19 epidemic 
 ### General information
 **Authors** : Milan Batista</br>
@@ -2177,7 +2161,6 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 ### Technical information
 #### Model information
 #### Model parameters information
-#### Additional information
 ## Assessing the Impact of Reduced Travel on Exportation Dynamics of Novel Coronavirus Infection (COVID-19) 
 ### General information
 **Authors** : Asami Anzai, Tetsuro Kobayashi, Natalie M. Linton, Ryo Kinoshita, Katsuma Hayashi, Ayako Suzuki, Yichi Yang, Sung-mok Jung, Takeshi Miyama, Andrei R. Akhmetzhanov, Hiroshi Nishiura</br>
@@ -2187,7 +2170,6 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 ### Technical information
 #### Model information
 #### Model parameters information
-#### Additional information
 ## Predictions of 2019-nCoV Transmission Ending via Comprehensive Methods 
 ### General information
 **Authors** : Tianyu Zeng, Yunong Zhang, Zhenyu Li, Xiao Liu, Binbin Qiu</br>

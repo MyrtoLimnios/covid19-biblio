@@ -72,11 +72,8 @@ def add_stochastic_deterministic(fd, text):
 
 def add_category_of_model(fd, text):
     #print(text.encode('utf-8')) 
-    if text != 'null':
-        fd.write(u''.join(('**Model category** : ', text.encode('utf-8').decode('utf-8'), '</br>', '\n')))
-    else:
-         fd.write(u''.join(('**Model category** : ', '</br>', '\n')))
-       
+    fd.write(u''.join(('**Model category** : ', text.encode('utf-8').decode('utf-8'), '</br>', '\n')))
+
 def add_sub_category_of_model(fd, text):
     form = '''<details><summary> <b>Model sub-category</b> </summary>''' + text.encode('utf-8').decode('utf-8') + '''</details>'''
     fd.write(u''.join((form, '\n', '\n')))

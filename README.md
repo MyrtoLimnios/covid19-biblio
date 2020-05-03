@@ -1,5 +1,5 @@
 # Repository of a selection of papers related to COVID-19 outbreak operated by Centre Borelli (ENS Paris-Saclay, CNRS, Université de Paris, SSA) 
-The repository prioritizes papers presenting mathematical models with practical impact, use of empirical data, strategy of containment policy, open and reproducible implementation of the model.
+The repository hosted at Centre Borelli ([http://centreborelli.cnrs.fr](http://centreborelli.cnrs.fr)) prioritizes papers presenting mathematical models with practical impact, use of empirical data, strategy of containment policy, open and reproducible implementation of the model. 
 
 The repository compiles the key elements of each paper such as: type of model, main assumptions, input parameters, output of the model, open source implementation, etc. The complete table can be found under three different formats:
 
@@ -11,14 +11,17 @@ The repository compiles the key elements of each paper such as: type of model, m
 List of characteristics is provided for each paper : see [characteristics](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU/edit#gid=1061863733) description
 
 A [glossary](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU/edit#gid=693948220) of technical terms is available. 
-# Provided by Centre Borelli (ENS Paris-Saclay, CNRS, Université de Paris, SSA) 
+
+# Authors, contributors, credits
 Authors: Marie Garin, Myrto Limnios, Alice Nicolaï, Nicolas Vayatis
 
-[http://centreborelli.cnrs.fr](http://centreborelli.cnrs.fr)
-# Contribution 
+Contributors: Stephen Chick, Theodoros Evgeniou, Anton Ovchinnikov, Raphaël Porcher, Camille Pouchol.
+
+Credits for technical support: Olivier Boulant, Amir Dib.
+
+# Call for contributions / Contact
 If you wish to suggest an article to be added to the review, please contact us via email at <A href="mailto:centreborelli.repository@gmail.com">centreborelli.repository@gmail.com</A> and we will proceed with the new entry after an internal assessment.
-# Contact us 
-Email: <A href="mailto:centreborelli.repository@gmail.com">centreborelli.repository@gmail.com</A>
+
 # Terms of Use 
 This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay, all rights reserved, is provided to the public strictly for educational and academic research purposes. The Website relies upon publicly available data from multiple sources, that do not always agree. The ENS Paris-Saclay hereby disclaims any and all representations and warranties with respect to the Website, including accuracy, fitness for use, and merchantability. Reliance on the Website for medical guidance or use of the Website in commerce is strictly prohibited.
 # The review (76 articles in total) 

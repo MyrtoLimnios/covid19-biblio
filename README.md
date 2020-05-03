@@ -1,4 +1,4 @@
-# Repository of a selection of papers related to COVID-19 outbreak operated by Centre Borelli (ENS Paris-Saclay, CNRS, Université de Paris, SSA) 
+# Repository of a selection of papers related to COVID-19 outbreak operated by Centre Borelli (ENS Paris-Saclay, CNRS, Université de Paris, SSA, INSERM) 
 The repository hosted at Centre Borelli ([http://centreborelli.cnrs.fr](http://centreborelli.cnrs.fr)) prioritizes papers presenting mathematical models with practical impact, use of empirical data, strategy of containment policy, open and reproducible implementation of the model. 
 
 The repository compiles the key elements of each paper such as: type of model, main assumptions, input parameters, output of the model, open source implementation, etc. The complete table can be found under three different formats:

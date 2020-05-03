@@ -15,7 +15,7 @@ A [glossary](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtY
 # Authors, contributors, credits
 Authors: Marie Garin, Myrto Limnios, Alice Nicolaï, Nicolas Vayatis
 
-Contributors: Stephen Chick, Theodoros Evgeniou, Anton Ovchinnikov, Raphaël Porcher, Camille Pouchol.
+Contributors: Stephen Chick, Theodoros Evgeniou, Mathilde Fekom, Anton Ovchinnikov, Raphaël Porcher, Camille Pouchol.
 
 Credits for technical support: Olivier Boulant, Amir Dib.
 

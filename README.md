@@ -17,7 +17,7 @@ Authors: Marie Garin, Myrto Limnios, Alice Nicolaï, Nicolas Vayatis
 
 Contributors: Stephen Chick, Theodoros Evgeniou, Mathilde Fekom, Anton Ovchinnikov, Raphaël Porcher, Camille Pouchol.
 
-Credits for technical support: Olivier Boulant, Amir Dib.
+Credits for technical support: Olivier Boulant, Amir Dib, Christophe Labourdette.
 
 # Call for contributions / Contact
 If you wish to suggest an article to be added to the review, please contact us via email at <A href="mailto:centreborelli.repository@gmail.com">centreborelli.repository@gmail.com</A> and we will proceed with the new entry after an internal assessment.

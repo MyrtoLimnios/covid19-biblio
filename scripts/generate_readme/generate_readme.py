@@ -88,6 +88,10 @@ def add_global_approach(fd, text):
         'utf-8').decode('utf-8') + '''</details>'''
     fd.write(u''.join((form, '\n', '\n')))
 
+def add_details_approach(fd, text):
+    form = '''<details><summary> <b>Details of approach</b> </summary>''' + text.encode(
+        'utf-8').decode('utf-8') + '''</details>'''
+    fd.write(u''.join((form, '\n', '\n')))
 
 def add_outputs(fd, text):
     form = '''<details><summary> <b>Outputs</b> </summary>''' + text.encode(
@@ -186,6 +190,7 @@ if __name__ == '__main__':
     myfile.write(u'A [glossary](' + GG_SPREADSHEET + GG_SPREADSHEET_GLOSSARY + ') of technical terms is available. \n')
 
     add_h1_title(myfile, 'Provided by Centre Borelli (ENS Paris-Saclay, CNRS, Université de Paris, SSA)')
+    myfile.write(u'Authors: Marie Garin, Myrto Limnios, Alice Nicolaï, Nicolas Vayatis\n\n')
     myfile.write(u'[http://centreborelli.cnrs.fr](http://centreborelli.cnrs.fr)\n')
 
     add_h1_title(myfile, 'Contribution')
@@ -225,7 +230,9 @@ if __name__ == '__main__':
             if row['Data used for the model (e.g. historical or simulated)'] != 'null':
                 add_data_used_for_the_model(myfile, row['Data used for the model (e.g. historical or simulated)'])
             if row['Global approach'] != 'null':
-                add_global_approach(myfile, row['Global approach'])
+                add_global_approach(myfile, row['Global approach'])            
+            if row['Details of approach'] != 'null':
+                add_details_approach(myfile, row['Details of approach'])
             if row['Outputs'] != 'null':
                 add_outputs(myfile, row['Outputs'])
             if row['How intervention strategies are modelled'] != 'null':

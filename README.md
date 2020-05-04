@@ -1,5 +1,5 @@
-# Repository of a selection of papers related to COVID-19 outbreak operated by Centre Borelli (ENS Paris-Saclay, CNRS, Université de Paris, SSA, INSERM) 
-The repository hosted at Centre Borelli ([http://centreborelli.cnrs.fr](http://centreborelli.cnrs.fr)) prioritizes papers presenting mathematical models with practical impact, use of empirical data, strategy of containment policy, open and reproducible implementation of the model. 
+# Repository of a selection of papers related to COVID-19 outbreak operated by Centre Borelli (ENS Paris-Saclay, CNRS, Université de Paris, SSA) 
+The repository prioritizes papers presenting mathematical models with practical impact, use of empirical data, strategy of containment policy, open and reproducible implementation of the model.
 
 The repository compiles the key elements of each paper such as: type of model, main assumptions, input parameters, output of the model, open source implementation, etc. The complete table can be found under three different formats:
 
@@ -11,22 +11,19 @@ The repository compiles the key elements of each paper such as: type of model, m
 List of characteristics is provided for each paper : see [characteristics](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU/edit#gid=1061863733) description
 
 A [glossary](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtYL7ROKm7m7LwGY3gU/edit#gid=693948220) of technical terms is available. 
-
-# Authors, contributors, credits
+# Provided by Centre Borelli (ENS Paris-Saclay, CNRS, Université de Paris, SSA) 
 Authors: Marie Garin, Myrto Limnios, Alice Nicolaï, Nicolas Vayatis
 
-Contributors: Stephen Chick, Theodoros Evgeniou, Mathilde Fekom, Anton Ovchinnikov, Raphaël Porcher, Camille Pouchol.
-
-Credits for technical support: Olivier Boulant, Amir Dib, Christophe Labourdette.
-
-# Call for contributions / Contact
+uContributors: Stephen Chick, Theodoros Evgeniou, Mathilde Fekom, Anton Ovchinnikov, Raphaël Porcher, Camille PoucholuCredits for technical support: Olivier Boulant, Amir Dib, Christophe Labourdette.# Contribution 
 If you wish to suggest an article to be added to the review, please contact us via email at <A href="mailto:centreborelli.repository@gmail.com">centreborelli.repository@gmail.com</A> and we will proceed with the new entry after an internal assessment.
-
+# Contact us 
+Email: <A href="mailto:centreborelli.repository@gmail.com">centreborelli.repository@gmail.com</A>
 # Terms of Use 
 This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay, all rights reserved, is provided to the public strictly for educational and academic research purposes. The Website relies upon publicly available data from multiple sources, that do not always agree. The ENS Paris-Saclay hereby disclaims any and all representations and warranties with respect to the Website, including accuracy, fitness for use, and merchantability. Reliance on the Website for medical guidance or use of the Website in commerce is strictly prohibited.
-# The review (76 articles in total) 
+# The review (77 articles in total) 
 | Title | Authors | Description |
 | --- | --- | --- |
+| Epidemic Models for Personalised COVID-19 Isolation and Exit Policies Using Clinical Risk Predictions | Theodoros Evgeniou et al. | [here](#epidemic-models-for-personalised-covid-19-isolation-and-exit-policies-using-clinical-risk-predictions) |
 | COVID-19: One-month impact of the French lockdown on the epidemic burden | Jonathan Roux et al. | [here](#covid-19-one-month-impact-of-the-french-lockdown-on-the-epidemic-burden) |
 | Forecasting the impact of the first wave of the COVID-19 pandemic on hospital demand and deaths for the USA and European Economic Area countries | IHME COVID-19 health service utilization forecasting team et al. | [here](#forecasting-the-impact-of-the-first-wave-of-the-covid-19-pandemic-on-hospital-demand-and-deaths-for-the-usa-and-european-economic-area-countries) |
 | Estimating the burden of SARS-CoV-2 in France | Henrik Salje et al. | [here](#estimating-the-burden-of-sars-cov-2-in-france) |
@@ -103,6 +100,15 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 | A Time Delay Dynamic System with External Sourcefor the Local Outbreak of 2019-nCoV | Yu Chen et al. | [here](#a-time-delay-dynamic-system-with-external-sourcefor-the-local-outbreak-of-2019-ncov) |
 | Understanding Unreported Cases in the 2019-nCov Epidemic Outbreak in Wuhan, China, and the Importance of Major Public Health Interventions | Z. Liu et al. | [here](#understanding-unreported-cases-in-the-2019-ncov-epidemic-outbreak-in-wuhan-china-and-the-importance-of-major-public-health-interventions) |
 | Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study | Joseph T Wu et al. | [here](#nowcasting-and-forecasting-the-potential-domestic-and-international-spread-of-the-2019-ncov-outbreak-originating-in-wuhan-china-a-modelling-study) |
+## Epidemic Models for Personalised COVID-19 Isolation and Exit Policies Using Clinical Risk Predictions 
+### General information
+**Authors** : Theodoros Evgeniou, Mathilde Fekom, Anton Ovchinnikov, Raphael Porcher, Camille Pouchol, Nicolas Vayatis</br>
+**Publication date** : 05/03</br>
+**Paper** : Available [here](https://sites.insead.edu/facultyresearch/research/doc.cfm?did=66665)</br>
+**Code available** : https://reine.cmla.ens-cachan.fr/boulant/seair/</br>
+### Technical information
+#### Model information
+#### Model parameters information
 ## COVID-19: One-month impact of the French lockdown on the epidemic burden 
 ### General information
 **Authors** : Jonathan Roux, Clément Massonnaud, Pascal Crépey</br>
@@ -203,7 +209,7 @@ hospital requirements and mortality, forecast hospital needs for each of the 13 
 <details><summary> <b>Details on parameters estimation</b> </summary>MCMC (Metropolis Hastings algorithm)</details>
 
 #### Additional information
-<details><summary> <b>Comment/issues</b> </summary>1) couples hospitalization data with the complete dataset from the Princess Diamond to disentangle the risk of being hospitalized in those infected from the underlying probability of infection 2) sensitivity study and simulations where the true parameters are known to assess the performance of the estimation </details></br>
+<details><summary> <b>Comment/issues</b> </summary>1) couples hospitalization data with the complete dataset from the Princess Diamond to disentangle the risk of being hospitalized in those infected from the underlying probability of infection 2) suite of sensitivity analysis and simulations where the true parameters are known to assess the performance of the estimation </details></br>
 
 ## Estimating the Maximum Capacity of COVID-19 Cases Manageable per Day Given a Health Care System's Constrained Resources 
 ### General information
@@ -277,6 +283,8 @@ case was highly likely to have been infected by the other) from publicly availab
 **Model category** : compartmental</br>
 <details><summary> <b>Model sub-category</b> </summary>SIRD; with two categories of susceptible (working and confined) and six categories of infected (quarant, working and confined and old or new within these compartments)</details>
 
+<details><summary> <b>Global approach</b> </summary>evolution forecast; model under different scenarios</details>
+
 <details><summary> <b>Details of approach</b> </summary>simulations under different scenarios of interventions</details>
 
 <details><summary> <b>Outputs</b> </summary>prediction of compartments dynamics under different scenarios</details>
@@ -308,6 +316,8 @@ case was highly likely to have been infected by the other) from publicly availab
 <details><summary> <b>Model sub-category</b> </summary>age-structured;location-structured;SEIRD;(H: hospitalized, ICU: admission to ICU, I: divided into prodromic, asymptomatic, paucisymptomatic, infectious with mild or severe symptoms)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Ile de France -  up to 04/03 - hospital admission data before lockdown from French hospital data APHP</details>
+
+<details><summary> <b>Global approach</b> </summary>evolution forecast; model under different scenarios</details>
 
 <details><summary> <b>Details of approach</b> </summary>estimation of the reproduction number under different scenarios of interventions that are modeled through the location-age contact matrix</details>
 

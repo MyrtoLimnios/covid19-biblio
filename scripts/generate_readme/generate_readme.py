@@ -191,7 +191,8 @@ if __name__ == '__main__':
 
     add_h1_title(myfile, 'Provided by Centre Borelli (ENS Paris-Saclay, CNRS, Université de Paris, SSA)')
     myfile.write(u'Authors: Marie Garin, Myrto Limnios, Alice Nicolaï, Nicolas Vayatis\n\n')
-    myfile.write(u'[http://centreborelli.cnrs.fr](http://centreborelli.cnrs.fr)\n')
+    myfile.write('uContributors: Stephen Chick, Theodoros Evgeniou, Mathilde Fekom, Anton Ovchinnikov, Raphaël Porcher, Camille Pouchol')
+    myfile.write('uCredits for technical support: Olivier Boulant, Amir Dib, Christophe Labourdette.')
 
     add_h1_title(myfile, 'Contribution')
     myfile.write(u'If you wish to suggest an article to be added to the review, please contact us via email at <A href="mailto:centreborelli.repository@gmail.com">centreborelli.repository@gmail.com</A> and we will proceed with the new entry after an internal assessment.\n')

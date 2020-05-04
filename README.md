@@ -14,7 +14,11 @@ A [glossary](https://docs.google.com/spreadsheets/d/1WWIOWnuJuOKKNQA71qgxs7IVHtY
 # Provided by Centre Borelli (ENS Paris-Saclay, CNRS, Université de Paris, SSA) 
 Authors: Marie Garin, Myrto Limnios, Alice Nicolaï, Nicolas Vayatis
 
-uContributors: Stephen Chick, Theodoros Evgeniou, Mathilde Fekom, Anton Ovchinnikov, Raphaël Porcher, Camille PoucholuCredits for technical support: Olivier Boulant, Amir Dib, Christophe Labourdette.# Contribution 
+Contributors: Stephen Chick, Theodoros Evgeniou, Mathilde Fekom, Anton Ovchinnikov, Raphaël Porcher, Camille Pouchol
+
+Credits for technical support: Olivier Boulant, Amir Dib, Christophe Labourdette.
+
+# Contribution 
 If you wish to suggest an article to be added to the review, please contact us via email at <A href="mailto:centreborelli.repository@gmail.com">centreborelli.repository@gmail.com</A> and we will proceed with the new entry after an internal assessment.
 # Contact us 
 Email: <A href="mailto:centreborelli.repository@gmail.com">centreborelli.repository@gmail.com</A>

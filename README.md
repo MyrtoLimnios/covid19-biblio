@@ -269,7 +269,7 @@ hospital requirements and mortality, forecast hospital needs for each of the 13 
 **Authors** : Vasily Giannakeas, Deepit Bhatia, Matthew T. Warkentin, Isaac I. Bogoch, Nathan M. Stall</br>
 **Publication date** : 04/16</br>
 **Paper** : Available [here](https://annals.org/aim/fullarticle/2764818)</br>
-**Code available** : code to build the web app: shiny package in R</br>
+**Code available** : No</br>
 ### Technical information
 #### Model information
 **Deterministic or stochastic model** : deterministic</br>
@@ -817,7 +817,7 @@ case was highly likely to have been infected by the other) from publicly availab
 **Code available** : https://github.com/plai-group/covid</br>
 ### Technical information
 #### Model information
-**Deterministic or stochastic model** : deterministic;stochastic</br>
+**Deterministic or stochastic model** : stochastic</br>
 **Model category** : compartmental;agent-based</br>
 <details><summary> <b>Model sub-category</b> </summary>SIER; (I: divided into mild, severe and critical cases); FRED</details>
 
@@ -927,7 +927,7 @@ which can not be affected by such measures (e.g. the incubation period or fatali
 **Code available** : Use of https://github.com/ryansmcgee/seirsplus</br>
 ### Technical information
 #### Model information
-**Deterministic or stochastic model** : deterministic;stochastic</br>
+**Deterministic or stochastic model** : deterministic</br>
 **Model category** : compartmental</br>
 <details><summary> <b>Model sub-category</b> </summary>SEIR-Erlang; SEIR; on social network;(R: recovered, quarantined or dead)</details>
 

@@ -24,7 +24,7 @@ If you wish to suggest an article to be added to the review, please contact us v
 Email: <A href="mailto:centreborelli.repository@gmail.com">centreborelli.repository@gmail.com</A>
 # Terms of Use 
 This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay, all rights reserved, is provided to the public strictly for educational and academic research purposes. The Website relies upon publicly available data from multiple sources, that do not always agree. The ENS Paris-Saclay hereby disclaims any and all representations and warranties with respect to the Website, including accuracy, fitness for use, and merchantability. Reliance on the Website for medical guidance or use of the Website in commerce is strictly prohibited.
-# The review (79 articles in total) 
+# The review (78 articles in total) 
 | Title | Authors | Description |
 | --- | --- | --- |
 | Epidemic Models for Personalised COVID-19 Isolation and Exit Policies Using Clinical Risk Predictions | Theodoros Evgeniou et al. | [here](#epidemic-models-for-personalised-covid-19-isolation-and-exit-policies-using-clinical-risk-predictions) |
@@ -45,7 +45,6 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 | Scenario analysis of non-pharmaceutical interventions on global COVID-19 transmissions | Xiaohui Chen et al. | [here](#scenario-analysis-of-non-pharmaceutical-interventions-on-global-covid-19-transmissions) |
 | Generic probabilistic modelling and non-homogeneity issues for the UK epidemic of COVID-19 | Anatoly Zhigljavsky et al. | [here](#generic-probabilistic-modelling-and-non-homogeneity-issues-for-the-uk-epidemic-of-covid-19) |
 | COVID-19: Analytics Of Contagion On Inhomogeneous Random Social Networks | T. R. Hurd et al. | [here](#covid-19-analytics-of-contagion-on-inhomogeneous-random-social-networks) |
-| ICU Capacity Management During the COVID-19 Pandemic Using a Stochastic Process Simulation | Andres Alban et al. | [here](#icu-capacity-management-during-the-covid-19-pandemic-using-a-stochastic-process-simulation) |
 | Locally Informed Simulation to Predict Hospital Capacity Needs During the COVID-19 Pandemic | Gary E. Weissman et al. | [here](#locally-informed-simulation-to-predict-hospital-capacity-needs-during-the-covid-19-pandemic) |
 | A Simple Planning Problem for COVID-19 Lockdown | Fernando Alvarez et al. | [here](#a-simple-planning-problem-for-covid-19-lockdown) |
 | Machine Learning the Phenomenology of COVID-19 From Early Infection Dynamics | Malik Magdon-Ismail et al. | [here](#machine-learning-the-phenomenology-of-covid-19-from-early-infection-dynamics) |
@@ -114,6 +113,10 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 **Code available** : https://reine.cmla.ens-cachan.fr/boulant/seair/</br>
 ### Technical information
 #### Model information
+**Deterministic or stochastic model** : stochastic</br>
+**Model category** : compartmental</br>
+<details><summary> <b>Model sub-category</b> </summary>SEIR</details>
+
 #### Model parameters information
 ## Predictive Monitoring of COVID-19 
 ### General information
@@ -156,6 +159,10 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 **Code available** : No</br>
 ### Technical information
 #### Model information
+**Deterministic or stochastic model** : stochastic</br>
+**Model category** : growth model</br>
+<details><summary> <b>Model sub-category</b> </summary>GLM</details>
+
 <details><summary> <b>Data used for the model</b> </summary>all US states - local data from mobile-phone GPS traces from SafeGraph</details>
 
 <details><summary> <b>Global approach</b> </summary>evolution forecast;modeling of various intervention strategies</details>
@@ -218,7 +225,7 @@ hospital requirements and mortality, forecast hospital needs for each of the 13 
 **Code available** : Python; https://github.com/ihmeuw-msca/CurveFit</br>
 ### Technical information
 #### Model information
-**Deterministic or stochastic model** : deterministic</br>
+**Deterministic or stochastic model** : stochastic</br>
 **Model category** : growth model</br>
 <details><summary> <b>Model sub-category</b> </summary>GLM; multilevel model; mixed-effects model; region-structured;</details>
 
@@ -319,8 +326,10 @@ Social mobility data from Descartes Labs3, SafeGraph4 and Google (via their COVI
 ### Technical information
 #### Model information
 **Deterministic or stochastic model** : stochastic</br>
-<details><summary> <b>Data used for the model</b> </summary>1) Temporal patterns of viral shedding of patients in hospital 2) timing of symptoms onset from infector - infectee transmission pairs (two confirmed cases such that one
-case was highly likely to have been infected by the other) from publicly available data</details>
+**Model category** : growth model</br>
+<details><summary> <b>Model sub-category</b> </summary>GAM</details>
+
+<details><summary> <b>Data used for the model</b> </summary>1) Temporal patterns of viral shedding of patients in hospital 2) timing of symptoms onset from infector - infectee transmission pairs (two confirmed cases such that one case was highly likely to have been infected by the other) from publicly available data</details>
 
 <details><summary> <b>Global approach</b> </summary>parameters estimation</details>
 
@@ -724,15 +733,6 @@ rate of ICU admissions per infection from Report 9 of the team at Imperial Colle
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) extensive theory; 2) introduction of an inhomogeneous random social network as a structure for cascade infections and the modelling of immunity </details></br>
 
-## ICU Capacity Management During the COVID-19 Pandemic Using a Stochastic Process Simulation 
-### General information
-**Authors** : Andres Alban, Stephen E. Chick INSEAD, Dave A. Dongelmans, Alexander F. van der Sluijs, W. Joost Wiersinga, Alexander P. J. Vlaar, Danielle Sent</br>
-**Publication date** : 04/07</br>
-**Paper** : Available [here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3570406)</br>
-**Code available** : null</br>
-### Technical information
-#### Model information
-#### Model parameters information
 ## Locally Informed Simulation to Predict Hospital Capacity Needs During the COVID-19 Pandemic 
 ### General information
 **Authors** : Gary E. Weissman, Andrew Crane-Droesch, Corey Chivers, ThaiBinh Luong, Asaf Hanish, Michael Z. Levy, Jason Lubken,  Michael Becker, Michael E. Draugelis, George L. Anesi, Patrick J. Brennan, Jason D. Christie, C. William Hanson III, Mark E. Mikkelsen, Scott D. Halpern</br>
@@ -2324,7 +2324,7 @@ considered, mixing accounts for the reduction of contacts that teleworkers would
 #### Model information
 **Deterministic or stochastic model** : stochastic</br>
 **Model category** : compartmental;agent-based</br>
-<details><summary> <b>Model sub-category</b> </summary>SLIR;(L: Latent)</details>
+<details><summary> <b>Model sub-category</b> </summary>SLIR; (L: Latent)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>for hubs International Air Transport Association (IATA) and OAG database - for human mobility the Offices of Statistics of 30 countries on five continents</details>
 
@@ -2358,6 +2358,10 @@ considered, mixing accounts for the reduction of contacts that teleworkers would
 **Code available** : null</br>
 ### Technical information
 #### Model information
+**Deterministic or stochastic model** : stochastic</br>
+**Model category** : compartmental;agent-based</br>
+<details><summary> <b>Model sub-category</b> </summary>SLIR; (L: Latent)</details>
+
 #### Model parameters information
 ## Evaluating the impact of international airline suspensions on the early global spread of COVID-19 
 ### General information
@@ -2514,7 +2518,7 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 **Model category** : compartmental</br>
 <details><summary> <b>Model sub-category</b> </summary>SIR</details>
 
-<details><summary> <b>Data used for the model</b> </summary>Wuhan - before the closure (01/19 - 01/23) and post-closure (01/23 - 02/08) - from NHC</details>
+<details><summary> <b>Data used for the model</b> </summary>Wuhan - before the lockdown (01/19 - 01/23) and post-closure (01/23 - 02/08) - from NHC</details>
 
 <details><summary> <b>Global approach</b> </summary>evolution forecast;modeling of various intervention strategies</details>
 
@@ -2576,7 +2580,26 @@ prediction of the compartments dynamics for China; R0 for various countries; pre
 **Code available** : null</br>
 ### Technical information
 #### Model information
+**Deterministic or stochastic model** : stochastic</br>
+**Model category** : statistical estimation</br>
+<details><summary> <b>Data used for the model</b> </summary>Africa, China - 2016 to 2019 - SPAR database and Joint External Evaluation from WHO IHR MEF; Infectious Disease Vulnerability Index; INFORM Epidemic Index</details>
+
+<details><summary> <b>Details of approach</b> </summary>estimation of the virus importation risk from Chinese regions (except Wuhan) to Africa and impact on two metric: preparedness and vulnerability </details>
+
+<details><summary> <b>Outputs</b> </summary>estimation of the probability of exporting the virus; comparison between countries</details>
+
+<details><summary> <b>Problem Formulation</b> </summary>1) risk of importation from a region to a country: mean of the travel flux multiplied by the cumulated incidence weighted by the probability of traveling; 2) exposure analysis: for each country, vector of the proportions of regional risk importation</details>
+
+<details><summary> <b>Solving Method</b> </summary>for 2) use of entropy-metric (Jensen-Shannon devergence) to compare similarities between countries; sensitivity estimated by considering the basin of attraction of the airports of Beijing and Shangai </details>
+
 #### Model parameters information
+<details><summary> <b>How parameters are estimated</b> </summary>data-driven; litterature</details>
+
+<details><summary> <b>Details on parameters estimation</b> </summary>estimation of the preparedness and vulnerability metrics based on indicators and score multivariate analysis</details>
+
+#### Additional information
+<details><summary> <b>Comment/issues</b> </summary>1) estimation of the risk of importation of the virus without modeling the spread of the virus; 2) based on historical data and indicators available per country in Africa; 3) lack of data available wrt to passengers information to give precise impact for each country; 4) interesting indicators analysed to model the chosen metrics (preparedness, vulnarability of each country)</details></br>
+
 ## Estimation of the final size of coronavirus epidemic by the logistic model 
 ### General information
 **Authors** : Milan Batista</br>
@@ -2684,7 +2707,7 @@ bayesian method with the widely applicable information criterion (WAIC) for mode
 #### Model information
 **Deterministic or stochastic model** : stochastic</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SEIRSD;(R: recovered);Multi-Model ODEs Neural Network</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIRSD;(R: recovered); Multi-Model ODEs Neural Network</details>
 
 <details><summary> <b>Data used for the model</b> </summary>China - 01/10 to 02/04 - from epidemic datasets, density and transportation data during the Spring Festival</details>
 

@@ -1150,7 +1150,7 @@ that cannot be affected by the measures (e.g. the incubation period or death rat
 ### Technical information
 #### Model information
 **Deterministic or stochastic model** : stochastic</br>
-**Model category** : individual-disease model; micro-transmission model; compartmental</br>
+**Model category** : individual-disease model; micro-transmission model</br>
 <details><summary> <b>Data used for the model</b> </summary>China at the provincial (outside Hubei) - 01/19 to 02/17 - individual information (demographic characteristics, exposure and travel history, and key timelines) of laboratory-confirmed cases from official public sources</details>
 
 <details><summary> <b>Global approach</b> </summary>epidemiological parameter estimation; evolution forecast; modeling of various intervention strategies</details>

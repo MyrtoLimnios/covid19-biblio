@@ -254,8 +254,8 @@ if __name__ == '__main__':
             if row['Other parameters'] != 'null':
                 add_other_parameters(myfile, row['Other parameters'])
 
-            if row['How input parameters are estimated (data-driven or from litterature)'] != 'null':
-                add_input_estimation(myfile, row['How input parameters are estimated (data-driven or from litterature)'])
+            if row['How input parameters are estimated (data-driven or from literature)'] != 'null':
+                add_input_estimation(myfile, row['How input parameters are estimated (data-driven or from literature)'])
             if row['Details on parameters estimation'] != 'null':
                 add_details_input_estimation(myfile, row['Details on parameters estimation'])
             # Additional

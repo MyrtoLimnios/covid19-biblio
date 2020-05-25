@@ -31,6 +31,10 @@ def add_general_information(fd):
 def add_technical_information(fd):
     fd.write(u''.join(('###', ' Technical information', '\n')))
 
+def add_model_num(fd, num):
+    text_num = "" + "First"*(num==1) + "Second"*(num==2) + "Third"*(num==3) + "Fourth"*(num==4)
+    fd.write(u''.join(('###', ' '+text_num+' model', '\n')))
+
 
 def add_model_information(fd):
     fd.write(u''.join(('####', ' Model information', '\n')))
@@ -148,9 +152,11 @@ def add_additional_assumptions(fd, text):
 
 def add_comments(fd, text):
     form = '''<details><summary> <b>Comment/issues</b> </summary>''' + text.encode(
-        'utf-8').decode('utf-8') + '''</details></br>'''
+        'utf-8').decode('utf-8') + '''</details>'''
     fd.write(u''.join((form, '\n', '\n')))
 
+def add_space(fd):
+    fd.write(u'</br>\n\n')
 
 def get_href(title):
     return '#' + title.lower().replace('(', '').replace(')', '').replace(':', '').replace(',', '').replace("'", '').replace(' ', '-')
@@ -203,65 +209,96 @@ if __name__ == '__main__':
     add_h1_title(myfile, 'Terms of Use')
     myfile.write(u'This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay, all rights reserved, is provided to the public strictly for educational and academic research purposes. The Website relies upon publicly available data from multiple sources, that do not always agree. The ENS Paris-Saclay hereby disclaims any and all representations and warranties with respect to the Website, including accuracy, fitness for use, and merchantability. Reliance on the Website for medical guidance or use of the Website in commerce is strictly prohibited.\n')
 
-    add_h1_title(myfile, 'The review (%d articles in total)' %(df.shape[0]))
 
-    add_table(myfile, df['Paper(s)'], df['Authors'])
+    models_dic = {}
+    for unique_title in df["Paper(s)"].unique():
+        models_dic[unique_title] = sorted(df[(df["Paper(s)"]==unique_title)].index)
+        
+    unique_index = [v[0] for k,v in models_dic.items()]
+    df_unique = df.loc[unique_index].reset_index()
+
+        
+
+    add_h1_title(myfile, 'The review (%d articles in total)' %(df_unique.shape[0]))
+
+    add_table(myfile, df_unique['Paper(s)'], df_unique['Authors'])
 
     for index, row in df.iterrows():
-        if row['Paper(s)'].encode('utf-8') != b'null':
-            add_h2_title(myfile, row['Paper(s)'])
-            # General info
-            add_general_information(myfile)
-            add_authors(myfile, row['Authors'])
-            add_publication_date(myfile, row['Date of publication'])
-            add_paper_link(myfile, row['Link/source'])
-            add_code_available(myfile, row['Code available'])
-            # technical information
-            add_technical_information(myfile)
-            # Model information
-            add_model_information(myfile)
 
-            if row['Stochastic vs. Deterministic'] != 'null':
-                add_stochastic_deterministic(myfile, row['Stochastic vs. Deterministic'])
-            if row['Category of model'] != 'null':
-                add_category_of_model(myfile, row['Category of model'])
+        is_alone = (len(models_dic[row["Paper(s)"]])==1)
+        is_first_of_serie = not is_alone and (index==models_dic[row["Paper(s)"]][0])
+        is_last_of_serie = not is_alone and (index==models_dic[row["Paper(s)"]][-1])
+
+        if is_alone or is_first_of_serie:  
             
-            if row['Subcategory of model'] != 'null':
-                add_sub_category_of_model(myfile, row['Subcategory of model'])
-            if row['Data used for the model (e.g. historical or simulated)'] != 'null':
-                add_data_used_for_the_model(myfile, row['Data used for the model (e.g. historical or simulated)'])
-            if row['Global approach'] != 'null':
-                add_global_approach(myfile, row['Global approach'])            
-            if row['Details of approach'] != 'null':
-                add_details_approach(myfile, row['Details of approach'])
-            if row['Outputs'] != 'null':
-                add_outputs(myfile, row['Outputs'])
-            if row['How intervention strategies are modelled'] != 'null':
-                add_intervention_strategies(myfile, row['How intervention strategies are modelled'])
-            if row['Additional Assumptions'] != 'null':
-                add_additional_assumptions(myfile, row['Additional Assumptions'])
-
-            if (row["Problem Formulation (eg numerical scheme, objective function, etc.)"] != 'null' and row["Problem Formulation (eg numerical scheme, objective function, etc.)"] != 'not explained' ):
-                add_problem_formulation(myfile, row["Problem Formulation (eg numerical scheme, objective function, etc.)"])
-            if (row["Solving Method"] != 'null' and row["Solving Method"] != 'not explained'):
-                add_solving_method(myfile, row["Solving Method"])
+            if row['Paper(s)'].encode('utf-8') != b'null':
+                add_h2_title(myfile, row['Paper(s)'])
+                # General info
+                add_general_information(myfile)
+                add_authors(myfile, row['Authors'])
+                add_publication_date(myfile, row['Date of publication'])
+                add_paper_link(myfile, row['Link/source'])
+    
+        if is_first_of_serie:
+            model_num = 1
+            add_model_num(myfile, model_num)
                 
-            # Estimation
-            add_parameters_information(myfile)
+        if not is_alone and not is_first_of_serie:
+            
+            model_num+=1
+            add_model_num(myfile, model_num)
 
-            if row['Epidemiological parameters (eg inherent of the virus: infection, recovery, death rates)'] != 'null':
-                add_epidemiological_parameters(myfile, row['Epidemiological parameters (eg inherent of the virus: infection, recovery, death rates)'])
-            if row['Other parameters'] != 'null':
-                add_other_parameters(myfile, row['Other parameters'])
 
-            if row['How input parameters are estimated (data-driven or from literature)'] != 'null':
-                add_input_estimation(myfile, row['How input parameters are estimated (data-driven or from literature)'])
-            if row['Details on parameters estimation'] != 'null':
-                add_details_input_estimation(myfile, row['Details on parameters estimation'])
-            # Additional
-            if row['Comment/issues'] != 'null':
-                add_additional_information(myfile)
-            if row['Comment/issues'] != 'null':
-                add_comments(myfile, row['Comment/issues'])
+        add_code_available(myfile, row['Code available'])
+        # technical information
+        add_technical_information(myfile)
+        # Model information
+        add_model_information(myfile)
+
+        if row['Stochastic vs. Deterministic'] != 'null':
+            add_stochastic_deterministic(myfile, row['Stochastic vs. Deterministic'])
+        if row['Category of model'] != 'null':
+            add_category_of_model(myfile, row['Category of model'])
+        
+        if row['Subcategory of model'] != 'null':
+            add_sub_category_of_model(myfile, row['Subcategory of model'])
+        if row['Data used for the model (e.g. historical or simulated)'] != 'null':
+            add_data_used_for_the_model(myfile, row['Data used for the model (e.g. historical or simulated)'])
+        if row['Global approach'] != 'null':
+            add_global_approach(myfile, row['Global approach'])            
+        if row['Details of approach'] != 'null':
+            add_details_approach(myfile, row['Details of approach'])
+        if row['Outputs'] != 'null':
+            add_outputs(myfile, row['Outputs'])
+        if row['How intervention strategies are modelled'] != 'null':
+            add_intervention_strategies(myfile, row['How intervention strategies are modelled'])
+        if row['Additional Assumptions'] != 'null':
+            add_additional_assumptions(myfile, row['Additional Assumptions'])
+
+        if (row["Problem Formulation (eg numerical scheme, objective function, etc.)"] != 'null' and row["Problem Formulation (eg numerical scheme, objective function, etc.)"] != 'not explained' ):
+            add_problem_formulation(myfile, row["Problem Formulation (eg numerical scheme, objective function, etc.)"])
+        if (row["Solving Method"] != 'null' and row["Solving Method"] != 'not explained'):
+            add_solving_method(myfile, row["Solving Method"])
+            
+        # Estimation
+        add_parameters_information(myfile)
+
+        if row['Epidemiological parameters (eg inherent of the virus: infection, recovery, death rates)'] != 'null':
+            add_epidemiological_parameters(myfile, row['Epidemiological parameters (eg inherent of the virus: infection, recovery, death rates)'])
+        if row['Other parameters'] != 'null':
+            add_other_parameters(myfile, row['Other parameters'])
+
+        if row['How input parameters are estimated (data-driven or from literature)'] != 'null':
+            add_input_estimation(myfile, row['How input parameters are estimated (data-driven or from literature)'])
+        if row['Details on parameters estimation'] != 'null':
+            add_details_input_estimation(myfile, row['Details on parameters estimation'])
+        # Additional
+        if row['Comment/issues'] != 'null':
+            add_additional_information(myfile)
+        if row['Comment/issues'] != 'null':
+            add_comments(myfile, row['Comment/issues'])
+            
+        if is_alone or is_last_of_serie:
+            add_space(myfile)
 
     myfile.close()

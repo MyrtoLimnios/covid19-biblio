@@ -152,9 +152,11 @@ def add_additional_assumptions(fd, text):
 
 def add_comments(fd, text):
     form = '''<details><summary> <b>Comment/issues</b> </summary>''' + text.encode(
-        'utf-8').decode('utf-8') + '''</details></br>'''
+        'utf-8').decode('utf-8') + '''</details>'''
     fd.write(u''.join((form, '\n', '\n')))
 
+def add_space(fd):
+    fd.write(u'</br>\n\n')
 
 def get_href(title):
     return '#' + title.lower().replace('(', '').replace(')', '').replace(':', '').replace(',', '').replace("'", '').replace(' ', '-')
@@ -224,11 +226,10 @@ if __name__ == '__main__':
     for index, row in df.iterrows():
 
         is_alone = (len(models_dic[row["Paper(s)"]])==1)
-        
         is_first_of_serie = not is_alone and (index==models_dic[row["Paper(s)"]][0])
+        is_last_of_serie = not is_alone and (index==models_dic[row["Paper(s)"]][-1])
 
-        if is_alone or is_first_of_serie:
-            
+        if is_alone or is_first_of_serie:  
             
             if row['Paper(s)'].encode('utf-8') != b'null':
                 add_h2_title(myfile, row['Paper(s)'])
@@ -296,5 +297,8 @@ if __name__ == '__main__':
             add_additional_information(myfile)
         if row['Comment/issues'] != 'null':
             add_comments(myfile, row['Comment/issues'])
+            
+        if is_alone or is_last_of_serie:
+            add_space(myfile)
 
     myfile.close()

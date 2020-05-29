@@ -24,9 +24,10 @@ If you wish to suggest an article to be added to the review, please contact us v
 Email: <A href="mailto:centreborelli.repository@gmail.com">centreborelli.repository@gmail.com</A>
 # Terms of Use 
 This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay, all rights reserved, is provided to the public strictly for educational and academic research purposes. The Website relies upon publicly available data from multiple sources, that do not always agree. The ENS Paris-Saclay hereby disclaims any and all representations and warranties with respect to the Website, including accuracy, fitness for use, and merchantability. Reliance on the Website for medical guidance or use of the Website in commerce is strictly prohibited.
-# The review (73 articles in total) 
+# The review (74 articles in total) 
 | Title | Authors | Description |
 | --- | --- | --- |
+| Epidemiological monitoring and control perspectives: application of a parsimonious modelling framework to the COVID-19 dynamics in France | Mircea T. Sofonea et al. | [here](#epidemiological-monitoring-and-control-perspectives-application-of-a-parsimonious-modelling-framework-to-the-covid-19-dynamics-in-france) |
 | Epidemic Models for Personalised COVID-19 Isolation and Exit Policies Using Clinical Risk Predictions | Theodoros Evgeniou et al. | [here](#epidemic-models-for-personalised-covid-19-isolation-and-exit-policies-using-clinical-risk-predictions) |
 | Predictive Monitoring of COVID-19 | Jianxi Luo et al. | [here](#predictive-monitoring-of-covid-19) |
 | Projections for first-wave COVID-19 deaths across the US using social-distancing measures derived from mobile phones | Spencer Woody et al. | [here](#projections-for-first-wave-covid-19-deaths-across-the-us-using-social-distancing-measures-derived-from-mobile-phones) |
@@ -76,9 +77,9 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 | Estimating clinical severity of COVID-19 from the transmission dynamics in Wuhan, China | Joseph T. Wu et al. | [here](#estimating-clinical-severity-of-covid-19-from-the-transmission-dynamics-in-wuhan-china) |
 | Mathematical Predictions for COVID-19 As a Global Pandemic | Victor Alexander Okhuese et al. | [here](#mathematical-predictions-for-covid-19-as-a-global-pandemic) |
 | Short-term predictions and prevention strategies for COVID-2019: A model based study | Sk Shahid Nadim et al. | [here](#short-term-predictions-and-prevention-strategies-for-covid-2019-a-model-based-study) |
-| Transmission potential and severity of COVID-19 in South Korea | Eunha Shima et al. | [here](#transmission-potential-and-severity-of-covid-19-in-south-korea) |
+| Transmission potential and severity of COVID-19 in South Korea | Eunha Shim et al. | [here](#transmission-potential-and-severity-of-covid-19-in-south-korea) |
 | COVID-19: Forecasting short term hospital needs in France | Clement Massonnaud et al. | [here](#covid-19-forecasting-short-term-hospital-needs-in-france) |
-| Report 9: Impact of non-pharmaceutical interventions (NPIs) to reduce COVID19 mortality and healthcare demand | GB - data on spatial and social repartition (age and household size distribution et al. | [here](#report-9-impact-of-non-pharmaceutical-interventions-npis-to-reduce-covid19-mortality-and-healthcare-demand) |
+| Report 9: Impact of non-pharmaceutical interventions (NPIs) to reduce COVID19 mortality and healthcare demand | Neil M Ferguson et al. | [here](#report-9-impact-of-non-pharmaceutical-interventions-npis-to-reduce-covid19-mortality-and-healthcare-demand) |
 | Substantial undocumented infection facilitates the rapid dissemination of novel coronavirus (SARS-CoV-2) | Ruiyun Li et al. | [here](#substantial-undocumented-infection-facilitates-the-rapid-dissemination-of-novel-coronavirus-sars-cov-2) |
 | Expected impact of school closure and telework to mitigate COVID-19 epidemic in France | Laura Di Domenico et al. | [here](#expected-impact-of-school-closure-and-telework-to-mitigate-covid-19-epidemic-in-france) |
 | Rational evaluation of various epidemic models based on the COVID-19 data of China | Wuyue Yang  et al. | [here](#rational-evaluation-of-various-epidemic-models-based-on-the-covid-19-data-of-china) |
@@ -100,6 +101,17 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 | A time delay dynamic system with external source for the local outbreak of 2019-nCoV | Yu Chen et al. | [here](#a-time-delay-dynamic-system-with-external-source-for-the-local-outbreak-of-2019-ncov) |
 | Understanding unreported cases in the COVID-19 epidemic outbreak in Wuhan, China, and the importance of major public health interventions | Z. Liu et al. | [here](#understanding-unreported-cases-in-the-covid-19-epidemic-outbreak-in-wuhan-china-and-the-importance-of-major-public-health-interventions) |
 | Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study | Joseph T Wu et al. | [here](#nowcasting-and-forecasting-the-potential-domestic-and-international-spread-of-the-2019-ncov-outbreak-originating-in-wuhan-china-a-modelling-study) |
+## Epidemiological monitoring and control perspectives: application of a parsimonious modelling framework to the COVID-19 dynamics in France 
+### General information
+**Authors** : Mircea T. Sofonea, Bastien Reyné, Baptiste Elie, Ramsès Djidjou-Demasse, Christian Selinger, Yannis Michalakis, Samuel Alizon</br>
+**Publication date** : 05/24</br>
+**Paper** : Available [here](https://www.medrxiv.org/content/10.1101/2020.05.22.20110593v1)</br>
+**Code available** : null</br>
+### Technical information
+#### Model information
+#### Model parameters information
+</br>
+
 ## Epidemic Models for Personalised COVID-19 Isolation and Exit Policies Using Clinical Risk Predictions 
 ### General information
 **Authors** : Theodoros Evgeniou, Mathilde Fekom, Anton Ovchinnikov, Raphael Porcher, Camille Pouchol, Nicolas Vayatis</br>
@@ -120,7 +132,7 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 
 <details><summary> <b>Outputs</b> </summary>estimation of the efficiency of a differential exit policy based on a risk-prediction model </details>
 
-<details><summary> <b>How intervention strategies are modelled</b> </summary>non pharmaceutical intervention strategy: reduction in contact rates according to the predicted class (mild or severe)</details>
+<details><summary> <b>How intervention strategies are modelled</b> </summary>susceptible divided by low/high isolation recommendation; non pharmaceutical intervention strategy: reduction in contact rates according to the predicted class (mild or severe) by a factor that can be either estimated or defined as a function of 3 parameters indicating the degree of isolation</details>
 
 <details><summary> <b>Additional Assumptions</b> </summary>1) recovered are life-immune, 2) isolation level different according to the risk-predicted type (low or high risk)</details>
 
@@ -135,7 +147,7 @@ This GitHub repository and its contents herein, copyright 2020 ENS Paris-Scalay,
 
 <details><summary> <b>How parameters are estimated</b> </summary>data-driven; literature</details>
 
-<details><summary> <b>Details on parameters estimation</b> </summary>using RMSE wrt to the number of ICU beds occupancy to estimate initial conditions and proportion of individuals that would require an ICU bed</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>1) beta prior for proportion of mild cases if infected and uniform for initial populations size; 2) ABC using RMSE wrt to the number of ICU beds occupancy to estimate initial conditions and proportion of individuals that would require an ICU bed</details>
 
 </br>
 
@@ -183,17 +195,17 @@ nonlinear LSE between the actual and predicted number of cases</details>
 #### Model information
 **Deterministic or stochastic model** : stochastic</br>
 **Model category** : phenomenological</br>
-<details><summary> <b>Model sub-category</b> </summary>negative binomial GLM; GLM; time-evolving; gaussian curve; deaths modeling; region-stratified subpopulations; mixed-effects model</details>
+<details><summary> <b>Model sub-category</b> </summary>negative binomial regression; time-varying covariates; deaths modeling; spatially-structured; mixed-effects model</details>
 
 <details><summary> <b>Data used for the model</b> </summary>all US states - local data from mobile-phone GPS traces from SafeGraph</details>
 
-<details><summary> <b>Global approach</b> </summary>evolution forecast; modeling of various intervention strategies; epidemiological parameter estimation</details>
+<details><summary> <b>Global approach</b> </summary>evolution forecast; modeling of various intervention strategies</details>
 
 <details><summary> <b>Details of approach</b> </summary>provide a web page with mortality projections in the US https://covid-19.tacc.utexas.edu/projections/</details>
 
 <details><summary> <b>Outputs</b> </summary>prediction of the death curve dynamics</details>
 
-<details><summary> <b>How intervention strategies are modelled</b> </summary>time-varying social-distancing covariates</details>
+<details><summary> <b>How intervention strategies are modelled</b> </summary>state-based time-varying covariates computed by a weighted average of social-distancing metrics that capture the variation of visitation patterns to public space and of the time spend at home versus at work</details>
 
 <details><summary> <b>Problem Formulation</b> </summary>GLM prediction</details>
 
@@ -205,7 +217,8 @@ nonlinear LSE between the actual and predicted number of cases</details>
 <details><summary> <b>Details on parameters estimation</b> </summary>mixed-effects negative-binomial generalized linear model fitted by MCMC</details>
 
 #### Additional information
-<details><summary> <b>Comment/issues</b> </summary>model constructed starting from an already developed model of the IHME, with the idea to improve some aspects and overcome the violation of the assumptions of independent errors in the IHME model</details>
+<details><summary> <b>Comment/issues</b> </summary>1) model constructed starting from an already developed model of the IHME, with the idea to improve some aspects and overcome the violation of the assumptions of independent errors in the IHME model;
+2) cannot project longer-term epidemiological dynamics beyond the initial wave of mitigated transmission</details>
 
 </br>
 
@@ -219,7 +232,7 @@ nonlinear LSE between the actual and predicted number of cases</details>
 #### Model information
 **Deterministic or stochastic model** : deterministic</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SEIR H; multistage; age-stratified subpopulations; region-stratified subpopulations; symptoms/gravity stratified subpopulations</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIR H; multistage; age-structured; spatially-structured; symptoms/severity structured</details>
 
 <details><summary> <b>Data used for the model</b> </summary>France - 03/20 to 03/28 - regional data on hospitalisations, ICU admissions, and deaths from Santé Publique France; data on ICU beds capacity per French Region </details>
 
@@ -230,7 +243,7 @@ hospital requirements and mortality rate; 2) forecast hospital needs for each of
 
 <details><summary> <b>Outputs</b> </summary>pre-lockdown reproduction number per region, prediction of the number of new hospitalisations, the number of required hospitalisation beds, the number of new ICU admissions, the number of required ICU beds and the number of new hospital deaths in each region</details>
 
-<details><summary> <b>How intervention strategies are modelled</b> </summary>modeling of the contact matrix</details>
+<details><summary> <b>How intervention strategies are modelled</b> </summary>modeling of the contact matrix, isolation of people over 70 years old </details>
 
 <details><summary> <b>Additional Assumptions</b> </summary>1) each region has its specific dynamic; 2) infected hospitalized considered as non-infectious (due to their isolation in hospital rooms and the protection of the hospital’s staff)</details>
 
@@ -264,7 +277,7 @@ hospital requirements and mortality rate; 2) forecast hospital needs for each of
 #### Model information
 **Deterministic or stochastic model** : stochastic</br>
 **Model category** : phenomenological</br>
-<details><summary> <b>Model sub-category</b> </summary>GLM, time-evolving; gaussian curve; deaths modeling; mixed-effects model; region-stratified subpopulations</details>
+<details><summary> <b>Model sub-category</b> </summary>time-varying covariates; ERF curve; deaths modeling; mixed-effects model; spatially-structured</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Europe, US - data on confirmed deaths from WHO and governments websites and data on hospital capacity and utilisation from publicly available sources and government websites; Hubei, Italy, Korea, US - average age pattern of mortality rates;
 Social mobility data from Descartes Labs3, SafeGraph4 and Google (via their COVID19 Community Mobility Reports)</details>
@@ -275,7 +288,7 @@ Social mobility data from Descartes Labs3, SafeGraph4 and Google (via their COVI
 
 <details><summary> <b>Outputs</b> </summary>prediction of the deaths dynamics across regions, forecast of the health service needs (hospital admissions, ICU admissions, length of stay, and ventilator need)</details>
 
-<details><summary> <b>How intervention strategies are modelled</b> </summary>region-based inflexion time parameters, depending on a set of covariates per region, which encodes the timing and behavioral impact of social distancing</details>
+<details><summary> <b>How intervention strategies are modelled</b> </summary>region-stratified inflection time parameters, depending on a weighted average of 6 social-distancing metrics per region, which encodes the timing and behavioral impact of social distancing</details>
 
 <details><summary> <b>Additional Assumptions</b> </summary>1) change of the curve trend depends on both the timing and the effects of the implementation of social distancing; 
 2) all social distancing measures that are in place will stay in place;
@@ -292,7 +305,8 @@ Social mobility data from Descartes Labs3, SafeGraph4 and Google (via their COVI
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) model with random effects specific to the region, integrating real time covariates relative to the implementation of interventions;
-2) analysis of the predictive performance</details>
+2) analysis of the predictive performance;
+3) cannot project longer-term epidemiological dynamics beyond the initial wave of mitigated transmission</details>
 
 </br>
 
@@ -306,17 +320,17 @@ Social mobility data from Descartes Labs3, SafeGraph4 and Google (via their COVI
 #### Model information
 **Deterministic or stochastic model** : deterministic</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SEI ICU; symptoms/gravity stratified subpopulations; age-stratified subpopulations</details>
+<details><summary> <b>Model sub-category</b> </summary>SEI ICU; symptoms/severity structured; age-structured</details>
 
 <details><summary> <b>Data used for the model</b> </summary>France - daily hospitalisations, ICU admissions, deaths and information on patients hospitalised in public and private hospitals, from the SI-VIC web portal, completed by data from OSCOUR</details>
 
-<details><summary> <b>Global approach</b> </summary>evolution forecast; modeling of various intervention strategies; epidemiological parameter estimation</details>
+<details><summary> <b>Global approach</b> </summary>evolution forecast; modeling of various intervention strategies</details>
 
 <details><summary> <b>Details of approach</b> </summary>1) estimate the impact of the lockdown and current population immunity; 2) estimate the risk of infection and severe outcomes by age and gender</details>
 
 <details><summary> <b>Outputs</b> </summary>probability of hospitalisation, ICU and death by age and gender; estimation of the distribution of delays from hospitalisation to death by age; estimation of the distribution of delays from hospitalisation to ICU; prediction of the dynamics of daily new infections, daily ICU admissions and number of ICU beds, prediction of the proportion of the population infected by May 11th for each of the 13 regions in metropolitan France</details>
 
-<details><summary> <b>How intervention strategies are modelled</b> </summary>modeling of the contact matrix</details>
+<details><summary> <b>How intervention strategies are modelled</b> </summary>modeling of 5 hypothetis contact matrix; 2 values for R0: before and after lockdown</details>
 
 <details><summary> <b>Problem Formulation</b> </summary>numerical scheme</details>
 
@@ -390,7 +404,7 @@ Social mobility data from Descartes Labs3, SafeGraph4 and Google (via their COVI
 #### Model information
 **Deterministic or stochastic model** : deterministic</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SIRD; isolated/non-isolated subpopulations</details>
+<details><summary> <b>Model sub-category</b> </summary>SIRD; isolated/non-isolated structured</details>
 
 <details><summary> <b>Data used for the model</b> </summary>no data</details>
 
@@ -400,7 +414,7 @@ Social mobility data from Descartes Labs3, SafeGraph4 and Google (via their COVI
 
 <details><summary> <b>Outputs</b> </summary>prediction of compartments dynamics under different scenarios</details>
 
-<details><summary> <b>How intervention strategies are modelled</b> </summary>working and lockdown subpopulations; lockdown modeled by the reduction of the working population and the reduction of the transmission rate</details>
+<details><summary> <b>How intervention strategies are modelled</b> </summary>susceptible divided into working and lockdown subpopulations; lockdown modeled by the reduction of the working population (teleworking) and the reduction of the transmission rate for lockdown population</details>
 
 <details><summary> <b>Problem Formulation</b> </summary>numerical scheme</details>
 
@@ -428,7 +442,7 @@ Social mobility data from Descartes Labs3, SafeGraph4 and Google (via their COVI
 #### Model information
 **Deterministic or stochastic model** : stochastic</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SEIRD H ICU; age-stratified subpopulations; multistage; symptoms/gravity stratified subpopulations; (I: divided into prodromic, asymptomatic, paucisymptomatic, infectious with mild or severe symptoms)</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIRD H ICU; age-structured; multistage; symptoms/severity structured; (I: divided into prodromic, asymptomatic, paucisymptomatic, infectious with mild or severe symptoms)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Ile-de-France - up to 04/03 - hospital admission data before lockdown from French hospital data APHP</details>
 
@@ -513,7 +527,7 @@ Social mobility data from Descartes Labs3, SafeGraph4 and Google (via their COVI
 #### Model information
 **Deterministic or stochastic model** : deterministic</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SEIRQ; symptoms/gravity stratified subpopulations; isolated/non-isolated subpopulations; several I states (divided into asymptomatic and symptomatic populations); (Q: identified and isolated)</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIRQ; symptoms/severity structured; isolated/non-isolated structured; several I states (divided into asymptomatic and symptomatic populations); (Q: identified and isolated)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Asia, Europe, North and South Amercia until 03/27 from WHO</details>
 
@@ -563,7 +577,7 @@ Social mobility data from Descartes Labs3, SafeGraph4 and Google (via their COVI
 
 <details><summary> <b>Outputs</b> </summary>estimated trajectory of the Re from the trajectory of the number of cases and symptoms onsets; evolution of the number of cases when interventions are successively relaxed, then re-implemented; relative case count compared with no relaxation of interventions; duration of aggressive interventions required to push prevalence back to pre-relaxation level, all in function of the Re at relaxation time</details>
 
-<details><summary> <b>How intervention strategies are modelled</b> </summary>reproduction number variations</details>
+<details><summary> <b>How intervention strategies are modelled</b> </summary>time-varying R0</details>
 
 <details><summary> <b>Problem Formulation</b> </summary>numerical scheme</details>
 
@@ -575,7 +589,8 @@ Social mobility data from Descartes Labs3, SafeGraph4 and Google (via their COVI
 <details><summary> <b>How parameters are estimated</b> </summary>literature; data-driven</details>
 
 <details><summary> <b>Details on parameters estimation</b> </summary>1) literature: mean generation time;
-2) data-driven: distribution between symptoms onset and reporting by MCMC, then this distribution is taken into account to construct the adjusted curve of cases by date of symptoms onsets, then uses the method from https://academic.oup.com/aje/article/160/6/509/79472 to estimate the Re over time (MLE using the distribution of the generation time), this Re guides choices of R2 and R4</details>
+2) data-driven: distribution between symptoms onset and reporting by MCMC, then this distribution is taken into account to construct the adjusted curve of cases by date of symptoms onsets, then uses the method from https://academic.oup.com/aje/article/160/6/509/79472 to estimate the Re over time (MLE using the distribution of the generation time), this Re guides choices of R2 and R4; 
+3) distribution of time of onset-to-report and onset-to-death lognormal for sensitivity analysis and gamma for simulations</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>addresses the question of the consequences on relaxing strategies as a function of the Re when relaxing</details>
@@ -592,7 +607,7 @@ Social mobility data from Descartes Labs3, SafeGraph4 and Google (via their COVI
 #### Model information
 **Deterministic or stochastic model** : deterministic</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SIRD; age-stratified subpopulations</details>
+<details><summary> <b>Model sub-category</b> </summary>SIRD; age-structured</details>
 
 <details><summary> <b>Data used for the model</b> </summary>no data</details>
 
@@ -674,7 +689,7 @@ Social mobility data from Descartes Labs3, SafeGraph4 and Google (via their COVI
 #### Model information
 **Deterministic or stochastic model** : deterministic</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SIR; region-stratified subpopulations</details>
+<details><summary> <b>Model sub-category</b> </summary>SIR; spatially-structured</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Italy, Spain, Germany, France, the UK, Singapore, South Korea, China, the US - 01/22 to 04/03 - historical data and data on timings and types of interventions</details>
 
@@ -717,7 +732,7 @@ the introduction of each strategy in a country introduces a decreasing factor in
 #### Model information
 **Deterministic or stochastic model** : stochastic</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>age-stratified subpopulations; SIR</details>
+<details><summary> <b>Model sub-category</b> </summary>age-structured; SIR</details>
 
 <details><summary> <b>Data used for the model</b> </summary>simulated data adapted to the UK</details>
 
@@ -727,7 +742,7 @@ the introduction of each strategy in a country introduces a decreasing factor in
 
 <details><summary> <b>Outputs</b> </summary>prediction of the compartments dynamics</details>
 
-<details><summary> <b>How intervention strategies are modelled</b> </summary>constant time-dependent R0 depending on the timing of the interventions set up; introduction of a parameter representing the strength of the isolation for the most sensitibe subgroup; level of the isolation strategies depending on the subpopulation and application to: homogeneous subgroups but different intervention start time, heterogenerous age-based subgroups (modeled by the strengh parameter); </details>
+<details><summary> <b>How intervention strategies are modelled</b> </summary>constant-by-parts time-dependent R0 depending on the timing of the interventions set up; introduction of a parameter representing the strength of the isolation for the most sensitive subgroup; level of the isolation strategies depending on the subpopulation and application to: homogeneous subgroups but different intervention start time, heterogenerous age-based subgroups (modeled by the strengh parameter); </details>
 
 <details><summary> <b>Additional Assumptions</b> </summary>1) time to infection $\sim$ Poisson distribution; 2) time to recover $\sim$ Erlang distribution; 3) possible heterogeneous sub-populations; 4) all subpopulations share the same demographic and social characteristics but the epidemic can have started at different times</details>
 
@@ -742,7 +757,7 @@ the introduction of each strategy in a country introduces a decreasing factor in
 
 <details><summary> <b>How parameters are estimated</b> </summary>literature</details>
 
-<details><summary> <b>Details on parameters estimation</b> </summary>1) time to infection $\sim$ Poisson distribution depending on the subgroup; 2) time to recover $\sim$ Erlang distribution</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>sensibility analysis: 1) time to infection $\sim$ Poisson distribution depending on the subgroup; 2) time to recover $\sim$ Erlang distribution</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) estimation of age-based case death ratio; 2) model that could include refined susceptibility to the virus or medical pre-hisotry as the model is generic; 3) parameter sensitivity analysis of some epidemic variables; 4) models of spatial heterogeneity of the population and asynchronous timing of the epidemic through various areas</details>
@@ -759,13 +774,13 @@ the introduction of each strategy in a country introduces a decreasing factor in
 #### Model information
 **Deterministic or stochastic model** : stochastic</br>
 **Model category** : individual-level</br>
-<details><summary> <b>Model sub-category</b> </summary>network-based; IRSN; SI; SIR; SEIRD; social network</details>
+<details><summary> <b>Model sub-category</b> </summary>network-based; SI; SIR; SEIRD; random network; social network</details>
 
-<details><summary> <b>Data used for the model</b> </summary>simulated data</details>
+<details><summary> <b>Data used for the model</b> </summary>simulated data with a network from facebook</details>
 
 <details><summary> <b>Global approach</b> </summary>evolution forecast; modeling of various intervention strategies</details>
 
-<details><summary> <b>Details of approach</b> </summary>1) provide a purely analytical toolkit for networks; 2) analysis of SI(ER) model on an IRSN; 3) forecast the epidemic model through cascade mechanism</details>
+<details><summary> <b>Details of approach</b> </summary>1) provide a purely analytical toolkit for networks; 2) analysis of SI(ER) model on an inhomogeneous random social network; 3) forecast the epidemic model through infection cascade mechanism</details>
 
 <details><summary> <b>Outputs</b> </summary>prediction of the compartments dynamics</details>
 
@@ -785,7 +800,7 @@ the introduction of each strategy in a country introduces a decreasing factor in
 <details><summary> <b>How parameters are estimated</b> </summary>simulated</details>
 
 #### Additional information
-<details><summary> <b>Comment/issues</b> </summary>1) extensive theory; 2) introduction of an inhomogeneous random social network as a structure for cascade infections and the modeling of immunity; 3) advocate for the use of network-based models </details>
+<details><summary> <b>Comment/issues</b> </summary>1) extensive theory; 2) introduction of an inhomogeneous random social network as a structure for  infection cascade mechanism and the modeling of immunity; 3) advocate for the use of network-based models </details>
 
 </br>
 
@@ -823,9 +838,9 @@ probability distributions of model parameters)</details>
 <details><summary> <b>Other parameters</b> </summary>1) regional population size; hospital market share (expected proportion of the population served by the hospitals in question); currently hospitalized patients; currently known regional infections;
 2) percentage of social distancing; date of social distancing measures effect (may be delayed from implementation)</details>
 
-<details><summary> <b>How parameters are estimated</b> </summary>litterature</details>
+<details><summary> <b>How parameters are estimated</b> </summary>literature</details>
 
-<details><summary> <b>Details on parameters estimation</b> </summary>given by the litterature or direct data, epidemiological parameters can be modified in the website</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>given by the literature or direct data, epidemiological parameters can be modified in the website</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) provides comparison with other models;
@@ -885,7 +900,7 @@ probability distributions of model parameters)</details>
 #### Model information
 **Deterministic or stochastic model** : deterministic</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SIR; symptoms/gravity stratified subpopulations; (I: divided into mild, serious and asymptomatic populations)</details>
+<details><summary> <b>Model sub-category</b> </summary>SIR; symptoms/severity structured; (I: divided into mild, serious and asymptomatic populations)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>USA - European CDC - from 01/21 to 03/14</details>
 
@@ -1000,9 +1015,9 @@ probability distributions of model parameters)</details>
 **Code available** : https://github.com/plai-group/covid</br>
 ### Technical information
 #### Model information
-**Deterministic or stochastic model** : deterministic</br>
+**Deterministic or stochastic model** : deterministic; stochastic</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SEIR; multistage; symptoms/gravity stratified subpopulations; (I: divided into mild, severe and critical cases)</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIR; multistage; symptoms/severity structured; (I: divided into mild, severe and critical cases)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>simulated data</details>
 
@@ -1019,7 +1034,7 @@ that cannot be affected by the measures (e.g. the incubation period or death rat
 
 <details><summary> <b>Problem Formulation</b> </summary>numerical scheme; inference on SIER model to infer which policies are more likely to be effective given explicit constraints</details>
 
-<details><summary> <b>Solving Method</b> </summary>1) ODE for compartmental models 2) approximate Bayesian computation to compute the conditional probability and importance sampling from the prior 3) nested Monte Carlo to condition on the policy leading to a desired outcome with a given probability</details>
+<details><summary> <b>Solving Method</b> </summary>1) ODE to simulate the spreading 2) approximate Bayesian computation to compute the conditional probability of infected population conditionally to intervention and importance sampling from the prior 3) nested Monte Carlo to condition on the policy leading to a desired outcome with a given probability</details>
 
 #### Model parameters information
 <details><summary> <b>Epidemiological parameters</b> </summary>classic parameters</details>
@@ -1054,7 +1069,7 @@ that cannot be affected by the measures (e.g. the incubation period or death rat
 
 <details><summary> <b>Problem Formulation</b> </summary>inference on individual-based model to infer which policies are more likely to be effective given explicit constraints</details>
 
-<details><summary> <b>Solving Method</b> </summary>1) ODE for compartmental models 2) approximate Bayesian computation to compute the conditional probability and importance sampling from the prior 3) nested Monte Carlo to condition on the policy leading to a desired outcome with a given probability</details>
+<details><summary> <b>Solving Method</b> </summary>1) simulation the spreading 2) approximate Bayesian computation to compute the conditional probability and importance sampling from the prior 3) rejection sampling with nested Monte Carlo to condition on the policy leading to a desired outcome with a given probability</details>
 
 #### Model parameters information
 <details><summary> <b>Epidemiological parameters</b> </summary>classic parameters</details>
@@ -1090,14 +1105,12 @@ that cannot be affected by the measures (e.g. the incubation period or death rat
 
 <details><summary> <b>Problem Formulation</b> </summary>generalized logistic model and Gompertz model prediction</details>
 
-<details><summary> <b>Solving Method</b> </summary>fitted by a nonlinear optimisation algorithm</details>
-
 #### Model parameters information
 <details><summary> <b>Other parameters</b> </summary>parameters of the GLR function</details>
 
 <details><summary> <b>How parameters are estimated</b> </summary>data-driven</details>
 
-<details><summary> <b>Details on parameters estimation</b> </summary>parameters induced by the model </details>
+<details><summary> <b>Details on parameters estimation</b> </summary>fitted by a nonlinear optimisation algorithm</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) simple and robust growth model</details>
@@ -1139,7 +1152,7 @@ that cannot be affected by the measures (e.g. the incubation period or death rat
 
 <details><summary> <b>How parameters are estimated</b> </summary>data-driven</details>
 
-<details><summary> <b>Details on parameters estimation</b> </summary>1) MCMC to sample the prior distribution of the coefficients of the parameters B-spline decomposition from the likelihood function, using HMC algorithm; 2) coefficients of the parameters priors decomposition $\sim$ guaussian and uniform distributions</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>1) MCMC to sample the prior distribution of the coefficients of the parameters B-spline decomposition from the likelihood function, using HMC algorithm; 2) for sensitivity analysis: coefficients of the parameters priors decomposition $\sim$ gaussian and uniform distributions</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) time-varying parameter for count-series modeled by Poisson regression; 2) interesting, good predictions and future work promising; 3) sensitivity analysis</details>
@@ -1263,7 +1276,7 @@ that cannot be affected by the measures (e.g. the incubation period or death rat
 #### Model information
 **Deterministic or stochastic model** : deterministic</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SEAIR; symptoms/gravity stratified subpopulations; optimal control</details>
+<details><summary> <b>Model sub-category</b> </summary>SEAIR; symptoms/severity structured; optimal control</details>
 
 <details><summary> <b>Data used for the model</b> </summary>simulated data</details>
 
@@ -1396,7 +1409,7 @@ that cannot be affected by the measures (e.g. the incubation period or death rat
 
 <details><summary> <b>Details on parameters estimation</b> </summary>1) estimation of key time-to-event intervals distributions via parametric distribution fitting:
 gamma, weibull and lognormal distributions are fitted to the incubation period, the generation time, the time from symptoms onset to hospital admission, the time from first healthcare consultation to hospital admission, the time from symptom onset to official reporting; AIC are computed to determine the best fit;
-2) MH-MCMC sampling to estimate the posterior distribution of Re over time, assuming that the daily number of new cases (by date of symptom onset) is approximated by a Poisson distribution whose mean depends on the Re </details>
+2) MH-MCMC sampling to estimate the posterior distribution of Re over time, assuming that the daily number of new cases (by date of symptom onset) is approximated by a Poisson distribution whose mean depends on the Re; non-informative prior distributions of Re(t) (flat distribution in the range [0-1000])</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) lot of information on the data 2) exploits information on individual exposure to estimate the generation time 3) investigates robustness in the estimation of Re wrt the changes in the detection of cases inducted by the new definition of suspected cases 3) the modelisation of the Re could be used as a propagation model</details>
@@ -1457,7 +1470,7 @@ R package nCov2019 and Population Migration dataset from Baidu Migration Project
 #### Model information
 **Deterministic or stochastic model** : stochastic</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SIR; SIRQ; isolated/non-isolated subpopulations; (R: death/recovered, Q: hospitalized or quarantined); state-space framework</details>
+<details><summary> <b>Model sub-category</b> </summary>SIR; SIRQ; isolated/non-isolated structured; (R: death/recovered, Q: hospitalized or quarantined); state-space framework</details>
 
 <details><summary> <b>Data used for the model</b> </summary>simulated data: virulence data, surveillance data, serological data</details>
 
@@ -1478,7 +1491,7 @@ R package nCov2019 and Population Migration dataset from Baidu Migration Project
 
 <details><summary> <b>How parameters are estimated</b> </summary>simulated</details>
 
-<details><summary> <b>Details on parameters estimation</b> </summary>estimation of the vector of rates for 1) MAP of MLE; 2) and 3) if total variation regularisation, dubbed iterative Nelder-Mead to compute the regularized posterior mode</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>estimation of the vector of compartments rates for 1) MAP of MLE; 2) and 3) if total variation regularisation, dubbed iterative Nelder-Mead to compute the regularized posterior mode</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) models the discontinuous policy implied by lockdowns; 2) state-space framework so possibility to use data from multiple sources; 3) can find a global optimum by MAP thanks to regularisation; 4) evaluates the a posteriori mode (not mean); 5) need to choose prior distributions for SIRQ's parameters (two proposed)</details>
@@ -1495,7 +1508,7 @@ R package nCov2019 and Population Migration dataset from Baidu Migration Project
 #### Model information
 **Deterministic or stochastic model** : deterministic</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>reported/unreported stratified subpopulations; SIRD</details>
+<details><summary> <b>Model sub-category</b> </summary>reported/unreported structured; SIRD</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Italian regions - Civil Protection Department  - 02/24 to 03/30</details>
 
@@ -1568,7 +1581,12 @@ R package nCov2019 and Population Migration dataset from Baidu Migration Project
 
 ## Report 13: Estimating the number of infections and the impact of non-pharmaceutical interventions on COVID-19 in 11 European countries 
 ### General information
-**Authors** : Seth Flaxman</br>
+**Authors** : Seth Flaxman, Swapnil Mishra, Axel Gandy, H Juliette T Unwin, Helen Coupland, Thomas A Mellan, Harrison
+Zhu, Tresnia Berah, Jeffrey W Eaton, Pablo N P Guzman, Nora Schmit, Lucia Cilloni, Kylie E C Ainslie, Marc
+Baguelin, Isobel Blake, Adhiratha Boonyasiri, Olivia Boyd, Lorenzo Cattarino, Constanze Ciavarella, Laura Cooper,
+Zulma Cucunubá, Gina Cuomo-Dannenburg, Amy Dighe, Bimandra Djaafara, Ilaria Dorigatti, Sabine van Elsland,
+Rich FitzJohn, Han Fu, Katy Gaythorpe, Lily Geidelberg, Nicholas Grassly, Will Green, Timothy Hallett, Arran
+Hamlet, Wes Hinsley, Ben Jeffrey, David Jorgensen, Edward Knock, Daniel Laydon, Gemma Nedjati-Gilani, Pierre Nouvellet, Kris Parag, Igor Siveroni, Hayley Thompson, Robert Verity, Erik Volz, Caroline Walters, Haowei Wang, Yuanrong Wang, Oliver Watson, Peter Winskill, Xiaoyue Xi, Charles Whittaker, Patrick GT Walker, Azra Ghani, Christl A. Donnelly, Steven Riley, Lucy C Okell, Michaela A C Vollmer, Neil M. Ferguson, Samir Bhatt</br>
 **Publication date** : 03/30</br>
 **Paper** : Available [here](https://spiral.imperial.ac.uk/handle/10044/1/77731)</br>
 **Code available** : https://github.com/ImperialCollegeLondon/covid19model/releases/tag/v1.0; https://github.com/mrc-ide/covid-sim</br>
@@ -1576,7 +1594,7 @@ R package nCov2019 and Population Migration dataset from Baidu Migration Project
 #### Model information
 **Deterministic or stochastic model** : stochastic</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>ID;  time-delay dynamic system</details>
+<details><summary> <b>Model sub-category</b> </summary>ID;  time-delayed</details>
 
 <details><summary> <b>Data used for the model</b> </summary>11 European countries - observed deaths from the European Centre of Disease Control</details>
 
@@ -1599,7 +1617,7 @@ R package nCov2019 and Population Migration dataset from Baidu Migration Project
 
 <details><summary> <b>How parameters are estimated</b> </summary>data-driven</details>
 
-<details><summary> <b>Details on parameters estimation</b> </summary>bayesian hierarchical model, parameters are estimated via adaptive HMC</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>1) normal prior for R0 where variance $\sim$ normal; 2) bayesian hierarchical model, parameters are estimated via adaptive HMC</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) joint estimation of hierarchical model for all countries with estimation of the influence of policies; 2) validation and sensibility analysis</details>
@@ -1614,9 +1632,9 @@ R package nCov2019 and Population Migration dataset from Baidu Migration Project
 **Code available** : https://github.com/mrc-ide/COVID19_CFR_submission</br>
 ### Technical information
 #### Model information
-**Deterministic or stochastic model** : stochastic</br>
+**Deterministic or stochastic model** : deterministic</br>
 **Model category** : phenomenological</br>
-<details><summary> <b>Model sub-category</b> </summary>age-stratified subpopulations;  logistic growth curve; logistic curve</details>
+<details><summary> <b>Model sub-category</b> </summary>age-structured; logistic curve</details>
 
 <details><summary> <b>Data used for the model</b> </summary>various data from China including WHO-China until 03/03, Diamond Princess and demographic data</details>
 
@@ -1677,7 +1695,7 @@ R package nCov2019 and Population Migration dataset from Baidu Migration Project
 
 <details><summary> <b>How parameters are estimated</b> </summary>data-driven</details>
 
-<details><summary> <b>Details on parameters estimation</b> </summary>simultaneous SSE minimisation, terminal error and terminal rate error between the data and the model</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>simultaneous ISE minimisation, terminal error and terminal rate error between the data and the model</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) embeds volatility in SIR equations</details>
@@ -1689,7 +1707,7 @@ R package nCov2019 and Population Migration dataset from Baidu Migration Project
 **Authors** : Alexis Akira Toda</br>
 **Publication date** : 03/27</br>
 **Paper** : Available [here](https://arxiv.org/pdf/2003.11221.pdf)</br>
-**Code available** : No</br>
+**Code available** : https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series</br>
 ### Technical information
 #### Model information
 **Deterministic or stochastic model** : deterministic</br>
@@ -1726,13 +1744,13 @@ R package nCov2019 and Population Migration dataset from Baidu Migration Project
 ### General information
 **Authors** : Facundo Piguillem, Liyan Shi </br>
 **Publication date** : 03/27</br>
-**Paper** : Available [here](https://www.researchgate.net/profile/Facundo_Piguillem/publication/340226829_The_Optimal_COVID-19_Quarantine_and_Testing_Policies/links/5e7de548a6fdcc139c09055d/The-Optimal-COVID-19-Quarantine-and-Testing-Policies.pdf)</br>
+**Paper** : Available [here](http://www.eief.it/eief/images/WP_20.04.pdf)</br>
 **Code available** : No</br>
 ### Technical information
 #### Model information
 **Deterministic or stochastic model** : deterministic</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SEIR; optimal control</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIR; optimal control; symptom/gravity stratified</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Italy, early data</details>
 
@@ -1774,7 +1792,7 @@ R package nCov2019 and Population Migration dataset from Baidu Migration Project
 #### Model information
 **Deterministic or stochastic model** : deterministic</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SEIR; age-stratified subpopulations; symptoms/gravity stratified subpopulations; (I: divided into clinical and subclinical)</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIR; age-structured; symptoms/severity structured; (I: divided into clinical and subclinical)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>simulated - synthetic contact mixing matrices for China scaled to Wuhan population size</details>
 
@@ -1835,7 +1853,7 @@ R package nCov2019 and Population Migration dataset from Baidu Migration Project
 
 <details><summary> <b>How parameters are estimated</b> </summary>literature; data-driven</details>
 
-<details><summary> <b>Details on parameters estimation</b> </summary>transmission rate, initial date of the epidemic, relative probability to be tested for a susceptible vs an infected; MLE of the increments of the daily new cases $\wrt$ the three parameters to optimize, optimisation under constraints, Matlab fmincon function</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>1) uniform prior for transmission rate and initial time; 2) transmission rate, initial date of the epidemic, relative probability to be tested for a susceptible vs an infected; MLE of the increments of the daily new cases $\wrt$ the three parameters to optimize, optimisation under constraints, Matlab fmincon function</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) interesting statistical inference method to estimate the total number of unreported cases; 2) uniform a priori distribution chosen; 3) correlation of the estimated parameters analysis; 4) sensitivity analysis</details>
@@ -1852,7 +1870,7 @@ R package nCov2019 and Population Migration dataset from Baidu Migration Project
 #### Model information
 **Deterministic or stochastic model** : stochastic</br>
 **Model category** : phenomenological</br>
-<details><summary> <b>Model sub-category</b> </summary>age-stratified subpopulations; gender-stratified subpopulations; GLM; poisson GLM; negative binomial GLM; log-linear GLM</details>
+<details><summary> <b>Model sub-category</b> </summary>spatially-structured; Poisson auto-regressive model; negative binomial auto-regressive model; log-linear auto-regressive model; time-varying covariates; mixed-effects model</details>
 
 <details><summary> <b>Data used for the model</b> </summary>China from 12/01 to 02/10 - human mobility data with age and gender data from the Baidu Qianxi web platform</details>
 
@@ -1906,6 +1924,8 @@ R package nCov2019 and Population Migration dataset from Baidu Migration Project
 
 <details><summary> <b>Problem Formulation</b> </summary>1) deep learning network BFGS-PNN;  2) fuzzy rule induction (FRI)</details>
 
+<details><summary> <b>Solving Method</b> </summary>compartements dynamics forecast by BFGS-PNN to feed the composite MC model; BGFS-PNN algorithm (found with GROOM) with Broyden-Fletcher-Goldfarb-Shanno algorithm (Quasi-Newton method and secant method);</details>
+
 #### Model parameters information
 <details><summary> <b>Epidemiological parameters</b> </summary>classic parameters</details>
 
@@ -1913,7 +1933,7 @@ R package nCov2019 and Population Migration dataset from Baidu Migration Project
 
 <details><summary> <b>How parameters are estimated</b> </summary>literature; data-driven</details>
 
-<details><summary> <b>Details on parameters estimation</b> </summary>1) compartements dynamics forecast by BFGS-PNN to feed the composite MC model; 2) BGFS-PNN algorithm (found with GROOM) with Broyden-Fletcher-Goldfarb-Shanno algorithm (Quasi-Newton method and secant method); 3) growth of the daily medical costs $\sim$ Gaussian distribution; 4) duration of the hospitalisation $\sim$ uniform distribution </details>
+<details><summary> <b>Details on parameters estimation</b> </summary>1) growth of the daily medical costs $\sim$ Gaussian distribution; 2) duration of the hospitalisation $\sim$ uniform distribution </details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) composite MC model that enables non-deterministic data distributions along with future predictions from a deterministic model; 2) original approach to solve the very specific problem of estimating the total cost of the pandemic; 3) based on very strong assumptions (all details are in supplementary materials)</details>
@@ -1930,7 +1950,7 @@ R package nCov2019 and Population Migration dataset from Baidu Migration Project
 #### Model information
 **Deterministic or stochastic model** : deterministic</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SEIR; symptoms/gravity stratified subpopulations; (I: divided into symptomatic and asymptomatic populations); age-stratified subpopulations; region-stratified subpopulations; 1) for the Wuhan model: non subpopulation considered; 2) for the other cities: the initial subpopulation for individuals arrived from Wuhan, isolated subpopulations wrt to the day of arrival from Wuhan during the infectious period of 14 days (14 classes), and an independent subpopulation for the local city population</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIR; symptoms/severity structured; (I: divided into symptomatic and asymptomatic populations); age-structured; spatially-structured; 1) for the Wuhan model: non subpopulation considered; 2) for the other cities: the initial subpopulation for individuals arrived from Wuhan, isolated subpopulations wrt to the day of arrival from Wuhan during the infectious period of 14 days (14 classes), and an independent subpopulation for the local city population</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Major Chinese cities (Chongqing, Beijing, Shanghai) - 12/01/19 to 03/31 - from CDC, WHO, Diamond Princess Cruise</details>
 
@@ -1972,7 +1992,7 @@ R package nCov2019 and Population Migration dataset from Baidu Migration Project
 #### Model information
 **Deterministic or stochastic model** : deterministic</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SIR; (I: latently infected);  time-delay dynamic system</details>
+<details><summary> <b>Model sub-category</b> </summary>SIR; (I: latently infected);  time-delayed</details>
 
 <details><summary> <b>Data used for the model</b> </summary>China, Korea and Italy - infected cases from from https://www.worldometers.info/coronavirus/</details>
 
@@ -1991,7 +2011,7 @@ R package nCov2019 and Population Migration dataset from Baidu Migration Project
 
 <details><summary> <b>How parameters are estimated</b> </summary>literature; data-driven</details>
 
-<details><summary> <b>Details on parameters estimation</b> </summary>litterature for the incubation time; exponential curve fitting for the R0</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>literature for the incubation time; exponential curve fitting for the R0</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) not a lot of explanations on how parameters are fitted 2) simplifying assumptions of a constant susceptible population and a common model of quarantine for countries that applied different strategies 3) the intervention strategy is entirely parameterized by the incubation period 4) interesting suggestions of developments to integrate spatial considerations</details>
@@ -2008,7 +2028,7 @@ R package nCov2019 and Population Migration dataset from Baidu Migration Project
 #### Model information
 **Deterministic or stochastic model** : deterministic</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SIRU; reported/unreported subpopulations; (I: asymptomatic infectious, R: reported symptomatic, U: unreported symptomatic)</details>
+<details><summary> <b>Model sub-category</b> </summary>SIRU; reported/unreported structured; (I: asymptomatic infectious, R: reported symptomatic, U: unreported symptomatic)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Korean Center for Disease Control 01/20 - 03/09, Italian Ministry of Health 01/31 - 03/03, French Public Agency of Health 02/25 - 03/09 and Robert Koch Institute of Germany 02/24 - 03/09</details>
 
@@ -2044,14 +2064,13 @@ R package nCov2019 and Population Migration dataset from Baidu Migration Project
 ### General information
 **Authors** : Joseph T. Wu, Kathy Leung, Mary Bushman, Nishant Kishore, Rene Niehus, Pablo M. de Salazar, Benjamin J. Cowling, Marc Lipsitch and Gabriel M. Leung</br>
 **Publication date** : 03/19</br>
-**Paper** : Available [here](
-https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_of_COVID-19_from_the_transmission_dynamics_in_Wuhan_China)</br>
+**Paper** : Available [here](https://www.nature.com/articles/s41591-020-0822-7)</br>
 **Code available** : upon request to the corresponding author</br>
 ### Technical information
 #### Model information
 **Deterministic or stochastic model** : stochastic</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SIR; age-stratified subpopulations</details>
+<details><summary> <b>Model sub-category</b> </summary>SIR; age-structured</details>
 
 <details><summary> <b>Data used for the model</b> </summary>infected, death cases per age and data on human mobility in Wuhan from various sources from 12/10 to 02/25</details>
 
@@ -2061,7 +2080,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 
 <details><summary> <b>Outputs</b> </summary>prediction of the compartments dynamics</details>
 
-<details><summary> <b>How intervention strategies are modelled</b> </summary>rate decrease of the transmissibility by a parameter representing the social distancing measured after 01/23 (lockdown in Wuhan)</details>
+<details><summary> <b>How intervention strategies are modelled</b> </summary>transmission rate multiplied by a parameter representing the social distancing measured after 01/23 (lockdown in Wuhan)</details>
 
 <details><summary> <b>Additional Assumptions</b> </summary>1) observed proportion (ratio between recorded and actual infected population) is constant over time; 2) Gamma distribution for the incubation period, the generation time process and the time between onset and death; 3) multinomial sampling process from the  age-dependent distribution of true cases for the age-dependent distribution of confirmed cases; </details>
 
@@ -2103,7 +2122,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 
 <details><summary> <b>Outputs</b> </summary>disease-free equilibrium point of the system</details>
 
-<details><summary> <b>How intervention strategies are modelled</b> </summary>intervention modeled by the compartment R common for all the population</details>
+<details><summary> <b>How intervention strategies are modelled</b> </summary>intervention modeled by the compartment R common for all the population: infected population divided in infected and infected quarantined</details>
 
 <details><summary> <b>Additional Assumptions</b> </summary>1) isolated system; 2) each compartment has a non zero rate of direct death</details>
 
@@ -2141,7 +2160,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 
 <details><summary> <b>Global approach</b> </summary>epidemiological parameter estimation; evolution forecast; modeling of various intervention strategies</details>
 
-<details><summary> <b>Details of approach</b> </summary>1) predict the compartments dynamics and estimate the rates; 2) analysis of the characteristic points of the differential system; 3) estimate R0 and the control reproduction number</details>
+<details><summary> <b>Details of approach</b> </summary>1) predict the compartments dynamics and estimate the rates; 2) analysis of the characteristic points of the differential system; 3) estimate R0 with and without lockdown</details>
 
 <details><summary> <b>Outputs</b> </summary>prediction of the compartments dynamics per region; prediction of the effective transmission rate variations per region</details>
 
@@ -2160,7 +2179,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 
 <details><summary> <b>How parameters are estimated</b> </summary>data-driven</details>
 
-<details><summary> <b>Details on parameters estimation</b> </summary>1) estimation of the threshold rates of exposed and the isolated that are infected through the computation of the partial derivatives of the control reproduction number, in order to measure the ranges for the interventions scenarios; 2) rates estimated on data with non-linear LSE minimisation on Matlab</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>1) estimation of the threshold rates of exposed and the isolated that are infected through the computation of the partial derivatives of R0 if lockdown, in order to measure the ranges for the interventions scenarios; 2) rates estimated on data with non-linear LSE minimisation on Matlab</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) indepth theoritical analysis; 2) comparison if control policy and if not; 3) predictive model + estimation of R0 et if control, RC; 4) good numerical analysis (RMSE +MAE); 5) long and short term prediction (quick numerical analysis of possible outbreak); 6) interesting heat maps for parameters correlations and impact on RC</details>
@@ -2169,7 +2188,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 
 ## Transmission potential and severity of COVID-19 in South Korea 
 ### General information
-**Authors** : Eunha Shima, Amna Tariqb , Wongyeong Choia , Yiseul Leeb , Gerardo Chowe</br>
+**Authors** : Eunha Shim, Amna Tariq , Wongyeong Choi , Yiseul Lee, Gerardo Chowell</br>
 **Publication date** : 03/17</br>
 **Paper** : Available [here](https://www.ijidonline.com/article/S1201-9712(20)30150-8/fulltext)</br>
 **Code available** : null</br>
@@ -2177,7 +2196,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 #### Model information
 **Deterministic or stochastic model** : stochastic</br>
 **Model category** : phenomenological</br>
-<details><summary> <b>Model sub-category</b> </summary>age-stratified subpopulations; gender-stratified subpopulations; generalized growth curve</details>
+<details><summary> <b>Model sub-category</b> </summary>generalized growth curve; Poisson error structure</details>
 
 <details><summary> <b>Data used for the model</b> </summary>South Korea (CDC) - from 01/20 to 02/26</details>
 
@@ -2194,7 +2213,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 <details><summary> <b>Problem Formulation</b> </summary>renewal equation</details>
 
 #### Model parameters information
-<details><summary> <b>Epidemiological parameters</b> </summary>Re</details>
+<details><summary> <b>Epidemiological parameters</b> </summary>Re; generation interval</details>
 
 <details><summary> <b>Other parameters</b> </summary>growth parameter</details>
 
@@ -2217,7 +2236,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 #### Model information
 **Deterministic or stochastic model** : deterministic</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SEIR; age-stratified subpopulations</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIR; age-structured</details>
 
 <details><summary> <b>Data used for the model</b> </summary>French regions - 01/22 to 03/14 - from INSEE, SAE</details>
 
@@ -2251,7 +2270,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 
 ## Report 9: Impact of non-pharmaceutical interventions (NPIs) to reduce COVID19 mortality and healthcare demand 
 ### General information
-**Authors** : GB - data on spatial and social repartition (age and household size distribution, average class sizes and staff-student ratios, distribution of workplace number of workers)</br>
+**Authors** : Neil M Ferguson, Daniel Laydon, Gemma Nedjati-Gilani, Natsuko Imai, Kylie Ainslie, Marc Baguelin, Sangeeta Bhatia, Adhiratha Boonyasiri, Zulma Cucunubá, Gina Cuomo-Dannenburg, Amy Dighe, Ilaria Dorigatti, Han Fu, Katy Gaythorpe, Will Green, Arran Hamlet, Wes Hinsley, Lucy C Okell, Sabine van Elsland, Hayley Thompson, Robert Verity, Erik Volz, Haowei Wang, Yuanrong Wang, Patrick GT Walker, Caroline Walters, Peter Winskill, Charles Whittaker, Christl A Donnelly, Steven Riley, Azra C Ghani</br>
 **Publication date** : 03/16</br>
 **Paper** : Available [here](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf)</br>
 **Code available** : No</br>
@@ -2270,8 +2289,7 @@ https://www.researchgate.net/publication/340030762_Estimating_clinical_severity_
 
 <details><summary> <b>Outputs</b> </summary>prediction of the compartments dynamics (chosen time-step)</details>
 
-<details><summary> <b>How intervention strategies are modelled</b> </summary>5 possible scenarios (school lockdown, social distancing, quarantine, ...) explicitely parameterized in the model via changes in the contact structure (using assumptions about the
-impact of each intervention and compensatory changes in contacts (e.g. in the home) associated with reduced contact rates in specific settings outside the household)</details>
+<details><summary> <b>How intervention strategies are modelled</b> </summary>5 possible scenarios (school lockdown, social distancing, quarantine, ...) explicitely parameterized in the model via changes in the contact structure (using assumptions about the impact of each intervention and compensatory changes in contacts (e.g. in the home) associated with reduced contact rates in specific settings outside the household)</details>
 
 <details><summary> <b>Additional Assumptions</b> </summary>1) transmission events occur through contacts made between susceptible and infectious individuals in either the household, workplace, school or randomly in the community, with the latter depending on spatial distance;
 2) infectiousness vary among individuals and over time;
@@ -2286,9 +2304,8 @@ impact of each intervention and compensatory changes in contacts (e.g. in the ho
 
 <details><summary> <b>How parameters are estimated</b> </summary>literature; data-driven</details>
 
-<details><summary> <b>Details on parameters estimation</b> </summary>1) literature: all parameters except 2); 2) data-driven: the exponentially growing rate calibrated to give local
-epidemics which reproduced the observed cumulative number of deaths in GB or the US seen by 14th
-March 2020</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>1) literature: all parameters except 2); 
+2) data-driven: the exponentially growing rate calibrated to give local epidemics which reproduced the observed cumulative number of deaths in GB or the US seen by 14th March 2020</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) a simulated population is generated to reproduce a realistic distribution across geographical space and realistic contact patterns; 2) realistic simulation which can embed a high level of details and structure and parameterize different strategies, but demands many geographical, social and health data</details>
@@ -2305,7 +2322,7 @@ March 2020</details>
 #### Model information
 **Deterministic or stochastic model** : stochastic</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SEI; reported/unreported subpopulations; region-mixing; region-stratified subpopulations; (two states of infected: documented and undocumented)</details>
+<details><summary> <b>Model sub-category</b> </summary>SEI; reported/unreported structured; region-mixing; spatially-structured; (two states of infected: documented and undocumented)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>China - from 01/10 to 02/08 - daily confirmed cases; China - 2018 - daily numbers of travelers between 375 Chinese cities during the Spring Festival period from the Tencent location-based service</details>
 
@@ -2344,7 +2361,7 @@ between cities</details>
 #### Model information
 **Deterministic or stochastic model** : stochastic</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SEIR; multistage; age-stratified subpopulations; region-stratified subpopulations; (two categories of infectious: pre-symptomatic infectious, symptomatic infectious)</details>
+<details><summary> <b>Model sub-category</b> </summary>SEIR; multistage; age-structured; spatially-structured; (two categories of infectious: pre-symptomatic infectious, symptomatic infectious)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Île-de-France, Hauts-de-France, Grand Est - serie of confirmed cases from Réseau Sentinelles</details>
 
@@ -2401,14 +2418,16 @@ between cities</details>
 
 <details><summary> <b>Details of approach</b> </summary>model comparison on the evolution forecasts</details>
 
-<details><summary> <b>Outputs</b> </summary>prediction of the compartments dynamics</details>
+<details><summary> <b>Outputs</b> </summary>prediction of the compartments dynamics with different methods</details>
 
 <details><summary> <b>Problem Formulation</b> </summary>evaluate the performance of a method in terms of forecast ability</details>
 
-<details><summary> <b>Solving Method</b> </summary>for each of the methods, data of the cumulated confirmed cases are separated in several train/test sets where the train sets consist in the data troncated at some different dates and the test sets are the data in the following days; then a forward scheme is used to predict the dynamics and the AIC, robustness index and RMSE are computed on the test sets</details>
+<details><summary> <b>Solving Method</b> </summary>1) for each of the methods, data of the cumulated confirmed cases are separated in several train/test sets where the train sets consist in the data troncated at some different dates and the test sets are the data in the following days;
+2) each curve is fitted on the train set and used to predict the dynamics of the test set;
+3) the AIC, robustness index and RMSE are computed on the test sets</details>
 
 #### Model parameters information
-<details><summary> <b>Epidemiological parameters</b> </summary>classic parameters</details>
+<details><summary> <b>Other parameters</b> </summary>parameters induced by the models</details>
 
 <details><summary> <b>How parameters are estimated</b> </summary>data-driven</details>
 
@@ -2431,11 +2450,13 @@ between cities</details>
 
 <details><summary> <b>Details of approach</b> </summary>model comparison on the evolution forecasts</details>
 
-<details><summary> <b>Outputs</b> </summary>prediction of the compartments dynamics</details>
+<details><summary> <b>Outputs</b> </summary>prediction of the compartments dynamics with different methods</details>
 
 <details><summary> <b>Problem Formulation</b> </summary>evaluate the performance of a method in terms of forecast ability</details>
 
-<details><summary> <b>Solving Method</b> </summary>for each of the methods, data of the cumulated confirmed cases are separated in several train/test sets where the train sets consist in the data troncated at some different dates and the test sets are the data in the following days; then a forward scheme is used to predict the dynamics and the AIC, robustness index and RMSE are computed on the test sets</details>
+<details><summary> <b>Solving Method</b> </summary>1) for each of the methods, data of the cumulated confirmed cases are separated in several train/test sets where the train sets consist in the data troncated at some different dates and the test sets are the data in the following days;
+2) each compartmental model is fitted on the train and used to predict the dynamics of the test set;
+3) the AIC, robustness index and RMSE are computed on the test sets</details>
 
 #### Model parameters information
 <details><summary> <b>Epidemiological parameters</b> </summary>classic parameters</details>
@@ -2448,12 +2469,12 @@ between cities</details>
 <details><summary> <b>Comment/issues</b> </summary>1) systematical investigation on the forecast ability of 8 widely used empirical functions, 4 statistical inference methods and 5 dynamical models widely used in the literature; addresses the requierements on robustness, sensitivity and the trade-off between model complexity and accuracy; 2) not enough details on the different methods</details>
 
 ### Third model
-**Code available** : No</br>
+**Code available** : Use of R0 package in R</br>
 ### Technical information
 #### Model information
-**Deterministic or stochastic model** : deterministic</br>
+**Deterministic or stochastic model** : stochastic</br>
 **Model category** : statistical estimation</br>
-<details><summary> <b>Model sub-category</b> </summary>four statistical inference methods; exponential growth; maximum likelihood; sequential Bayesian; time-dependent reproduction number</details>
+<details><summary> <b>Model sub-category</b> </summary>four statistical inference methods; exponential growth; MLE; sequential Bayesian; time-dependent R0</details>
 
 <details><summary> <b>Data used for the model</b> </summary>China, seven provinces/cities - 01/20 to 02/28 - confirmed infected cases from CDC</details>
 
@@ -2461,18 +2482,24 @@ between cities</details>
 
 <details><summary> <b>Details of approach</b> </summary>model comparison on the estimation of R0</details>
 
-<details><summary> <b>Outputs</b> </summary>estimate of the R0</details>
+<details><summary> <b>Outputs</b> </summary>estimation of the R0 with different methods</details>
 
 <details><summary> <b>Problem Formulation</b> </summary>evaluate the performance of a method in terms of estimation performance</details>
 
-<details><summary> <b>Solving Method</b> </summary>for each of the methods, data of the cumulated confirmed cases are separated in several train/test sets where the train sets consist in the data troncated at some different dates and the test sets are the data in the following days; then a forward scheme is used to predict the dynamics and the AIC, robustness index and RMSE are computed on the test sets</details>
+<details><summary> <b>Solving Method</b> </summary>1) for each of the methods, data of the cumulated confirmed cases are separated in several train/test sets where the train sets consist in the data troncated at some different dates and the test sets are the data in the following days;
+2) for each estimate of the R0 a logistic curve where the exponent is derived from the estimated R0 is fitted on the train set and used to predict the dynamics of the test set;
+3) the AIC, robustness index and RMSE are computed on the test sets</details>
 
 #### Model parameters information
-<details><summary> <b>Epidemiological parameters</b> </summary>classic parameters</details>
+<details><summary> <b>Other parameters</b> </summary>R0</details>
 
 <details><summary> <b>How parameters are estimated</b> </summary>data-driven</details>
 
-<details><summary> <b>Details on parameters estimation</b> </summary>unknown parameters in the models are fitted standard non-linear LSE</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>R0 is estimated via 4 different methods:
+1) exponential growth, which assumes an exponential growth curve to the virus and estimates the R0 from the Lotka-Euler equation;
+2) MLE method based on the assumption that the number of cases generated from a single case is Poisson distributed and depends on the R0;
+3) sequential bayesian method, in which the posterior probability distribution of the R0 is estimated sequentially using the posterior at the previous time point as the new prior;
+4) time-dependent R0 method: in which the basic reproduction number at any time point is estimated as an average of accumulated estimates at previous time points</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) systematical investigation on the forecast ability of 8 widely used empirical functions, 4 statistical inference methods and 5 dynamical models widely used in the literature; addresses the requierements on robustness, sensitivity and the trade-off between model complexity and accuracy; 2) not enough details on the different methods</details>
@@ -2539,7 +2566,7 @@ between cities</details>
 
 <details><summary> <b>Outputs</b> </summary>prediction of the compartments dynamics </details>
 
-<details><summary> <b>How intervention strategies are modelled</b> </summary>compartment Q with constant rate; analysis of the impact of the governemnental strategies on the control reproduction function</details>
+<details><summary> <b>How intervention strategies are modelled</b> </summary>compartment Q with constant rate; analysis of the impact of the governemnental strategies on the R0 function</details>
 
 <details><summary> <b>Problem Formulation</b> </summary>LSE to minimize the number of deaths</details>
 
@@ -2552,7 +2579,7 @@ between cities</details>
 
 <details><summary> <b>How parameters are estimated</b> </summary>literature; data-driven</details>
 
-<details><summary> <b>Details on parameters estimation</b> </summary>1) LSE for suceptible to exposed rate and recovery rate; 2) empirical estimates otherwise from literature; 3) control reproduction number estimated using the next generation matrix approach; 4) accumulated medical resource proportional to the integrate of compartment D</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>1) LSE for suceptible to exposed rate and recovery rate; 2) empirical estimates otherwise from literature; 3) R0 when intervention estimated using the next generation matrix approach; 4) accumulated medical resource proportional to the integrate of compartment D</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) data based parameter estimation; 2) strict lockdown scenarios with different durations; 3) data-driven estimation of R0 per region and the global dynamic wrt time; 4) supplementary analysis of the meteorogical impact; 5) supplementary prediction if vaccine</details>
@@ -2592,7 +2619,7 @@ between cities</details>
 
 <details><summary> <b>How parameters are estimated</b> </summary>literature; data-driven</details>
 
-<details><summary> <b>Details on parameters estimation</b> </summary>1) literature: range of latent period, infectious period, and generation time parameters; 2) data-driven: sensitivity analysis to select them with Approximate Bayesian Computation and MAP with uniform prior for R0</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>1) literature: range of latent period, infectious period, and generation time parameters; 2) data-driven: sensitivity analysis to select them with ABC and MAP with uniform prior for R0</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) an impressive number of parameters are considered to model the mobility in a very precise way 2) intersting model that combine an agent-based and a compartmental model</details>
@@ -2609,7 +2636,7 @@ between cities</details>
 #### Model information
 **Deterministic or stochastic model** : stochastic</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SLR; (L: Latent); metapopulation network; spatially-structured</details>
+<details><summary> <b>Model sub-category</b> </summary>SLIR; (L: Latent); metapopulation network; spatially-structured</details>
 
 <details><summary> <b>Data used for the model</b> </summary>the full dataset contains about 80,000 administrative regions on 5 continents and over 5 million commuting flow connections between them
 1) population data from the high-resolution population database of the Gridded Population of the World project from the Socioeconomic Data and Application Center at Columbia University
@@ -2618,7 +2645,7 @@ between cities</details>
 
 <details><summary> <b>Global approach</b> </summary>epidemiological parameter estimation; evolution forecast; modeling of various intervention strategies</details>
 
-<details><summary> <b>Details of approach</b> </summary>1) geographical globe's division using the Voronoi method, centered on the major transportation hubs 2) modeling of the transmission dynamics through agent-based epidemic model for the mobility layers and compartmental for the infection progression 3) individual dynamic where transitions are mathematically defined by chain binomial and multinomial processes</details>
+<details><summary> <b>Details of approach</b> </summary>1) geographical globe's division using the Voronoi method, centered on the major transportation hubs 2) modeling of the transmission dynamics through agent-based epidemic model for the mobility layers and compartmental for the infection progression 3) individual dynamic where transitions are mathematically defined by chain binomial and multinomial processes 4) estimate the number of case importations from China and simulate the impact of travel ban</details>
 
 <details><summary> <b>Outputs</b> </summary>estimate the number of case importations from China and simulate the impact of travel ban</details>
 
@@ -2635,7 +2662,7 @@ between cities</details>
 
 <details><summary> <b>How parameters are estimated</b> </summary>literature; data-driven</details>
 
-<details><summary> <b>Details on parameters estimation</b> </summary>1) literature: range of latent period, infectious period, and generation time parameters; 2) data-driven: sensitivity analysis to select them with Approximate Bayesian Computation and MAP with uniform prior for R0</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>1) literature: range of latent period, infectious period, and generation time parameters; 2) data-driven: sensitivity analysis to select them with ABC and MAP with uniform prior for R0</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) GLEAM is a powerful tool to simulate the effect of travel ban 2) remarkable visualisation of the import case risk between cities and countries</details>
@@ -2666,8 +2693,7 @@ between cities</details>
 
 <details><summary> <b>Problem Formulation</b> </summary>univariate linear regression models</details>
 
-<details><summary> <b>Solving Method</b> </summary>Wald test with a t-distribution against a null hypothesis of a
-slope of 0 </details>
+<details><summary> <b>Solving Method</b> </summary>Wald test with a t-distribution against a null hypothesis of a slope of 0 </details>
 
 #### Model parameters information
 <details><summary> <b>Other parameters</b> </summary>Infectious Disease Vulnerability Index (IDVI); effective distance</details>
@@ -2704,9 +2730,6 @@ slope of 0 </details>
 
 <details><summary> <b>Problem Formulation</b> </summary>univariate linear regression models</details>
 
-<details><summary> <b>Solving Method</b> </summary>Wald test with a t-distribution against a null hypothesis of a
-slope of 0 </details>
-
 #### Model parameters information
 <details><summary> <b>Other parameters</b> </summary>Infectious Disease Vulnerability Index (IDVI); effective distance</details>
 
@@ -2728,7 +2751,7 @@ slope of 0 </details>
 #### Model information
 **Deterministic or stochastic model** : deterministic</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SIR; symptoms/gravity stratified subpopulations; time-dependent; (I: divided into asymptomatic and symptomatic populations); cascade mechanism</details>
+<details><summary> <b>Model sub-category</b> </summary>SIR; symptoms/severity structured; time-dependent; (I: divided into asymptomatic and symptomatic populations); cascade mechanism</details>
 
 <details><summary> <b>Data used for the model</b> </summary>China and other countries, including Japan, Singapore, South Korea, Italy and  Iran - 01/15 (China) and 01/22 (world) to 03/02 - from NHC (China) and JHU (World) and a network from Facebook for social distancing modeling</details>
 
@@ -2770,7 +2793,7 @@ slope of 0 </details>
 #### Model information
 **Deterministic or stochastic model** : deterministic</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SIRU; reported/unreported subpopulations; (I: asymptomatic infectious, R: reported symptomatic, U: unreported symptomatic)</details>
+<details><summary> <b>Model sub-category</b> </summary>SIRU; reported/unreported structured; (I: asymptomatic infectious, R: reported symptomatic, U: unreported symptomatic)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Wuhan and central region of China - Chinese CDC and NHC - 01/20 to 02/15</details>
 
@@ -2812,7 +2835,7 @@ slope of 0 </details>
 #### Model information
 **Deterministic or stochastic model** : stochastic</br>
 **Model category** : statistical estimation</br>
-<details><summary> <b>Model sub-category</b> </summary>SIR</details>
+<details><summary> <b>Model sub-category</b> </summary>four statistical inference methods; exponential growth; MLE; sequential Bayesian; time-dependent R0 and SEIR</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Wuhan - before the lockdown (01/19 - 01/23) and post-closure (01/23 - 02/08) - from NHC</details>
 
@@ -2823,30 +2846,26 @@ slope of 0 </details>
 
 <details><summary> <b>Outputs</b> </summary>R0 estimates for five different methods and overall R0 estimate combining all methods (with confidence intervals)</details>
 
-<details><summary> <b>How intervention strategies are modelled</b> </summary>modified R0</details>
-
-<details><summary> <b>Problem Formulation</b> </summary>estimation of the R0 given historical data</details>
-
-<details><summary> <b>Solving Method</b> </summary>1) first method: log-linear regression;
-2) second method: Poisson distribution on the number of cases generated from a single case (MLE);
-3) sequential bayesian method;
-4) time-dependent reproduction numbers method;
-5) for the overall estimate of R0: weighted average (weights from a Poisson loss function) of the five previous R0</details>
+<details><summary> <b>Problem Formulation</b> </summary>estimation of the R0 by five different methods and comparison with a SEIR simulation</details>
 
 #### Model parameters information
-<details><summary> <b>Epidemiological parameters</b> </summary>generation time distribution</details>
+<details><summary> <b>Epidemiological parameters</b> </summary>R0;
+for the SEIR model: latent period; recovery period;
+for the MLE, exponential growth and time-dependent methods: generation time distribution</details>
 
-<details><summary> <b>How parameters are estimated</b> </summary>literature</details>
+<details><summary> <b>How parameters are estimated</b> </summary>literature; data-driven</details>
 
-<details><summary> <b>Details on parameters estimation</b> </summary>estimation of the R0 given historical data; methods: 1) first method: log-linear regression;
-2) second method: Poisson distribution on the number of cases generated from a single case (MLE);
-3) sequential bayesian method;
-4) time-dependent reproduction numbers method;
-5) for the overall estimate of R0: weighted average (weights from a Poisson loss function) of the five previous R0</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>estimation of the R0 given historical data; 
+methods: 
+1) exponential growth, which assumes an exponential growth curve to the virus and estimates the R0 from the Lotka-Euler equation;
+2) MLE method based on the assumption that the number of cases generated from a single case is Poisson distributed and depends on the R0;
+3) sequential bayesian method, in which the posterior probability distribution of the R0 is estimated sequentially using the posterior at the previous time point as the new prior;
+4) time-dependent R0 method: in which the R0 at any time point is estimated as an average of accumulated estimates at previous time points;
+5) estimation of the R0 from a SEIR model; with the use of a MH-MCMC algorithm
+6) for the overall estimate of R0: weighted average (weights from a Poisson loss function) of the five previous R0</details>
 
 #### Additional information
-<details><summary> <b>Comment/issues</b> </summary>1) comparison of five estimation methods to estimate the R0; 
-2) very brief details on methods in the appendix</details>
+<details><summary> <b>Comment/issues</b> </summary>comparison of five estimation methods to estimate the R0, confidence intervals and credible intervals are given</details>
 
 </br>
 
@@ -2913,7 +2932,7 @@ slope of 0 </details>
 #### Model parameters information
 <details><summary> <b>How parameters are estimated</b> </summary>data-driven; literature</details>
 
-<details><summary> <b>Details on parameters estimation</b> </summary>estimation of the preparedness and vulnerability metrics based on indicators and score multivariate analysis; 1) risk of importation from a region to a country: mean of the travel flux multiplied by the cumulated incidence weighted by the probability of traveling; 2) exposure analysis: for each country, vector of the proportions of regional risk importation, use of entropy-metric (Jensen-Shannon devergence) to compare similarities between countries; sensitivity estimated by considering the basin of attraction of the airports of Beijing and Shangai </details>
+<details><summary> <b>Details on parameters estimation</b> </summary>estimation of the preparedness and vulnerability metrics based on indicators and score multivariate analysis; 1) risk of importation from a region to a country: mean of the travel flow multiplied by the cumulated incidence weighted by the probability of traveling; 2) exposure analysis: for each country, vector of the proportions of regional risk importation, use of entropy-metric (Jensen-Shannon devergence) to compare similarities between countries; sensitivity estimated by considering the basin of attraction of the airports of Beijing and Shangai </details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) estimation of the risk of importation of the virus without modeling the spread of the virus; 2) based on historical data and indicators available per country in Africa; 3) lack of data available wrt to passengers information to give precise impact for each country; 4) interesting indicators analysed to model the chosen metrics (preparedness, vulnarability of each country)</details>
@@ -3010,11 +3029,11 @@ slope of 0 </details>
 
 <details><summary> <b>Global approach</b> </summary>evolution forecast</details>
 
-<details><summary> <b>Details of approach</b> </summary>estimation of the impact on the epidemic's transmission by travel reduction outside of China, through: the number of reported cases, the probability of a major epidemic, the time delay to a major epidemic</details>
+<details><summary> <b>Details of approach</b> </summary>estimation of the impact on the epidemic's transmission by travel reduction outside of China with a counterfactual model and through: the number of reported cases, the probability of a major epidemic, the time delay to a major epidemic</details>
 
 <details><summary> <b>Outputs</b> </summary>estimation of the number of reported cases, the probability of a major epidemic and the time delay to a major epidemic</details>
 
-<details><summary> <b>How intervention strategies are modelled</b> </summary>success of the isolation strategy modelled though three different constant values of R0; three rates of contact tracing implied in the computation of the probability of a major epidemic</details>
+<details><summary> <b>How intervention strategies are modelled</b> </summary>evaluation of the success of isolation strategy modelled though three different constant values of R0; three rates of contact tracing implied in the computation of the probability of a major epidemic</details>
 
 <details><summary> <b>Additional Assumptions</b> </summary>number of secondary infected by a single primary case $\sim$ negative binomial distribution</details>
 
@@ -3045,15 +3064,15 @@ slope of 0 </details>
 **Code available** : No</br>
 ### Technical information
 #### Model information
-**Deterministic or stochastic model** : stochastic</br>
+**Deterministic or stochastic model** : deterministic</br>
 **Model category** : phenomenological</br>
-<details><summary> <b>Model sub-category</b> </summary>sigmoid curve; gaussian curve; poisson distribution curve</details>
+<details><summary> <b>Model sub-category</b> </summary>sigmoid curve; gaussian curve; Poisson curve</details>
 
 <details><summary> <b>Data used for the model</b> </summary>China - 01/10 to 02/04 - from epidemic datasets, density and transportation data during the Spring Festival</details>
 
-<details><summary> <b>Global approach</b> </summary>epidemiological parameter estimation; evolution forecast; modeling of various intervention strategies</details>
+<details><summary> <b>Global approach</b> </summary>evolution forecast</details>
 
-<details><summary> <b>Details of approach</b> </summary>1) learn the epidemiological model parameters; 2) estimate the end of the transmission by predicting the dynamic of the new confirmed population, for each province, model-free methods (3 functions: sigmoid, Gaussian, Poisson)</details>
+<details><summary> <b>Details of approach</b> </summary>estimate the end of the transmission by predicting the dynamic of the new confirmed population, for each province, model-free methods (3 functions: sigmoid, Gaussian, Poisson)</details>
 
 <details><summary> <b>Outputs</b> </summary>prediction of the dynamic of the number of confirmed population per province</details>
 
@@ -3064,11 +3083,11 @@ slope of 0 </details>
 <details><summary> <b>Solving Method</b> </summary>calibration using the error evaluation method MAE for each function on the confirmed datasets</details>
 
 #### Model parameters information
-<details><summary> <b>Epidemiological parameters</b> </summary>classic parameters; virus-contact population function per province; time-dependent amount of moving-out population; time-dependent exposed patients </details>
+<details><summary> <b>Other parameters</b> </summary>parameters of the distributions</details>
 
-<details><summary> <b>Other parameters</b> </summary>weights of the network; interprovincial transportation ratio: time-dependent restriction force function; exceed rate of the exposed patients; shrink rate of the transportation; population density per province; contact ratio</details>
+<details><summary> <b>How parameters are estimated</b> </summary>data-driven</details>
 
-<details><summary> <b>How parameters are estimated</b> </summary>data-driven; literature</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>parameters of the distributions calibrated using the error evaluation method MAE for each function on the confirmed datasets</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>1) article with a lot of simulations and predictions; 2) test sample of 4 days; 3) model includes the possible multi-infection patients</details>
@@ -3121,7 +3140,7 @@ slope of 0 </details>
 #### Model information
 **Deterministic or stochastic model** : deterministic</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>IRGJ; time-delay dynamic system; isolated/non-isolated subpopulations; (G: isolated infected, J: confirmed)</details>
+<details><summary> <b>Model sub-category</b> </summary>IRGJ; time-delayed; isolated/non-isolated structured; (G: isolated infected, J: confirmed)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Chinese regions - NHC - 01/23 to 02/04</details>
 
@@ -3163,7 +3182,7 @@ slope of 0 </details>
 #### Model information
 **Deterministic or stochastic model** : deterministic</br>
 **Model category** : compartmental</br>
-<details><summary> <b>Model sub-category</b> </summary>SIRU; reported/unreported subpopulations; (I: asymptomatic infectious, R: reported symptomatic, U: unreported symptomatic)</details>
+<details><summary> <b>Model sub-category</b> </summary>SIRU; reported/unreported structured; (I: asymptomatic infectious, R: reported symptomatic, U: unreported symptomatic)</details>
 
 <details><summary> <b>Data used for the model</b> </summary>Wuhan - 01/23 to 01/31 - from Chinese Center for Disease Control and Prevention and the Wuhan Municipal Health Commission for Hubei Province</details>
 
@@ -3215,7 +3234,7 @@ slope of 0 </details>
 
 <details><summary> <b>Outputs</b> </summary>estimation of R0; infected population before the first recorded cases; evolution of the infected population worldwide; estimation of the number of cases exported from Wuhan to other cities in mainland China</details>
 
-<details><summary> <b>How intervention strategies are modelled</b> </summary>time-dependent transmission rate decrease for social distancing measures</details>
+<details><summary> <b>How intervention strategies are modelled</b> </summary>time-dependent transmission rate: multiplied by a factor after lockdown to model social distancing measures</details>
 
 <details><summary> <b>Additional Assumptions</b> </summary>similar transmissibility in cities as the initial phase in Wuhan (ie, little or no mitigation interventions)</details>
 
@@ -3230,7 +3249,7 @@ slope of 0 </details>
 
 <details><summary> <b>How parameters are estimated</b> </summary>literature; data-driven</details>
 
-<details><summary> <b>Details on parameters estimation</b> </summary>data-driven using MCMC with Gibbs sampling and non-informative flat prior</details>
+<details><summary> <b>Details on parameters estimation</b> </summary>data-driven using MCMC with Gibbs sampling and non-informative flat prior for R0</details>
 
 #### Additional information
 <details><summary> <b>Comment/issues</b> </summary>clear former article that addresses many issues including the impact of imported cases at the start of the outbreak, rigorous statistical analysis</details>
